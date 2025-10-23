@@ -1,0 +1,105 @@
+{
+  "recipeId": "pine-nut-candy",
+  "name": "Pine Nut Candy",
+  "relatedProduct": "pine-nuts",
+  "servings": "20-25 pieces",
+  "prepTime": "10 minutes",
+  "cookTime": "15 minutes",
+  "totalTime": "1 hour 25 minutes (including cooling time)",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "item": "Flyberry Pine Nuts",
+      "quantity": "1.5",
+      "unit": "cups",
+      "notes": "Lightly toasted"
+    },
+    {
+      "item": "Sugar",
+      "quantity": "1",
+      "unit": "cup"
+    },
+    {
+      "item": "Honey",
+      "quantity": "1/4",
+      "unit": "cup"
+    },
+    {
+      "item": "Butter",
+      "quantity": "2",
+      "unit": "tbsp"
+    },
+    {
+      "item": "Water",
+      "quantity": "1/4",
+      "unit": "cup"
+    },
+    {
+      "item": "Vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "item": "Salt",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "item": "Sesame seeds",
+      "quantity": "2",
+      "unit": "tbsp",
+      "notes": "Optional, toasted"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Line a baking tray with parchment paper and lightly grease"
+    },
+    {
+      "step": 2,
+      "action": "Lightly toast pine nuts in a dry pan over medium heat for 3-4 minutes until fragrant, set aside"
+    },
+    {
+      "step": 3,
+      "action": "In a heavy-bottomed saucepan, combine sugar, honey, butter, and water"
+    },
+    {
+      "step": 4,
+      "action": "Cook over medium heat, stirring until sugar dissolves"
+    },
+    {
+      "step": 5,
+      "action": "Stop stirring and let mixture boil until it reaches hard crack stage (150°C/300°F)"
+    },
+    {
+      "step": 6,
+      "action": "Remove from heat, add vanilla and salt, stir quickly"
+    },
+    {
+      "step": 7,
+      "action": "Immediately fold in toasted pine nuts and sesame seeds"
+    },
+    {
+      "step": 8,
+      "action": "Pour onto prepared tray and spread to desired thickness"
+    },
+    {
+      "step": 9,
+      "action": "Let cool for 10 minutes, then score into pieces while still warm"
+    },
+    {
+      "step": 10,
+      "action": "Once completely cool and hardened, break along scored lines"
+    }
+  ],
+  "tips": [
+    "Use a candy thermometer for best results",
+    "Don't stir after sugar dissolves to prevent crystallization",
+    "Work quickly once mixture reaches temperature",
+    "Store in airtight container with parchment between layers",
+    "Keeps for up to 2 weeks in cool, dry place",
+    "Can add a pinch of cardamom for Middle Eastern twist"
+  ],
+  "tags": ["Sweet", "Candy", "Gift-worthy", "Middle Eastern", "Special occasion"]
+}

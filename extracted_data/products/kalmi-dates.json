@@ -1,0 +1,90 @@
+{
+  "productId": "kalmi-dates",
+  "name": "Kalmi Dates",
+  "tagline": "Captivating Kalmi Dates",
+  "alternateTagline": "The date that's worth the wait",
+  "description": "Kalmi dates are known for their unique cylindrical shape and rich, sweet taste. They have a soft, tender texture with a deep caramel flavor that melts in your mouth.",
+  "characteristics": "Cylindrical shape, soft and tender, deep caramel flavor",
+  "packaging": {
+    "color": "#fc9d16",
+    "colorName": "Golden Orange",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Iran",
+  "benefits": [
+    {
+      "claim": "Excellent source of dietary fibre",
+      "detail": "Supports healthy digestion",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 10.2
+    },
+    {
+      "claim": "Good source of potassium",
+      "detail": "Maintains electrolyte balance",
+      "nutrient": "Potassium",
+      "rdaPercent": 9.1
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Supports muscle function",
+      "nutrient": "Magnesium",
+      "rdaPercent": 7.6
+    },
+    {
+      "claim": "Contains iron",
+      "detail": "Helps prevent anemia",
+      "nutrient": "Iron",
+      "rdaPercent": 4.8
+    },
+    {
+      "claim": "Natural energy booster",
+      "detail": "Perfect for active lifestyles"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 10.2, "unit": "% RDA"},
+      {"name": "Potassium", "value": 9.1, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 7.6, "unit": "% RDA"},
+      {"name": "Iron", "value": 4.8, "unit": "% RDA"}
+    ],
+    "tagline": "Kalmi: Good things come to those who wait",
+    "reason": "Perfectly ripened for that deep caramel sweetness that's worth every moment."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "calories": 116,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.5mg",
+    "carbohydrates": "30g",
+    "dietaryFiber": "5g",
+    "dietaryFiberPercent": "10.2%",
+    "sugars": "27g",
+    "protein": "0.8g",
+    "potassium": "206mg",
+    "potassiumPercent": "9.1%",
+    "magnesium": "27.4mg",
+    "magnesiumPercent": "7.6%",
+    "calcium": "17mg",
+    "calciumPercent": "1.7%",
+    "iron": "0.33mg",
+    "ironPercent": "4.8%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipe": "caramely-date-sundae"
+}

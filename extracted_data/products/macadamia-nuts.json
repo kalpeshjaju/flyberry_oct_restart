@@ -1,0 +1,99 @@
+{
+  "productId": "macadamia-nuts",
+  "name": "Macadamia Nuts",
+  "tagline": "Marvelous Macadamia Nuts",
+  "alternateTagline": "The buttery delight",
+  "description": "Macadamia nuts are renowned for their rich, buttery flavor and smooth, creamy texture. These premium nuts are a luxurious treat packed with healthy fats and nutrients.",
+  "characteristics": "Buttery flavor, creamy texture, rich and smooth",
+  "packaging": {
+    "pastelColor": "#fef6e9",
+    "popColor": "#fec049",
+    "colorName": "Golden Yellow"
+  },
+  "origin": "Imported Product of Kenya / Australia",
+  "benefits": [
+    {
+      "claim": "Rich in monounsaturated fats",
+      "detail": "Heart-healthy omega-7 fatty acids",
+      "nutrient": "Healthy Fats"
+    },
+    {
+      "claim": "Good source of dietary fibre",
+      "detail": "Supports digestive health",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 8.2
+    },
+    {
+      "claim": "Contains magnesium",
+      "detail": "Supports bone and muscle health",
+      "nutrient": "Magnesium",
+      "rdaPercent": 9.5
+    },
+    {
+      "claim": "Good source of thiamine (Vitamin B1)",
+      "detail": "Energy metabolism",
+      "nutrient": "Thiamine",
+      "rdaPercent": 11.2
+    },
+    {
+      "claim": "Contains manganese",
+      "detail": "Antioxidant protection",
+      "nutrient": "Manganese",
+      "rdaPercent": 23.5
+    },
+    {
+      "claim": "Low in carbohydrates",
+      "detail": "Keto-friendly snack"
+    },
+    {
+      "claim": "No added salt or oil",
+      "detail": "Pure, natural nuts"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "30g (approx. 12 nuts)",
+    "servingsPerContainer": 8,
+    "keyNutrients": [
+      {"name": "Manganese", "value": 23.5, "unit": "% RDA"},
+      {"name": "Thiamine (B1)", "value": 11.2, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 9.5, "unit": "% RDA"},
+      {"name": "Dietary Fiber", "value": 8.2, "unit": "% RDA"}
+    ],
+    "tagline": "Macadamia: Luxury in every bite",
+    "reason": "Premium nuts with the highest monounsaturated fat content of any nut - buttery, creamy, and heart-healthy."
+  },
+  "nutritionalFacts": {
+    "servingSize": "30g (approx. 12 nuts)",
+    "servingsPerContainer": 8,
+    "calories": 215,
+    "caloriesFromFat": 201,
+    "totalFat": "22.5g",
+    "totalFatPercent": "34%",
+    "saturatedFat": "3.4g",
+    "saturatedFatPercent": "17%",
+    "monounsaturatedFat": "17g",
+    "polyunsaturatedFat": "0.4g",
+    "transFat": "0g",
+    "sodium": "1.5mg",
+    "carbohydrates": "4g",
+    "dietaryFiber": "4g",
+    "dietaryFiberPercent": "8.2%",
+    "sugars": "1.5g",
+    "protein": "2.5g",
+    "magnesium": "34mg",
+    "magnesiumPercent": "9.5%",
+    "thiamine": "0.15mg",
+    "thiaminePercent": "11.2%",
+    "manganese": "0.94mg",
+    "manganesePercent": "23.5%",
+    "iron": "1.1mg",
+    "ironPercent": "6.1%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian"],
+  "relatedRecipe": "nut-pulao"
+}

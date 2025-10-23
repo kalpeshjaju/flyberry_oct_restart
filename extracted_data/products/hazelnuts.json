@@ -1,0 +1,102 @@
+{
+  "productId": "hazelnuts",
+  "name": "Hazelnuts",
+  "tagline": "Heavenly Hazelnuts",
+  "alternateTagline": "The heart-healthy favorite",
+  "description": "Hazelnuts, also known as filberts, have a distinctively sweet, rich flavor and crunchy texture. These versatile nuts are packed with heart-healthy nutrients and antioxidants.",
+  "characteristics": "Sweet rich flavor, crunchy texture, aromatic",
+  "packaging": {
+    "pastelColor": "#eef8fb",
+    "popColor": "#27b1b3",
+    "colorName": "Turquoise"
+  },
+  "origin": "Imported Product of Turkey / Italy",
+  "benefits": [
+    {
+      "claim": "Excellent source of Vitamin E",
+      "detail": "Powerful antioxidant for skin and heart health",
+      "nutrient": "Vitamin E",
+      "rdaPercent": 45.3
+    },
+    {
+      "claim": "Good source of manganese",
+      "detail": "Supports bone health and metabolism",
+      "nutrient": "Manganese",
+      "rdaPercent": 27.8
+    },
+    {
+      "claim": "Good source of copper",
+      "detail": "Essential for iron absorption",
+      "nutrient": "Copper",
+      "rdaPercent": 24.5
+    },
+    {
+      "claim": "Contains magnesium",
+      "detail": "Muscle and nerve function",
+      "nutrient": "Magnesium",
+      "rdaPercent": 11.2
+    },
+    {
+      "claim": "Rich in monounsaturated fats",
+      "detail": "Heart-healthy omega-9 fatty acids"
+    },
+    {
+      "claim": "High in antioxidants",
+      "detail": "Protects against oxidative stress"
+    },
+    {
+      "claim": "Supports heart health",
+      "detail": "May help reduce bad cholesterol"
+    },
+    {
+      "claim": "No added salt or oil",
+      "detail": "Pure, natural nuts"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "30g (approx. 21 nuts)",
+    "servingsPerContainer": 8,
+    "keyNutrients": [
+      {"name": "Vitamin E", "value": 45.3, "unit": "% RDA"},
+      {"name": "Manganese", "value": 27.8, "unit": "% RDA"},
+      {"name": "Copper", "value": 24.5, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 11.2, "unit": "% RDA"}
+    ],
+    "tagline": "Hazelnuts: Nature's vitamin E treasure",
+    "reason": "One of the richest sources of vitamin E - protecting your heart and skin with every bite."
+  },
+  "nutritionalFacts": {
+    "servingSize": "30g (approx. 21 nuts)",
+    "servingsPerContainer": 8,
+    "calories": 188,
+    "caloriesFromFat": 169,
+    "totalFat": "18.8g",
+    "totalFatPercent": "29%",
+    "saturatedFat": "1.4g",
+    "saturatedFatPercent": "7%",
+    "monounsaturatedFat": "14.1g",
+    "polyunsaturatedFat": "2.2g",
+    "transFat": "0g",
+    "sodium": "0mg",
+    "carbohydrates": "5g",
+    "dietaryFiber": "2.8g",
+    "dietaryFiberPercent": "5.7%",
+    "sugars": "1.2g",
+    "protein": "4.5g",
+    "vitaminE": "6.8mg",
+    "vitaminEPercent": "45.3%",
+    "manganese": "0.69mg",
+    "manganesePercent": "27.8%",
+    "copper": "0.33mg",
+    "copperPercent": "24.5%",
+    "magnesium": "40.5mg",
+    "magnesiumPercent": "11.2%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian"],
+  "relatedRecipe": "hazelnut-katli"
+}

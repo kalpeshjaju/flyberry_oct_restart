@@ -1,0 +1,84 @@
+{
+  "productId": "deglet-nour-dates",
+  "name": "Deglet Nour Dates",
+  "tagline": "Delectable Deglet Nour Dates",
+  "alternateTagline": "The queen of dates",
+  "description": "Deglet Nour is known as the 'date of light' because of its golden translucent colour. It has a firm flesh and a delicate, sweet flavour.",
+  "characteristics": "Golden translucent colour, firm flesh, delicate sweet flavour",
+  "packaging": {
+    "color": "#41c5bf",
+    "colorName": "Turquoise",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Tunisia",
+  "benefits": [
+    {
+      "claim": "Good source of dietary fibre",
+      "detail": "That is good for your gut",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 8.3
+    },
+    {
+      "claim": "Good source of potassium",
+      "detail": "Helps maintain healthy blood pressure",
+      "nutrient": "Potassium",
+      "rdaPercent": 7.4
+    },
+    {
+      "claim": "Contains magnesium",
+      "detail": "Supports muscle and nerve function",
+      "nutrient": "Magnesium",
+      "rdaPercent": 6.9
+    },
+    {
+      "claim": "Natural energy source",
+      "detail": "Perfect for pre-workout or mid-day snack"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 8.3, "unit": "% RDA"},
+      {"name": "Potassium", "value": 7.4, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 6.9, "unit": "% RDA"},
+      {"name": "Iron", "value": 3.8, "unit": "% RDA"}
+    ],
+    "tagline": "Deglet Nour: The queen who rules with sweetness",
+    "reason": "Known as the 'queen of dates' for its delicate flavour and royal golden colour."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "calories": 110,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.4mg",
+    "carbohydrates": "29g",
+    "dietaryFiber": "4g",
+    "dietaryFiberPercent": "8.3%",
+    "sugars": "26g",
+    "protein": "0.8g",
+    "potassium": "168mg",
+    "potassiumPercent": "7.4%",
+    "magnesium": "25mg",
+    "magnesiumPercent": "6.9%",
+    "calcium": "15mg",
+    "calciumPercent": "1.5%",
+    "iron": "0.26mg",
+    "ironPercent": "3.8%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipe": "date-bars"
+}

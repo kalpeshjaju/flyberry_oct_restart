@@ -1,0 +1,85 @@
+{
+  "recipeId": "natural-caramel",
+  "name": "Natural Caramel",
+  "relatedProduct": "mabroom-dates",
+  "servings": "1 cup (approx. 16 servings)",
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes",
+  "totalTime": "15 minutes",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Mabroom Dates",
+      "quantity": "2",
+      "unit": "cups",
+      "notes": "Pitted"
+    },
+    {
+      "item": "Water",
+      "quantity": "1/2",
+      "unit": "cup",
+      "notes": "Hot water"
+    },
+    {
+      "item": "Vanilla extract",
+      "quantity": "1",
+      "unit": "tsp"
+    },
+    {
+      "item": "Sea salt",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "notes": "Optional"
+    },
+    {
+      "item": "Coconut oil",
+      "quantity": "1",
+      "unit": "tbsp",
+      "notes": "Optional, for silkier texture"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Soak Mabroom dates in hot water for 10 minutes to soften"
+    },
+    {
+      "step": 2,
+      "action": "Drain dates but reserve the soaking water"
+    },
+    {
+      "step": 3,
+      "action": "Add dates to a high-speed blender or food processor"
+    },
+    {
+      "step": 4,
+      "action": "Add vanilla extract and sea salt"
+    },
+    {
+      "step": 5,
+      "action": "Blend on high, gradually adding reserved water until smooth and creamy"
+    },
+    {
+      "step": 6,
+      "action": "Add coconut oil if using and blend until silky"
+    },
+    {
+      "step": 7,
+      "action": "Adjust consistency by adding more water for thinner caramel or blending longer for thicker"
+    },
+    {
+      "step": 8,
+      "action": "Store in airtight container in refrigerator"
+    }
+  ],
+  "tips": [
+    "Use as a dip for apple slices or pretzels",
+    "Drizzle over ice cream, pancakes, or oatmeal",
+    "Spread on toast or rice cakes",
+    "Mix into smoothies for natural sweetness",
+    "Stores in refrigerator for up to 2 weeks",
+    "Can be frozen for up to 3 months",
+    "Warm slightly before using if it thickens in fridge"
+  ],
+  "tags": ["Healthy", "Vegan", "Sugar-free", "Versatile", "Condiment", "Natural sweetener"]
+}

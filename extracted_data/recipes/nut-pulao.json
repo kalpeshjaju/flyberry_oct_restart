@@ -1,0 +1,110 @@
+{
+  "recipeId": "nut-pulao",
+  "name": "Nut Pulao",
+  "relatedProduct": "macadamia-nuts",
+  "servings": "4 servings",
+  "prepTime": "15 minutes",
+  "cookTime": "25 minutes",
+  "totalTime": "40 minutes",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "item": "Basmati rice",
+      "quantity": "2",
+      "unit": "cups",
+      "notes": "Soaked for 30 minutes"
+    },
+    {
+      "item": "Flyberry Macadamia Nuts",
+      "quantity": "1/2",
+      "unit": "cup",
+      "notes": "Roughly chopped"
+    },
+    {
+      "item": "Cashews",
+      "quantity": "1/4",
+      "unit": "cup"
+    },
+    {
+      "item": "Almonds",
+      "quantity": "1/4",
+      "unit": "cup",
+      "notes": "Sliced"
+    },
+    {
+      "item": "Ghee",
+      "quantity": "3",
+      "unit": "tbsp"
+    },
+    {
+      "item": "Whole spices",
+      "quantity": "1",
+      "unit": "set",
+      "notes": "Bay leaf, cinnamon stick, cardamom, cloves"
+    },
+    {
+      "item": "Onion",
+      "quantity": "1",
+      "unit": "medium",
+      "notes": "Thinly sliced"
+    },
+    {
+      "item": "Water",
+      "quantity": "4",
+      "unit": "cups"
+    },
+    {
+      "item": "Salt",
+      "quantity": "To taste",
+      "unit": "tsp"
+    },
+    {
+      "item": "Fresh coriander",
+      "quantity": "2",
+      "unit": "tbsp",
+      "notes": "For garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Heat ghee in a large pan, add whole spices and let them sizzle"
+    },
+    {
+      "step": 2,
+      "action": "Add sliced onions and sauté until golden brown"
+    },
+    {
+      "step": 3,
+      "action": "Add all the nuts (macadamia, cashews, almonds) and roast for 2-3 minutes"
+    },
+    {
+      "step": 4,
+      "action": "Add drained rice and gently sauté for 2 minutes"
+    },
+    {
+      "step": 5,
+      "action": "Add water and salt, bring to a boil"
+    },
+    {
+      "step": 6,
+      "action": "Reduce heat to low, cover and cook for 15-18 minutes until rice is tender"
+    },
+    {
+      "step": 7,
+      "action": "Turn off heat and let it rest covered for 5 minutes"
+    },
+    {
+      "step": 8,
+      "action": "Fluff with a fork, garnish with fresh coriander and serve hot"
+    }
+  ],
+  "tips": [
+    "Don't skip soaking the rice - it ensures fluffy grains",
+    "Toast nuts until fragrant but not burnt",
+    "Can add raisins for sweetness",
+    "Pairs well with raita or curry",
+    "Use vegetable oil instead of ghee for vegan version"
+  ],
+  "tags": ["Indian", "Rice dish", "Festive", "Vegetarian", "Main course"]
+}

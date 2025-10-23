@@ -1,0 +1,79 @@
+{
+  "recipeId": "ajwa-kalakand",
+  "name": "Ajwa Kalakand",
+  "relatedProduct": "ajwa-dates",
+  "servings": "8-10 pieces",
+  "prepTime": "10 minutes",
+  "cookTime": "20 minutes",
+  "totalTime": "30 minutes",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Ajwa Dates",
+      "quantity": "15",
+      "unit": "pieces",
+      "notes": "Pitted"
+    },
+    {
+      "item": "Milk powder",
+      "quantity": "1",
+      "unit": "cup"
+    },
+    {
+      "item": "Milk",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "item": "Cardamom powder",
+      "quantity": "1/4",
+      "unit": "tsp"
+    },
+    {
+      "item": "Ghee",
+      "quantity": "2",
+      "unit": "tbsp"
+    },
+    {
+      "item": "Salt",
+      "quantity": "1",
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Blend the dates with milk to a smooth paste"
+    },
+    {
+      "step": 2,
+      "action": "Heat ghee in a pan, add the date paste and cook for 2-3 minutes"
+    },
+    {
+      "step": 3,
+      "action": "Add milk powder, cardamom powder and salt"
+    },
+    {
+      "step": 4,
+      "action": "Mix well and cook until the mixture thickens and leaves the sides of the pan"
+    },
+    {
+      "step": 5,
+      "action": "Transfer to a greased plate and spread evenly"
+    },
+    {
+      "step": 6,
+      "action": "Let it cool and cut into desired shapes"
+    },
+    {
+      "step": 7,
+      "action": "Garnish with chopped nuts if desired"
+    }
+  ],
+  "tips": [
+    "Use pitted dates for easier blending",
+    "Cook on medium heat to prevent burning",
+    "The mixture should be thick enough to hold shape when cooled"
+  ],
+  "tags": ["Indian", "Sweet", "Festive", "No-bake", "Healthy dessert"]
+}

@@ -1,0 +1,75 @@
+{
+  "productId": "ameri-dates",
+  "name": "Ameri Dates",
+  "tagline": "Alluring Ameri Dates",
+  "description": "The date that leaves you wanting for more.",
+  "characteristics": "Soft taste. Softer date.",
+  "packaging": {
+    "color": "#ff7e00",
+    "colorName": "Orange",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Jordan",
+  "benefits": [
+    {
+      "claim": "Great source of iron",
+      "detail": "Mental & physical performance",
+      "nutrient": "Iron",
+      "rdaPercent": 4.6
+    },
+    {
+      "claim": "Large, fibrous and has low sugar content",
+      "detail": "Low sugar content"
+    },
+    {
+      "claim": "Good source of dietary fibre",
+      "detail": "That is good for your gut"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "50g (approx. 4 dates)",
+    "servingsPerContainer": 8,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 9.5, "unit": "% RDA"},
+      {"name": "Potassium", "value": 9.2, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 8, "unit": "% RDA"},
+      {"name": "Vitamin C", "value": 6.8, "unit": "% RDA"},
+      {"name": "Iron", "value": 4.6, "unit": "% RDA"}
+    ],
+    "tagline": "These radicals are a menace. Vote for Ameri now!",
+    "reason": "Because Ameri is a strong antioxidant, and it will attack free radicals that attack and damage your cells."
+  },
+  "nutritionalFacts": {
+    "servingSize": "50g (approx. 4 dates)",
+    "servingsPerContainer": 8,
+    "calories": 155,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "3.33mg",
+    "carbohydrates": "38g",
+    "dietaryFiber": "4.6g",
+    "dietaryFiberPercent": "9.5%",
+    "sugars": "28g",
+    "protein": "0.7g",
+    "potassium": "312.7mg",
+    "potassiumPercent": "9.2%",
+    "magnesium": "29mg",
+    "magnesiumPercent": "8%",
+    "calcium": "27mg",
+    "calciumPercent": "2.7%",
+    "iron": "0.3mg",
+    "ironPercent": "4.6%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"]
+}

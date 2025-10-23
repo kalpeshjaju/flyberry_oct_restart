@@ -1,0 +1,79 @@
+{
+  "recipeId": "vegan-parmesan",
+  "name": "Vegan Parmesan",
+  "relatedProduct": "brazil-nuts",
+  "servings": "1 cup (approx. 16 servings)",
+  "prepTime": "5 minutes",
+  "cookTime": "0 minutes (No-cook)",
+  "totalTime": "5 minutes",
+  "difficulty": "Very Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Brazil Nuts",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "item": "Cashews",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "item": "Nutritional yeast",
+      "quantity": "3",
+      "unit": "tbsp"
+    },
+    {
+      "item": "Garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "item": "Sea salt",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "item": "Black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "notes": "Optional"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Add Brazil nuts and cashews to a food processor or high-speed blender"
+    },
+    {
+      "step": 2,
+      "action": "Add nutritional yeast, garlic powder, salt, and black pepper"
+    },
+    {
+      "step": 3,
+      "action": "Pulse in short bursts until mixture resembles grated parmesan cheese"
+    },
+    {
+      "step": 4,
+      "action": "Stop before it becomes nut butter - you want a fine, granular texture"
+    },
+    {
+      "step": 5,
+      "action": "Taste and adjust seasonings as needed"
+    },
+    {
+      "step": 6,
+      "action": "Transfer to an airtight container"
+    }
+  ],
+  "tips": [
+    "Don't over-process or it will turn into nut butter",
+    "Pulse in short bursts for best control",
+    "Store in refrigerator for up to 2 weeks",
+    "Can be frozen for up to 3 months",
+    "Sprinkle on pasta, pizza, salads, popcorn",
+    "Nutritional yeast gives it a cheesy flavor",
+    "Can use only Brazil nuts for even more selenium"
+  ],
+  "tags": ["Vegan", "Dairy-free", "Condiment", "No-cook", "Quick", "Cheese alternative"]
+}

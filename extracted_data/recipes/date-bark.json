@@ -1,0 +1,88 @@
+{
+  "recipeId": "date-bark",
+  "name": "Date Bark",
+  "relatedProduct": "halawi-dates",
+  "servings": "12-15 pieces",
+  "prepTime": "15 minutes",
+  "cookTime": "0 minutes (No-bake)",
+  "totalTime": "2 hours 15 minutes (including chill time)",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Halawi Dates",
+      "quantity": "1.5",
+      "unit": "cups",
+      "notes": "Pitted and chopped"
+    },
+    {
+      "item": "Dark chocolate",
+      "quantity": "300",
+      "unit": "g",
+      "notes": "Melted"
+    },
+    {
+      "item": "Mixed nuts",
+      "quantity": "1",
+      "unit": "cup",
+      "notes": "Almonds, cashews, pistachios - roughly chopped"
+    },
+    {
+      "item": "Dried cranberries",
+      "quantity": "1/4",
+      "unit": "cup"
+    },
+    {
+      "item": "Coconut flakes",
+      "quantity": "1/4",
+      "unit": "cup",
+      "notes": "Optional"
+    },
+    {
+      "item": "Sea salt",
+      "quantity": "1",
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Line a baking sheet with parchment paper"
+    },
+    {
+      "step": 2,
+      "action": "Melt dark chocolate in a double boiler or microwave, stirring until smooth"
+    },
+    {
+      "step": 3,
+      "action": "Pour melted chocolate onto parchment paper and spread evenly into a rectangle"
+    },
+    {
+      "step": 4,
+      "action": "Immediately sprinkle chopped dates, nuts, cranberries, and coconut over the chocolate"
+    },
+    {
+      "step": 5,
+      "action": "Gently press the toppings into the chocolate"
+    },
+    {
+      "step": 6,
+      "action": "Sprinkle with sea salt"
+    },
+    {
+      "step": 7,
+      "action": "Refrigerate for 2 hours until completely set"
+    },
+    {
+      "step": 8,
+      "action": "Break into irregular pieces and serve"
+    }
+  ],
+  "tips": [
+    "Use high-quality chocolate for best results",
+    "Work quickly after spreading chocolate so toppings stick",
+    "Store in airtight container in refrigerator for up to 2 weeks",
+    "Makes a perfect homemade gift",
+    "Customize with your favorite nuts and dried fruits"
+  ],
+  "tags": ["No-bake", "Dessert", "Gift-worthy", "Chocolate", "Healthy treat"]
+}

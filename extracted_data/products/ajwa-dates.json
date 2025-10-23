@@ -1,0 +1,96 @@
+{
+  "productId": "ajwa-dates",
+  "name": "Ajwa Dates",
+  "tagline": "Authentic Ajwa Dates",
+  "alternateTagline": "The only dates from paradise",
+  "description": "Ajwa dates have been used in traditional medicine since time immemorial. They're naturally dark in colour, soft-fleshed and with a prune-like taste. Its anti-oxidant and anti-inflammatory properties help improve overall health.",
+  "characteristics": "Naturally dark, soft-fleshed, prune-like taste",
+  "packaging": {
+    "color": "#0fcae2",
+    "colorName": "Cyan",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Saudi Arabia",
+  "benefits": [
+    {
+      "claim": "Excellent source of potassium",
+      "detail": "Muscle and nerve function",
+      "nutrient": "Potassium",
+      "rdaPercent": 12.9
+    },
+    {
+      "claim": "Excellent source of vitamin C",
+      "detail": "For a stronger immune system",
+      "nutrient": "Vitamin C",
+      "rdaPercent": 12.7
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Energy production",
+      "nutrient": "Magnesium",
+      "rdaPercent": 7.8
+    },
+    {
+      "claim": "Good source of iron",
+      "detail": "Red blood cell production",
+      "nutrient": "Iron",
+      "rdaPercent": 6.5
+    },
+    {
+      "claim": "Anti-oxidant and anti-inflammatory properties",
+      "detail": "Helps improve overall health"
+    },
+    {
+      "claim": "Used in traditional medicine since time immemorial"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Potassium", "value": 12.9, "unit": "% RDA"},
+      {"name": "Vitamin C", "value": 12.7, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 7.8, "unit": "% RDA"},
+      {"name": "Iron", "value": 6.5, "unit": "% RDA"},
+      {"name": "Dietary Fiber", "value": 6.5, "unit": "% RDA"}
+    ],
+    "tagline": "Got 99 problems? Ajwa ain't one.",
+    "reason": "Because Ajwa is packed with anti-oxidants that help fight free radicals and strengthen your immune system."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "calories": 112,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "1mg",
+    "carbohydrates": "30g",
+    "dietaryFiber": "3.2g",
+    "dietaryFiberPercent": "6.5%",
+    "sugars": "27g",
+    "protein": "0.8g",
+    "potassium": "292mg",
+    "potassiumPercent": "12.9%",
+    "magnesium": "28mg",
+    "magnesiumPercent": "7.8%",
+    "calcium": "24mg",
+    "calciumPercent": "2.4%",
+    "iron": "0.44mg",
+    "ironPercent": "6.5%",
+    "vitaminC": "5.08mg",
+    "vitaminCPercent": "12.7%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipe": "ajwa-kalakand"
+}

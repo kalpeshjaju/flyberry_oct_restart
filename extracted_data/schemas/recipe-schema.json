@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/recipe.json",
+  "title": "Flyberry Recipe Schema",
+  "description": "Schema for Flyberry Gourmet recipe cards",
+  "type": "object",
+  "required": [
+    "recipeId",
+    "name",
+    "relatedProduct",
+    "servings",
+    "prepTime",
+    "cookTime",
+    "totalTime",
+    "difficulty",
+    "ingredients",
+    "instructions",
+    "tips",
+    "tags"
+  ],
+  "properties": {
+    "recipeId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 100,
+      "description": "Recipe display name"
+    },
+    "relatedProduct": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Associated product ID"
+    },
+    "servings": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Number of servings or yield"
+    },
+    "prepTime": {
+      "type": "string",
+      "pattern": "^\\d+ (minute|minutes|hour|hours)$",
+      "description": "Preparation time"
+    },
+    "cookTime": {
+      "type": "string",
+      "pattern": "^\\d+ (minute|minutes|hour|hours)( \\(.*\\))?$",
+      "description": "Cooking time (may include notes like 'No-bake')"
+    },
+    "totalTime": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Total time including prep, cook, and rest"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["Very Easy", "Easy", "Medium", "Hard"],
+      "description": "Recipe difficulty level"
+    },
+    "ingredients": {
+      "type": "array",
+      "minItems": 2,
+      "description": "List of ingredients with quantities",
+      "items": {
+        "type": "object",
+        "required": ["item", "quantity", "unit"],
+        "properties": {
+          "item": {
+            "type": "string",
+            "minLength": 2,
+            "description": "Ingredient name"
+          },
+          "quantity": {
+            "type": "string",
+            "description": "Quantity (can be fraction, number, or 'To taste', 'As needed')"
+          },
+          "unit": {
+            "type": "string",
+            "description": "Unit of measurement (cup, tbsp, tsp, g, pieces, etc.)"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Additional preparation notes (optional)"
+          }
+        }
+      }
+    },
+    "instructions": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Step-by-step cooking instructions",
+      "items": {
+        "type": "object",
+        "required": ["step", "action"],
+        "properties": {
+          "step": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Step number (sequential)"
+          },
+          "action": {
+            "type": "string",
+            "minLength": 5,
+            "description": "Instruction text"
+          }
+        }
+      }
+    },
+    "tips": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Helpful tips and variations",
+      "items": {
+        "type": "string",
+        "minLength": 5
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Recipe categorization tags",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary recipe category (optional)"
+    },
+    "cookMethod": {
+      "type": "string",
+      "enum": ["No-bake", "No-cook", "Baked", "Roasted", "Stovetop", "Mixed"],
+      "description": "Primary cooking method (optional)"
+    }
+  }
+}

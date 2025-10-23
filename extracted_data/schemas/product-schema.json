@@ -1,0 +1,336 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/product.json",
+  "title": "Flyberry Product Schema",
+  "description": "Schema for Flyberry Gourmet product data including dates and nuts",
+  "type": "object",
+  "required": [
+    "productId",
+    "name",
+    "tagline",
+    "description",
+    "characteristics",
+    "packaging",
+    "origin",
+    "benefits",
+    "nutritionalHighlights",
+    "nutritionalFacts",
+    "manufacturer",
+    "certifications"
+  ],
+  "properties": {
+    "productId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 100,
+      "description": "Product display name"
+    },
+    "tagline": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 200,
+      "description": "Primary marketing tagline"
+    },
+    "alternateTagline": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Secondary tagline (optional)"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 1000,
+      "description": "Detailed product description"
+    },
+    "characteristics": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500,
+      "description": "Key product characteristics"
+    },
+    "packaging": {
+      "type": "object",
+      "description": "Packaging color information",
+      "oneOf": [
+        {
+          "description": "Date packaging (single color)",
+          "required": ["color", "colorName", "naturalClaim"],
+          "properties": {
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9a-f]{6}$",
+              "description": "Hex color code"
+            },
+            "colorName": {
+              "type": "string",
+              "description": "Human-readable color name"
+            },
+            "secondaryColor": {
+              "type": "string",
+              "pattern": "^#[0-9a-f]{6}$",
+              "description": "Secondary hex color (optional)"
+            },
+            "naturalClaim": {
+              "type": "string",
+              "description": "100% natural claim text"
+            }
+          }
+        },
+        {
+          "description": "Nut packaging (pastel + pop colors)",
+          "required": ["pastelColor", "popColor", "colorName"],
+          "properties": {
+            "pastelColor": {
+              "type": "string",
+              "pattern": "^#[0-9a-f]{6}$",
+              "description": "Pastel background color"
+            },
+            "popColor": {
+              "type": "string",
+              "pattern": "^#[0-9a-f]{6}$",
+              "description": "Pop accent color"
+            },
+            "colorName": {
+              "type": "string",
+              "description": "Human-readable color name"
+            }
+          }
+        }
+      ]
+    },
+    "origin": {
+      "type": "string",
+      "pattern": "^Imported Product of .+$",
+      "description": "Country of origin with prefix"
+    },
+    "benefits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "List of health benefits and claims",
+      "items": {
+        "type": "object",
+        "required": ["claim"],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 5,
+            "description": "Main benefit claim"
+          },
+          "detail": {
+            "type": "string",
+            "description": "Detailed explanation"
+          },
+          "nutrient": {
+            "type": "string",
+            "description": "Associated nutrient"
+          },
+          "rdaPercent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 500,
+            "description": "Percentage of RDA (Recommended Daily Allowance)"
+          },
+          "note": {
+            "type": "string",
+            "description": "Additional notes"
+          }
+        }
+      }
+    },
+    "nutritionalHighlights": {
+      "type": "object",
+      "required": ["servingSize", "servingsPerContainer", "keyNutrients", "tagline", "reason"],
+      "properties": {
+        "servingSize": {
+          "type": "string",
+          "description": "Serving size description"
+        },
+        "servingsPerContainer": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of servings"
+        },
+        "keyNutrients": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["name", "value", "unit"],
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Nutrient name"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Nutrient value"
+              },
+              "unit": {
+                "type": "string",
+                "description": "Unit of measurement"
+              },
+              "highlight": {
+                "type": "string",
+                "enum": ["EXCEPTIONAL", "HIGH", "GOOD"],
+                "description": "Highlight level"
+              }
+            }
+          }
+        },
+        "tagline": {
+          "type": "string",
+          "description": "Nutritional marketing tagline"
+        },
+        "reason": {
+          "type": "string",
+          "description": "Why this product is nutritionally special"
+        },
+        "servingRecommendation": {
+          "type": "string",
+          "description": "Recommended serving guidance (optional)"
+        }
+      }
+    },
+    "nutritionalFacts": {
+      "type": "object",
+      "required": [
+        "servingSize",
+        "servingsPerContainer",
+        "calories",
+        "totalFat",
+        "carbohydrates",
+        "protein"
+      ],
+      "properties": {
+        "servingSize": {"type": "string"},
+        "servingsPerContainer": {"type": "integer", "minimum": 1},
+        "calories": {"type": "integer", "minimum": 0},
+        "caloriesFromFat": {"type": "integer", "minimum": 0},
+        "totalFat": {"type": "string"},
+        "totalFatPercent": {"type": "string"},
+        "saturatedFat": {"type": "string"},
+        "saturatedFatPercent": {"type": "string"},
+        "monounsaturatedFat": {"type": "string"},
+        "polyunsaturatedFat": {"type": "string"},
+        "transFat": {"type": "string"},
+        "sodium": {"type": "string"},
+        "carbohydrates": {"type": "string"},
+        "dietaryFiber": {"type": "string"},
+        "dietaryFiberPercent": {"type": "string"},
+        "sugars": {"type": "string"},
+        "protein": {"type": "string"},
+        "potassium": {"type": "string"},
+        "potassiumPercent": {"type": "string"},
+        "magnesium": {"type": "string"},
+        "magnesiumPercent": {"type": "string"},
+        "calcium": {"type": "string"},
+        "calciumPercent": {"type": "string"},
+        "iron": {"type": "string"},
+        "ironPercent": {"type": "string"},
+        "vitaminC": {"type": "string"},
+        "vitaminCPercent": {"type": "string"},
+        "vitaminE": {"type": "string"},
+        "vitaminEPercent": {"type": "string"},
+        "vitaminB6": {"type": "string"},
+        "vitaminB6Percent": {"type": "string"},
+        "thiamine": {"type": "string"},
+        "thiaminePercent": {"type": "string"},
+        "manganese": {"type": "string"},
+        "manganesePercent": {"type": "string"},
+        "copper": {"type": "string"},
+        "copperPercent": {"type": "string"},
+        "zinc": {"type": "string"},
+        "zincPercent": {"type": "string"},
+        "selenium": {"type": "string"},
+        "seleniumPercent": {"type": "string"},
+        "phosphorus": {"type": "string"},
+        "phosphorusPercent": {"type": "string"}
+      }
+    },
+    "workoutBenefits": {
+      "type": "object",
+      "description": "Workout-specific benefits (optional, e.g., Medjoul dates)",
+      "properties": {
+        "preWorkout": {
+          "type": "object",
+          "required": ["timing", "benefits", "recommended"],
+          "properties": {
+            "timing": {"type": "string"},
+            "benefits": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "recommended": {"type": "string"}
+          }
+        },
+        "postWorkout": {
+          "type": "object",
+          "required": ["timing", "benefits", "recommended"],
+          "properties": {
+            "timing": {"type": "string"},
+            "benefits": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "recommended": {"type": "string"}
+          }
+        }
+      }
+    },
+    "manufacturer": {
+      "type": "object",
+      "required": ["name", "address", "license"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Manufacturer legal name"
+        },
+        "address": {
+          "type": "string",
+          "description": "Manufacturing address"
+        },
+        "license": {
+          "type": "string",
+          "pattern": "^Lic\\. No\\. \\d+$",
+          "description": "FSSAI license number"
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["FSSAI", "Vegetarian", "Recyclable", "Organic", "Non-GMO"]
+      }
+    },
+    "relatedRecipe": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Single related recipe ID (kebab-case)"
+    },
+    "relatedRecipes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "description": "Multiple related recipe IDs"
+    },
+    "specialFeature": {
+      "type": "string",
+      "description": "Unique selling point or special characteristic"
+    },
+    "servingNote": {
+      "type": "string",
+      "description": "Important serving information (e.g., Brazil nuts limit)"
+    }
+  }
+}

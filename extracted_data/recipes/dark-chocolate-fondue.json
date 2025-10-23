@@ -1,0 +1,84 @@
+{
+  "recipeId": "dark-chocolate-fondue",
+  "name": "Dark Chocolate Fondue",
+  "relatedProduct": "deri-dates",
+  "servings": "4-6 servings",
+  "prepTime": "5 minutes",
+  "cookTime": "10 minutes",
+  "totalTime": "15 minutes",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Deri Dates",
+      "quantity": "12",
+      "unit": "pieces",
+      "notes": "For dipping"
+    },
+    {
+      "item": "Dark chocolate",
+      "quantity": "200",
+      "unit": "g",
+      "notes": "70% cocoa or higher"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "item": "Vanilla extract",
+      "quantity": "1",
+      "unit": "tsp"
+    },
+    {
+      "item": "Sea salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "notes": "Optional"
+    },
+    {
+      "item": "Fresh fruits",
+      "quantity": "As needed",
+      "unit": "serving",
+      "notes": "Strawberries, bananas, etc. for additional dipping"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Chop dark chocolate into small pieces for easier melting"
+    },
+    {
+      "step": 2,
+      "action": "Heat cream in a double boiler or microwave-safe bowl until warm (not boiling)"
+    },
+    {
+      "step": 3,
+      "action": "Add chopped chocolate to warm cream and stir until completely melted and smooth"
+    },
+    {
+      "step": 4,
+      "action": "Add vanilla extract and sea salt, mix well"
+    },
+    {
+      "step": 5,
+      "action": "Transfer to a fondue pot or serving bowl"
+    },
+    {
+      "step": 6,
+      "action": "Arrange Deri dates and fresh fruits on a platter"
+    },
+    {
+      "step": 7,
+      "action": "Dip and enjoy immediately while chocolate is warm"
+    }
+  ],
+  "tips": [
+    "Use high-quality dark chocolate for best flavor",
+    "Keep fondue warm with a tea light candle underneath",
+    "If chocolate thickens, add a splash of warm cream",
+    "Can add a tablespoon of liqueur for adult version",
+    "Perfect for parties and special occasions"
+  ],
+  "tags": ["Dessert", "Party food", "Romantic", "Quick", "Chocolate"]
+}

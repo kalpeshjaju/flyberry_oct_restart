@@ -1,0 +1,107 @@
+{
+  "productId": "pine-nuts",
+  "name": "Pine Nuts",
+  "tagline": "Premium Pine Nuts",
+  "alternateTagline": "The gourmet's choice",
+  "description": "Pine nuts, also called pignoli, are delicate, buttery nuts harvested from pine cones. They have a subtle, sweet flavor and soft texture, making them a prized ingredient in Mediterranean and Middle Eastern cuisine.",
+  "characteristics": "Delicate buttery flavor, soft texture, subtle sweetness",
+  "packaging": {
+    "pastelColor": "#e4f1df",
+    "popColor": "#379d47",
+    "colorName": "Forest Green"
+  },
+  "origin": "Imported Product of China / Korea",
+  "benefits": [
+    {
+      "claim": "Excellent source of manganese",
+      "detail": "Supports bone health and metabolism",
+      "nutrient": "Manganese",
+      "rdaPercent": 68.5
+    },
+    {
+      "claim": "Excellent source of copper",
+      "detail": "Essential for energy production",
+      "nutrient": "Copper",
+      "rdaPercent": 42.8
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Supports muscle and nerve function",
+      "nutrient": "Magnesium",
+      "rdaPercent": 19.5
+    },
+    {
+      "claim": "Good source of zinc",
+      "detail": "Immune system support",
+      "nutrient": "Zinc",
+      "rdaPercent": 13.2
+    },
+    {
+      "claim": "Contains iron",
+      "detail": "Oxygen transport in blood",
+      "nutrient": "Iron",
+      "rdaPercent": 9.8
+    },
+    {
+      "claim": "Rich in pinolenic acid",
+      "detail": "May help suppress appetite naturally"
+    },
+    {
+      "claim": "Heart-healthy fats",
+      "detail": "Monounsaturated and polyunsaturated fats"
+    },
+    {
+      "claim": "No added salt or oil",
+      "detail": "Pure, natural nuts"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "30g (approx. 3 tbsp)",
+    "servingsPerContainer": 8,
+    "keyNutrients": [
+      {"name": "Manganese", "value": 68.5, "unit": "% RDA"},
+      {"name": "Copper", "value": 42.8, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 19.5, "unit": "% RDA"},
+      {"name": "Zinc", "value": 13.2, "unit": "% RDA"},
+      {"name": "Iron", "value": 9.8, "unit": "% RDA"}
+    ],
+    "tagline": "Pine Nuts: Small nut, mighty nutrition",
+    "reason": "Despite their delicate size, pine nuts pack exceptional levels of manganese and copper for energy and metabolism."
+  },
+  "nutritionalFacts": {
+    "servingSize": "30g (approx. 3 tbsp)",
+    "servingsPerContainer": 8,
+    "calories": 203,
+    "caloriesFromFat": 183,
+    "totalFat": "20.3g",
+    "totalFatPercent": "31%",
+    "saturatedFat": "1.6g",
+    "saturatedFatPercent": "8%",
+    "monounsaturatedFat": "5.5g",
+    "polyunsaturatedFat": "12.4g",
+    "transFat": "0g",
+    "sodium": "0.6mg",
+    "carbohydrates": "3.9g",
+    "dietaryFiber": "1g",
+    "dietaryFiberPercent": "2%",
+    "sugars": "1.1g",
+    "protein": "4.1g",
+    "manganese": "1.71mg",
+    "manganesePercent": "68.5%",
+    "copper": "0.58mg",
+    "copperPercent": "42.8%",
+    "magnesium": "70.5mg",
+    "magnesiumPercent": "19.5%",
+    "zinc": "1.78mg",
+    "zincPercent": "13.2%",
+    "iron": "1.67mg",
+    "ironPercent": "9.8%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian"],
+  "relatedRecipe": "pine-nut-candy"
+}

@@ -1,0 +1,104 @@
+{
+  "productId": "brazil-nuts",
+  "name": "Brazil Nuts",
+  "tagline": "Beautiful Brazil Nuts",
+  "alternateTagline": "The selenium superstar",
+  "description": "Brazil nuts are large, creamy nuts with a rich, earthy flavor. They're renowned for being the world's richest source of selenium, a powerful antioxidant mineral.",
+  "characteristics": "Large size, creamy texture, rich earthy flavor",
+  "packaging": {
+    "pastelColor": "#f7e0e6",
+    "popColor": "#911947",
+    "colorName": "Burgundy"
+  },
+  "origin": "Imported Product of Brazil / Bolivia",
+  "benefits": [
+    {
+      "claim": "Extraordinary source of selenium",
+      "detail": "World's richest natural source - supports thyroid function",
+      "nutrient": "Selenium",
+      "rdaPercent": 254.5,
+      "note": "Just 2 nuts provide over 100% RDA"
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Supports hundreds of body processes",
+      "nutrient": "Magnesium",
+      "rdaPercent": 25.3
+    },
+    {
+      "claim": "Good source of phosphorus",
+      "detail": "Essential for bone health",
+      "nutrient": "Phosphorus",
+      "rdaPercent": 20.5
+    },
+    {
+      "claim": "Contains copper",
+      "detail": "Supports immune system",
+      "nutrient": "Copper",
+      "rdaPercent": 38.2
+    },
+    {
+      "claim": "Rich in healthy fats",
+      "detail": "Monounsaturated and polyunsaturated fats"
+    },
+    {
+      "claim": "Thyroid health support",
+      "detail": "Selenium essential for thyroid hormone production"
+    },
+    {
+      "claim": "Powerful antioxidant",
+      "detail": "Protects cells from damage"
+    },
+    {
+      "claim": "No added salt or oil",
+      "detail": "Pure, natural nuts"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "30g (approx. 6 nuts)",
+    "servingsPerContainer": 8,
+    "keyNutrients": [
+      {"name": "Selenium", "value": 254.5, "unit": "% RDA", "highlight": "EXCEPTIONAL"},
+      {"name": "Copper", "value": 38.2, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 25.3, "unit": "% RDA"},
+      {"name": "Phosphorus", "value": 20.5, "unit": "% RDA"}
+    ],
+    "tagline": "Brazil Nuts: Two a day keeps the doctor away",
+    "reason": "Just 2 nuts provide your entire daily selenium requirement - the most selenium-rich food on Earth.",
+    "servingRecommendation": "Limit to 2-4 nuts per day due to extremely high selenium content"
+  },
+  "nutritionalFacts": {
+    "servingSize": "30g (approx. 6 nuts)",
+    "servingsPerContainer": 8,
+    "calories": 198,
+    "caloriesFromFat": 178,
+    "totalFat": "19.8g",
+    "totalFatPercent": "30%",
+    "saturatedFat": "4.5g",
+    "saturatedFatPercent": "22%",
+    "monounsaturatedFat": "7.3g",
+    "polyunsaturatedFat": "7.2g",
+    "transFat": "0g",
+    "sodium": "1mg",
+    "carbohydrates": "3.5g",
+    "dietaryFiber": "2.1g",
+    "dietaryFiberPercent": "4.3%",
+    "sugars": "0.7g",
+    "protein": "4.3g",
+    "selenium": "543mcg",
+    "seleniumPercent": "254.5%",
+    "magnesium": "91mg",
+    "magnesiumPercent": "25.3%",
+    "phosphorus": "205mg",
+    "phosphorusPercent": "20.5%",
+    "copper": "0.51mg",
+    "copperPercent": "38.2%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian"],
+  "relatedRecipe": "vegan-parmesan"
+}

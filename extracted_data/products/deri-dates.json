@@ -1,0 +1,89 @@
+{
+  "productId": "deri-dates",
+  "name": "Deri Dates",
+  "tagline": "Delightful Deri Dates",
+  "alternateTagline": "The date that's always on time",
+  "description": "Deri dates are known for their unique elongated shape and dark brown colour. They have a soft, chewy texture with a rich, caramel-like sweetness.",
+  "characteristics": "Elongated shape, dark brown, soft and chewy, rich caramel sweetness",
+  "packaging": {
+    "color": "#25b3e9",
+    "colorName": "Sky Blue",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Iraq",
+  "benefits": [
+    {
+      "claim": "Excellent source of dietary fibre",
+      "detail": "That is good for your gut",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 11.5
+    },
+    {
+      "claim": "Good source of potassium",
+      "detail": "Helps regulate blood pressure",
+      "nutrient": "Potassium",
+      "rdaPercent": 9.8
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Supports bone health",
+      "nutrient": "Magnesium",
+      "rdaPercent": 8.2
+    },
+    {
+      "claim": "Contains iron",
+      "detail": "For healthy blood production",
+      "nutrient": "Iron",
+      "rdaPercent": 5.1
+    },
+    {
+      "claim": "Natural energy booster"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 11.5, "unit": "% RDA"},
+      {"name": "Potassium", "value": 9.8, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 8.2, "unit": "% RDA"},
+      {"name": "Iron", "value": 5.1, "unit": "% RDA"}
+    ],
+    "tagline": "Deri: Always on time for your health",
+    "reason": "Packed with fiber and nutrients to keep your digestive system running like clockwork."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "calories": 115,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.8mg",
+    "carbohydrates": "31g",
+    "dietaryFiber": "5.6g",
+    "dietaryFiberPercent": "11.5%",
+    "sugars": "28g",
+    "protein": "0.9g",
+    "potassium": "222mg",
+    "potassiumPercent": "9.8%",
+    "magnesium": "29.6mg",
+    "magnesiumPercent": "8.2%",
+    "calcium": "18mg",
+    "calciumPercent": "1.8%",
+    "iron": "0.35mg",
+    "ironPercent": "5.1%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipe": "dark-chocolate-fondue"
+}

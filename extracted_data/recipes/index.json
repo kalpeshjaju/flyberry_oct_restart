@@ -1,0 +1,146 @@
+{
+  "recipeCatalog": {
+    "totalRecipes": 13,
+    "cuisineTypes": ["Indian", "Middle Eastern", "American", "International", "Vegan"],
+    "difficultyLevels": {
+      "veryEasy": 1,
+      "easy": 10,
+      "medium": 2
+    },
+    "lastUpdated": "2025-10-22"
+  },
+  "recipes": [
+    {
+      "recipeId": "ajwa-kalakand",
+      "name": "Ajwa Kalakand",
+      "relatedProduct": "ajwa-dates",
+      "category": "Indian sweet",
+      "difficulty": "Easy",
+      "totalTime": "30 minutes",
+      "tags": ["Indian", "Sweet", "Festive", "No-bake", "Healthy dessert"],
+      "file": "ajwa-kalakand.json"
+    },
+    {
+      "recipeId": "date-bars",
+      "name": "Date Bars",
+      "relatedProduct": "deglet-nour-dates",
+      "category": "Healthy snack",
+      "difficulty": "Easy",
+      "totalTime": "2 hours 15 minutes (including chill time)",
+      "cookMethod": "No-bake",
+      "tags": ["No-bake", "Healthy snack", "Meal prep", "Energy bars", "Vegan-friendly"],
+      "file": "date-bars.json"
+    },
+    {
+      "recipeId": "dark-chocolate-fondue",
+      "name": "Dark Chocolate Fondue",
+      "relatedProduct": "deri-dates",
+      "category": "Dessert",
+      "difficulty": "Easy",
+      "totalTime": "15 minutes",
+      "tags": ["Dessert", "Party food", "Romantic", "Quick", "Chocolate"],
+      "file": "dark-chocolate-fondue.json"
+    },
+    {
+      "recipeId": "date-bark",
+      "name": "Date Bark",
+      "relatedProduct": "halawi-dates",
+      "category": "Dessert",
+      "difficulty": "Easy",
+      "totalTime": "2 hours 15 minutes (including chill time)",
+      "cookMethod": "No-bake",
+      "tags": ["No-bake", "Dessert", "Gift-worthy", "Chocolate", "Healthy treat"],
+      "file": "date-bark.json"
+    },
+    {
+      "recipeId": "caramely-date-sundae",
+      "name": "Caramel-y Date Sundae",
+      "relatedProduct": "kalmi-dates",
+      "category": "Dessert",
+      "difficulty": "Easy",
+      "totalTime": "20 minutes",
+      "tags": ["Dessert", "Quick", "Healthy indulgence", "Natural sweetener", "Ice cream topping"],
+      "file": "caramely-date-sundae.json"
+    },
+    {
+      "recipeId": "natural-caramel",
+      "name": "Natural Caramel",
+      "relatedProduct": "mabroom-dates",
+      "category": "Condiment",
+      "difficulty": "Easy",
+      "totalTime": "15 minutes",
+      "tags": ["Healthy", "Vegan", "Sugar-free", "Versatile", "Condiment", "Natural sweetener"],
+      "file": "natural-caramel.json"
+    },
+    {
+      "recipeId": "nut-pulao",
+      "name": "Nut Pulao",
+      "relatedProduct": "macadamia-nuts",
+      "category": "Main course",
+      "difficulty": "Medium",
+      "totalTime": "40 minutes",
+      "tags": ["Indian", "Rice dish", "Festive", "Vegetarian", "Main course"],
+      "file": "nut-pulao.json"
+    },
+    {
+      "recipeId": "roasted-spiced-pecan-nuts",
+      "name": "Roasted Spiced Pecan Nuts",
+      "relatedProduct": "pecan-nuts",
+      "category": "Snack",
+      "difficulty": "Easy",
+      "totalTime": "20 minutes",
+      "tags": ["Snack", "Party food", "Roasted", "Spicy", "Make ahead"],
+      "file": "roasted-spiced-pecan-nuts.json"
+    },
+    {
+      "recipeId": "vegan-parmesan",
+      "name": "Vegan Parmesan",
+      "relatedProduct": "brazil-nuts",
+      "category": "Condiment",
+      "difficulty": "Very Easy",
+      "totalTime": "5 minutes",
+      "cookMethod": "No-cook",
+      "tags": ["Vegan", "Dairy-free", "Condiment", "No-cook", "Quick", "Cheese alternative"],
+      "file": "vegan-parmesan.json"
+    },
+    {
+      "recipeId": "hazelnut-katli",
+      "name": "Hazelnut Katli",
+      "relatedProduct": "hazelnuts",
+      "category": "Indian sweet",
+      "difficulty": "Medium",
+      "totalTime": "2 hours 35 minutes (including setting time)",
+      "tags": ["Indian sweet", "Festive", "Gift-worthy", "Traditional", "Mithai"],
+      "file": "hazelnut-katli.json"
+    },
+    {
+      "recipeId": "pine-nut-candy",
+      "name": "Pine Nut Candy",
+      "relatedProduct": "pine-nuts",
+      "category": "Sweet",
+      "difficulty": "Medium",
+      "totalTime": "1 hour 25 minutes (including cooling time)",
+      "tags": ["Sweet", "Candy", "Gift-worthy", "Middle Eastern", "Special occasion"],
+      "file": "pine-nut-candy.json"
+    }
+  ],
+  "byCategory": {
+    "desserts": ["dark-chocolate-fondue", "date-bark", "caramely-date-sundae"],
+    "indianSweets": ["ajwa-kalakand", "hazelnut-katli"],
+    "snacks": ["date-bars", "roasted-spiced-pecan-nuts"],
+    "condiments": ["natural-caramel", "vegan-parmesan"],
+    "mainCourse": ["nut-pulao"],
+    "candy": ["pine-nut-candy"]
+  },
+  "byCookingMethod": {
+    "noBake": ["date-bars", "date-bark"],
+    "noCook": ["vegan-parmesan"],
+    "quick": ["dark-chocolate-fondue", "caramely-date-sundae", "vegan-parmesan"],
+    "traditional": ["ajwa-kalakand", "hazelnut-katli", "nut-pulao"]
+  },
+  "metadata": {
+    "extractionSource": "E-COMM PRIMARY CARDS_11zon.pdf",
+    "extractionDate": "2025-10-22",
+    "dataStructure": "Comprehensive recipe data including: recipeId, name, relatedProduct, servings, prepTime, cookTime, totalTime, difficulty, ingredients (with quantities and notes), step-by-step instructions, tips, tags"
+  }
+}

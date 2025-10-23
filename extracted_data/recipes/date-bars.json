@@ -1,0 +1,93 @@
+{
+  "recipeId": "date-bars",
+  "name": "Date Bars",
+  "relatedProduct": "deglet-nour-dates",
+  "servings": "12 bars",
+  "prepTime": "15 minutes",
+  "cookTime": "0 minutes (No-bake)",
+  "totalTime": "2 hours 15 minutes (including chill time)",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Deglet Nour Dates",
+      "quantity": "2",
+      "unit": "cups",
+      "notes": "Pitted and chopped"
+    },
+    {
+      "item": "Oats",
+      "quantity": "1.5",
+      "unit": "cups"
+    },
+    {
+      "item": "Almonds",
+      "quantity": "1/2",
+      "unit": "cup",
+      "notes": "Chopped"
+    },
+    {
+      "item": "Cashews",
+      "quantity": "1/2",
+      "unit": "cup",
+      "notes": "Chopped"
+    },
+    {
+      "item": "Honey",
+      "quantity": "1/4",
+      "unit": "cup"
+    },
+    {
+      "item": "Coconut oil",
+      "quantity": "2",
+      "unit": "tbsp",
+      "notes": "Melted"
+    },
+    {
+      "item": "Vanilla extract",
+      "quantity": "1",
+      "unit": "tsp"
+    },
+    {
+      "item": "Salt",
+      "quantity": "1",
+      "unit": "pinch"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Line a baking tray with parchment paper"
+    },
+    {
+      "step": 2,
+      "action": "In a food processor, blend dates until they form a sticky paste"
+    },
+    {
+      "step": 3,
+      "action": "Add oats, almonds, cashews, honey, coconut oil, vanilla and salt"
+    },
+    {
+      "step": 4,
+      "action": "Pulse until everything is well combined but still has some texture"
+    },
+    {
+      "step": 5,
+      "action": "Press the mixture firmly into the lined tray"
+    },
+    {
+      "step": 6,
+      "action": "Refrigerate for at least 2 hours until firm"
+    },
+    {
+      "step": 7,
+      "action": "Cut into bars and enjoy"
+    }
+  ],
+  "tips": [
+    "Store in refrigerator for up to 2 weeks",
+    "Can be frozen for up to 3 months",
+    "Press mixture firmly for bars that hold together well",
+    "Add dark chocolate chips for extra indulgence"
+  ],
+  "tags": ["No-bake", "Healthy snack", "Meal prep", "Energy bars", "Vegan-friendly"]
+}

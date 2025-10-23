@@ -1,0 +1,88 @@
+{
+  "productId": "halawi-dates",
+  "name": "Halawi Dates",
+  "tagline": "Heavenly Halawi Dates",
+  "alternateTagline": "Sweetness with a golden touch",
+  "description": "Halawi means 'sweet' in Arabic, and these dates live up to their name. They have a golden-brown colour, soft texture, and an exceptionally sweet, honey-like flavor with caramel notes.",
+  "characteristics": "Golden-brown, soft texture, honey-like sweetness, caramel notes",
+  "packaging": {
+    "color": "#ffa58f",
+    "colorName": "Peach",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Iraq",
+  "benefits": [
+    {
+      "claim": "Good source of dietary fibre",
+      "detail": "Promotes digestive health",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 8.8
+    },
+    {
+      "claim": "Good source of potassium",
+      "detail": "Supports heart health",
+      "nutrient": "Potassium",
+      "rdaPercent": 8.5
+    },
+    {
+      "claim": "Contains magnesium",
+      "detail": "Essential for bone health",
+      "nutrient": "Magnesium",
+      "rdaPercent": 7.2
+    },
+    {
+      "claim": "Natural sweetener alternative",
+      "detail": "Perfect for replacing refined sugar in recipes"
+    },
+    {
+      "claim": "Quick energy source",
+      "detail": "Ideal pre or post-workout snack"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 8.8, "unit": "% RDA"},
+      {"name": "Potassium", "value": 8.5, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 7.2, "unit": "% RDA"},
+      {"name": "Iron", "value": 4.2, "unit": "% RDA"}
+    ],
+    "tagline": "Halawi: The sweetest way to stay healthy",
+    "reason": "Named 'sweet' for a reason - naturally honey-like flavor without any added sugars."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "calories": 118,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.6mg",
+    "carbohydrates": "31g",
+    "dietaryFiber": "4.3g",
+    "dietaryFiberPercent": "8.8%",
+    "sugars": "29g",
+    "protein": "0.7g",
+    "potassium": "193mg",
+    "potassiumPercent": "8.5%",
+    "magnesium": "26mg",
+    "magnesiumPercent": "7.2%",
+    "calcium": "16mg",
+    "calciumPercent": "1.6%",
+    "iron": "0.29mg",
+    "ironPercent": "4.2%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipe": "date-bark"
+}

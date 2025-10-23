@@ -1,0 +1,102 @@
+{
+  "recipeId": "roasted-spiced-pecan-nuts",
+  "name": "Roasted Spiced Pecan Nuts",
+  "relatedProduct": "pecan-nuts",
+  "servings": "8 servings (2 cups)",
+  "prepTime": "5 minutes",
+  "cookTime": "15 minutes",
+  "totalTime": "20 minutes",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Pecan Nuts",
+      "quantity": "2",
+      "unit": "cups"
+    },
+    {
+      "item": "Olive oil",
+      "quantity": "2",
+      "unit": "tbsp"
+    },
+    {
+      "item": "Brown sugar",
+      "quantity": "2",
+      "unit": "tbsp",
+      "notes": "Optional for sweet version"
+    },
+    {
+      "item": "Paprika",
+      "quantity": "1",
+      "unit": "tsp"
+    },
+    {
+      "item": "Cumin powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "item": "Cayenne pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "notes": "Adjust to taste"
+    },
+    {
+      "item": "Garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "item": "Sea salt",
+      "quantity": "3/4",
+      "unit": "tsp"
+    },
+    {
+      "item": "Black pepper",
+      "quantity": "1/4",
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Preheat oven to 175°C (350°F)"
+    },
+    {
+      "step": 2,
+      "action": "In a large bowl, mix olive oil with all spices (paprika, cumin, cayenne, garlic powder, salt, pepper)"
+    },
+    {
+      "step": 3,
+      "action": "Add brown sugar if making sweet-spicy version"
+    },
+    {
+      "step": 4,
+      "action": "Add pecan nuts and toss until evenly coated"
+    },
+    {
+      "step": 5,
+      "action": "Spread nuts in a single layer on a baking sheet lined with parchment paper"
+    },
+    {
+      "step": 6,
+      "action": "Roast for 12-15 minutes, stirring halfway through"
+    },
+    {
+      "step": 7,
+      "action": "Remove when fragrant and golden (watch carefully to avoid burning)"
+    },
+    {
+      "step": 8,
+      "action": "Let cool completely before storing - they'll crisp up as they cool"
+    }
+  ],
+  "tips": [
+    "Watch closely in the last few minutes to prevent burning",
+    "Nuts will continue to cook slightly after removing from oven",
+    "Store in airtight container for up to 2 weeks",
+    "Great for salads, snacking, or as party appetizers",
+    "For sweeter version, increase brown sugar to 3 tbsp",
+    "For more heat, add extra cayenne pepper"
+  ],
+  "tags": ["Snack", "Party food", "Roasted", "Spicy", "Make ahead"]
+}

@@ -1,0 +1,88 @@
+{
+  "recipeId": "caramely-date-sundae",
+  "name": "Caramel-y Date Sundae",
+  "relatedProduct": "kalmi-dates",
+  "servings": "4 servings",
+  "prepTime": "10 minutes",
+  "cookTime": "10 minutes",
+  "totalTime": "20 minutes",
+  "difficulty": "Easy",
+  "ingredients": [
+    {
+      "item": "Flyberry Kalmi Dates",
+      "quantity": "1",
+      "unit": "cup",
+      "notes": "Pitted and chopped"
+    },
+    {
+      "item": "Water",
+      "quantity": "1/4",
+      "unit": "cup"
+    },
+    {
+      "item": "Vanilla ice cream",
+      "quantity": "4",
+      "unit": "scoops",
+      "notes": "Or dairy-free alternative"
+    },
+    {
+      "item": "Heavy cream",
+      "quantity": "2",
+      "unit": "tbsp",
+      "notes": "Optional, for richer sauce"
+    },
+    {
+      "item": "Chopped nuts",
+      "quantity": "1/4",
+      "unit": "cup",
+      "notes": "Walnuts or almonds"
+    },
+    {
+      "item": "Vanilla extract",
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Combine chopped Kalmi dates and water in a small saucepan"
+    },
+    {
+      "step": 2,
+      "action": "Cook over medium heat, stirring frequently, until dates soften and begin to break down (about 5-7 minutes)"
+    },
+    {
+      "step": 3,
+      "action": "Mash dates with a fork or blend until smooth and caramel-like"
+    },
+    {
+      "step": 4,
+      "action": "Add vanilla extract and heavy cream if using, stir well"
+    },
+    {
+      "step": 5,
+      "action": "Remove from heat and let cool slightly (sauce will thicken as it cools)"
+    },
+    {
+      "step": 6,
+      "action": "Scoop ice cream into serving bowls"
+    },
+    {
+      "step": 7,
+      "action": "Drizzle warm date caramel sauce over ice cream"
+    },
+    {
+      "step": 8,
+      "action": "Top with chopped nuts and serve immediately"
+    }
+  ],
+  "tips": [
+    "Date caramel sauce can be made ahead and reheated",
+    "Add a pinch of sea salt for salted caramel version",
+    "Store leftover sauce in refrigerator for up to 1 week",
+    "Use on pancakes, waffles, or yogurt as well",
+    "For thinner sauce, add more water; for thicker, cook longer"
+  ],
+  "tags": ["Dessert", "Quick", "Healthy indulgence", "Natural sweetener", "Ice cream topping"]
+}

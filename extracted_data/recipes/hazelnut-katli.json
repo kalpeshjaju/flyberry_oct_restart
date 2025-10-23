@@ -1,0 +1,96 @@
+{
+  "recipeId": "hazelnut-katli",
+  "name": "Hazelnut Katli",
+  "relatedProduct": "hazelnuts",
+  "servings": "16-20 pieces",
+  "prepTime": "15 minutes",
+  "cookTime": "20 minutes",
+  "totalTime": "2 hours 35 minutes (including setting time)",
+  "difficulty": "Medium",
+  "ingredients": [
+    {
+      "item": "Flyberry Hazelnuts",
+      "quantity": "2",
+      "unit": "cups",
+      "notes": "Roasted and skin removed"
+    },
+    {
+      "item": "Sugar",
+      "quantity": "1",
+      "unit": "cup"
+    },
+    {
+      "item": "Water",
+      "quantity": "1/2",
+      "unit": "cup"
+    },
+    {
+      "item": "Ghee",
+      "quantity": "2",
+      "unit": "tbsp",
+      "notes": "Plus extra for greasing"
+    },
+    {
+      "item": "Cardamom powder",
+      "quantity": "1/2",
+      "unit": "tsp"
+    },
+    {
+      "item": "Silver leaf (vark)",
+      "quantity": "As needed",
+      "unit": "sheets",
+      "notes": "Optional, for garnish"
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "action": "Roast hazelnuts in oven at 175°C for 10 minutes, then rub in a towel to remove skins"
+    },
+    {
+      "step": 2,
+      "action": "Grind roasted hazelnuts into a fine powder in food processor"
+    },
+    {
+      "step": 3,
+      "action": "In a heavy-bottomed pan, combine sugar and water, cook until it reaches one-string consistency"
+    },
+    {
+      "step": 4,
+      "action": "Add hazelnut powder to the sugar syrup and mix well"
+    },
+    {
+      "step": 5,
+      "action": "Add ghee and cardamom powder, continue cooking on low heat"
+    },
+    {
+      "step": 6,
+      "action": "Stir continuously until mixture thickens and starts leaving the sides of the pan"
+    },
+    {
+      "step": 7,
+      "action": "Pour onto a greased plate or parchment paper and spread evenly"
+    },
+    {
+      "step": 8,
+      "action": "Let cool for 5-10 minutes, then cut into diamond shapes while still warm"
+    },
+    {
+      "step": 9,
+      "action": "Once completely cool, apply silver leaf if using"
+    },
+    {
+      "step": 10,
+      "action": "Let set for 2 hours before serving"
+    }
+  ],
+  "tips": [
+    "Remove hazelnut skins for smoother texture",
+    "Test sugar syrup: drop a small amount in water, should form a single thread",
+    "Don't overcook or katli will become hard",
+    "Cut while warm for clean edges",
+    "Store in airtight container for up to 1 week",
+    "Can substitute half the hazelnuts with cashews for variation"
+  ],
+  "tags": ["Indian sweet", "Festive", "Gift-worthy", "Traditional", "Mithai"]
+}

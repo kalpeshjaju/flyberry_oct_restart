@@ -1,0 +1,163 @@
+{
+  "productCatalog": {
+    "totalProducts": 13,
+    "categories": {
+      "dates": 8,
+      "nuts": 5
+    },
+    "lastUpdated": "2025-10-22"
+  },
+  "dates": [
+    {
+      "productId": "ameri-dates",
+      "name": "Ameri Dates",
+      "tagline": "Alluring Ameri Dates",
+      "origin": "Jordan",
+      "color": "#ff7e00",
+      "colorName": "Orange",
+      "file": "ameri-dates.json",
+      "relatedRecipe": null
+    },
+    {
+      "productId": "ajwa-dates",
+      "name": "Ajwa Dates",
+      "tagline": "Authentic Ajwa Dates",
+      "origin": "Saudi Arabia",
+      "color": "#0fcae2",
+      "colorName": "Cyan",
+      "file": "ajwa-dates.json",
+      "relatedRecipe": "ajwa-kalakand"
+    },
+    {
+      "productId": "deglet-nour-dates",
+      "name": "Deglet Nour Dates",
+      "tagline": "Delectable Deglet Nour Dates",
+      "origin": "Tunisia",
+      "color": "#41c5bf",
+      "colorName": "Turquoise",
+      "file": "deglet-nour-dates.json",
+      "relatedRecipe": "date-bars"
+    },
+    {
+      "productId": "deri-dates",
+      "name": "Deri Dates",
+      "tagline": "Delightful Deri Dates",
+      "origin": "Iraq",
+      "color": "#25b3e9",
+      "colorName": "Sky Blue",
+      "file": "deri-dates.json",
+      "relatedRecipe": "dark-chocolate-fondue"
+    },
+    {
+      "productId": "halawi-dates",
+      "name": "Halawi Dates",
+      "tagline": "Heavenly Halawi Dates",
+      "origin": "Iraq",
+      "color": "#ffa58f",
+      "colorName": "Peach",
+      "file": "halawi-dates.json",
+      "relatedRecipe": "date-bark"
+    },
+    {
+      "productId": "kalmi-dates",
+      "name": "Kalmi Dates",
+      "tagline": "Captivating Kalmi Dates",
+      "origin": "Iran",
+      "color": "#fc9d16",
+      "colorName": "Golden Orange",
+      "file": "kalmi-dates.json",
+      "relatedRecipe": "caramely-date-sundae"
+    },
+    {
+      "productId": "mabroom-dates",
+      "name": "Mabroom Dates",
+      "tagline": "Magnificent Mabroom Dates",
+      "origin": "Saudi Arabia",
+      "color": "#fd478e",
+      "colorName": "Pink",
+      "file": "mabroom-dates.json",
+      "relatedRecipe": "natural-caramel"
+    },
+    {
+      "productId": "medjoul-dates",
+      "name": "Medjoul Dates",
+      "tagline": "Majestic Medjoul Dates",
+      "origin": "Jordan / Palestine",
+      "color": "#5c438d",
+      "colorName": "Purple",
+      "secondaryColor": "#222367",
+      "file": "medjoul-dates.json",
+      "relatedRecipes": ["medjoul-energy-balls", "stuffed-medjoul-dates"],
+      "specialFeature": "Workout benefits (pre & post)"
+    }
+  ],
+  "nuts": [
+    {
+      "productId": "macadamia-nuts",
+      "name": "Macadamia Nuts",
+      "tagline": "Marvelous Macadamia Nuts",
+      "origin": "Kenya / Australia",
+      "pastelColor": "#fef6e9",
+      "popColor": "#fec049",
+      "colorName": "Golden Yellow",
+      "file": "macadamia-nuts.json",
+      "relatedRecipe": "nut-pulao",
+      "specialFeature": "Highest monounsaturated fats"
+    },
+    {
+      "productId": "pecan-nuts",
+      "name": "Pecan Nuts",
+      "tagline": "Perfect Pecan Nuts",
+      "origin": "USA",
+      "pastelColor": "#d6e5f5",
+      "popColor": "#1a3360",
+      "colorName": "Navy Blue",
+      "file": "pecan-nuts.json",
+      "relatedRecipe": "roasted-spiced-pecan-nuts",
+      "specialFeature": "Antioxidant powerhouse"
+    },
+    {
+      "productId": "brazil-nuts",
+      "name": "Brazil Nuts",
+      "tagline": "Beautiful Brazil Nuts",
+      "origin": "Brazil / Bolivia",
+      "pastelColor": "#f7e0e6",
+      "popColor": "#911947",
+      "colorName": "Burgundy",
+      "file": "brazil-nuts.json",
+      "relatedRecipe": "vegan-parmesan",
+      "specialFeature": "World's richest selenium source (254% RDA)",
+      "servingNote": "Limit to 2-4 nuts per day"
+    },
+    {
+      "productId": "hazelnuts",
+      "name": "Hazelnuts",
+      "tagline": "Heavenly Hazelnuts",
+      "origin": "Turkey / Italy",
+      "pastelColor": "#eef8fb",
+      "popColor": "#27b1b3",
+      "colorName": "Turquoise",
+      "file": "hazelnuts.json",
+      "relatedRecipe": "hazelnut-katli",
+      "specialFeature": "Vitamin E treasure (45% RDA)"
+    },
+    {
+      "productId": "pine-nuts",
+      "name": "Pine Nuts",
+      "tagline": "Premium Pine Nuts",
+      "origin": "China / Korea",
+      "pastelColor": "#e4f1df",
+      "popColor": "#379d47",
+      "colorName": "Forest Green",
+      "file": "pine-nuts.json",
+      "relatedRecipe": "pine-nut-candy",
+      "specialFeature": "Manganese powerhouse (68% RDA)"
+    }
+  ],
+  "metadata": {
+    "extractionSource": "E-COMM PRIMARY CARDS_11zon.pdf",
+    "pdfPages": "1-84",
+    "extractionDate": "2025-10-22",
+    "dataStructure": "Comprehensive product data including: productId, name, tagline, description, packaging colors, origin, benefits (with RDA %), nutritional facts, manufacturer info, certifications, related recipes"
+  }
+}

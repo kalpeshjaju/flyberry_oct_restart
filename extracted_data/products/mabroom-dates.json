@@ -1,0 +1,90 @@
+{
+  "productId": "mabroom-dates",
+  "name": "Mabroom Dates",
+  "tagline": "Magnificent Mabroom Dates",
+  "alternateTagline": "The crown jewel of dates",
+  "description": "Mabroom dates are elongated with a beautiful deep reddish-brown color. They have a firm yet chewy texture with a uniquely rich, sweet flavor and subtle toffee notes.",
+  "characteristics": "Elongated shape, reddish-brown, firm and chewy, toffee notes",
+  "packaging": {
+    "color": "#fd478e",
+    "colorName": "Pink",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Saudi Arabia",
+  "benefits": [
+    {
+      "claim": "Excellent source of dietary fibre",
+      "detail": "Promotes digestive wellness",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 12.1
+    },
+    {
+      "claim": "Excellent source of potassium",
+      "detail": "Heart health support",
+      "nutrient": "Potassium",
+      "rdaPercent": 10.5
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Bone and muscle health",
+      "nutrient": "Magnesium",
+      "rdaPercent": 8.9
+    },
+    {
+      "claim": "Good source of iron",
+      "detail": "Oxygen transport in blood",
+      "nutrient": "Iron",
+      "rdaPercent": 6.2
+    },
+    {
+      "claim": "Premium quality dates",
+      "detail": "Known for exceptional taste and texture"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 12.1, "unit": "% RDA"},
+      {"name": "Potassium", "value": 10.5, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 8.9, "unit": "% RDA"},
+      {"name": "Iron", "value": 6.2, "unit": "% RDA"}
+    ],
+    "tagline": "Mabroom: Royalty in every bite",
+    "reason": "Called the 'crown jewel' for its exceptional quality, rich flavor, and premium nutritional profile."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 4 dates)",
+    "servingsPerContainer": 6,
+    "calories": 120,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.4mg",
+    "carbohydrates": "32g",
+    "dietaryFiber": "5.9g",
+    "dietaryFiberPercent": "12.1%",
+    "sugars": "29g",
+    "protein": "1g",
+    "potassium": "238mg",
+    "potassiumPercent": "10.5%",
+    "magnesium": "32mg",
+    "magnesiumPercent": "8.9%",
+    "calcium": "20mg",
+    "calciumPercent": "2.0%",
+    "iron": "0.42mg",
+    "ironPercent": "6.2%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipe": "natural-caramel"
+}

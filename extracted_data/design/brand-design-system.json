@@ -1,0 +1,377 @@
+{
+  "brand": {
+    "name": "Flyberry Gourmet",
+    "tagline": "Your Healthy Neighbourhood Food Store",
+    "registeredMark": true
+  },
+  "typography": {
+    "primary": {
+      "name": "Baloo",
+      "usage": ["Titles", "Headlines"],
+      "specimens": ["H1-Heading", "H2-Sub Heading"]
+    },
+    "secondary": {
+      "name": "Nunito",
+      "usage": ["Subheading", "Paragraphs", "Body copy"],
+      "optional": true
+    }
+  },
+  "logos": {
+    "variants": [
+      {
+        "type": "primary",
+        "colors": ["pink"],
+        "hasRegisteredMark": true,
+        "background": "white"
+      },
+      {
+        "type": "primary_no_mark",
+        "colors": ["pink"],
+        "hasRegisteredMark": false,
+        "background": "white"
+      },
+      {
+        "type": "black",
+        "colors": ["black"],
+        "hasRegisteredMark": true,
+        "background": "white"
+      },
+      {
+        "type": "black_no_mark",
+        "colors": ["black"],
+        "hasRegisteredMark": false,
+        "background": "white"
+      },
+      {
+        "type": "white",
+        "colors": ["white"],
+        "hasRegisteredMark": true,
+        "background": "black"
+      },
+      {
+        "type": "white_no_mark",
+        "colors": ["white"],
+        "hasRegisteredMark": false,
+        "background": "black"
+      }
+    ]
+  },
+  "colorPalettes": {
+    "datePackaging": {
+      "category": "Pop Colors (RGB Values)",
+      "products": [
+        {
+          "product": "Mabroom",
+          "primary": "#fd478e",
+          "rgb": {"r": 253, "g": 71, "b": 142}
+        },
+        {
+          "product": "Medjoul",
+          "colors": ["#5c438d", "#222367"],
+          "rgb": [
+            {"r": 92, "g": 67, "b": 141},
+            {"r": 34, "g": 35, "b": 103}
+          ]
+        },
+        {
+          "product": "Deri",
+          "primary": "#25b3e9",
+          "rgb": {"r": 37, "g": 179, "b": 233}
+        },
+        {
+          "product": "Ameri",
+          "primary": "#ff7e00",
+          "rgb": {"r": 255, "g": 126, "b": 0}
+        },
+        {
+          "product": "Kalmi",
+          "primary": "#fc9d16",
+          "rgb": {"r": 252, "g": 157, "b": 22}
+        },
+        {
+          "product": "Deglet Nour",
+          "primary": "#41c5bf",
+          "rgb": {"r": 65, "g": 197, "b": 191}
+        },
+        {
+          "product": "Halawi",
+          "primary": "#ffa58f",
+          "rgb": {"r": 255, "g": 165, "b": 143}
+        },
+        {
+          "product": "Figs",
+          "primary": "#07b612",
+          "rgb": {"r": 7, "g": 182, "b": 18}
+        },
+        {
+          "product": "Ajwa",
+          "primary": "#0fcae2",
+          "rgb": {"r": 15, "g": 202, "b": 226}
+        },
+        {
+          "product": "Apricots",
+          "primary": "#f1c608",
+          "rgb": {"r": 241, "g": 198, "b": 8}
+        },
+        {
+          "product": "Omani",
+          "primary": "#db161b",
+          "rgb": {"r": 219, "g": 22, "b": 27}
+        },
+        {
+          "product": "Date Bites Pink",
+          "primary": "#fd478e",
+          "rgb": {"r": 253, "g": 71, "b": 142}
+        },
+        {
+          "product": "Date Bites Purple",
+          "primary": "#602e91",
+          "rgb": {"r": 96, "g": 46, "b": 145}
+        }
+      ]
+    },
+    "exoticNuts": {
+      "category": "Pastels and Pop Colors",
+      "products": [
+        {
+          "product": "Brazil Nuts",
+          "pastel": "#f7e0e6",
+          "pop": "#911947",
+          "rgb": {
+            "pastel": {"r": 247, "g": 224, "b": 230},
+            "pop": {"r": 145, "g": 25, "b": 71}
+          }
+        },
+        {
+          "product": "Pine Nuts",
+          "pastel": "#e4f1df",
+          "pop": "#379d47",
+          "rgb": {
+            "pastel": {"r": 228, "g": 241, "b": 223},
+            "pop": {"r": 55, "g": 157, "b": 71}
+          }
+        },
+        {
+          "product": "Macadamia",
+          "pastel": "#fef6e9",
+          "pop": "#fec049",
+          "rgb": {
+            "pastel": {"r": 254, "g": 246, "b": 233},
+            "pop": {"r": 254, "g": 192, "b": 73}
+          }
+        },
+        {
+          "product": "Pecan Nuts",
+          "pastel": "#d6e5f5",
+          "pop": "#1a3360",
+          "rgb": {
+            "pastel": {"r": 214, "g": 229, "b": 245},
+            "pop": {"r": 26, "g": 51, "b": 96}
+          }
+        },
+        {
+          "product": "Hazelnuts",
+          "pastel": "#eef8fb",
+          "pop": "#27b1b3",
+          "rgb": {
+            "pastel": {"r": 238, "g": 248, "b": 251},
+            "pop": {"r": 39, "g": 177, "b": 179}
+          }
+        }
+      ]
+    },
+    "ambientPackaging": {
+      "category": "Pastel Colors",
+      "products": [
+        {
+          "product": "Mini Medjoul",
+          "primary": "#cac3e1",
+          "rgb": {"r": 202, "g": 195, "b": 225}
+        },
+        {
+          "product": "Ameri",
+          "primary": "#eecfa1",
+          "rgb": {"r": 238, "g": 207, "b": 161}
+        },
+        {
+          "product": "Kalmi",
+          "primary": "#efdba7",
+          "rgb": {"r": 239, "g": 219, "b": 167}
+        },
+        {
+          "product": "Deglet Nour",
+          "primary": "#deedee",
+          "rgb": {"r": 222, "g": 237, "b": 238}
+        },
+        {
+          "product": "Deri",
+          "primary": "#afdeef",
+          "rgb": {"r": 175, "g": 222, "b": 239}
+        },
+        {
+          "product": "Omani",
+          "primary": "#eea3a5",
+          "rgb": {"r": 238, "g": 163, "b": 165}
+        }
+      ]
+    },
+    "brandingPastels": {
+      "category": "Flyberry Pastels for Branding",
+      "colors": [
+        {
+          "name": "Pastel Yellow",
+          "hex": "#fff2bb",
+          "rgb": {"r": 255, "g": 242, "b": 187}
+        },
+        {
+          "name": "Pastel Purple",
+          "hex": "#d9d9ed",
+          "rgb": {"r": 217, "g": 217, "b": 237}
+        },
+        {
+          "name": "Pastel Pink",
+          "hex": "#f7e0e4",
+          "rgb": {"r": 247, "g": 224, "b": 228}
+        },
+        {
+          "name": "Pastel Blue",
+          "hex": "#e5f2f9",
+          "rgb": {"r": 229, "g": 242, "b": 249}
+        }
+      ]
+    }
+  },
+  "iconography": {
+    "style": "Line icons on colored background",
+    "backgroundColor": "#fd478e",
+    "iconColor": "white",
+    "icons": [
+      "Date palm",
+      "Date",
+      "Smiley face",
+      "Leaves/natural",
+      "Mawa/cheese",
+      "Happy face",
+      "Scale/balance",
+      "Hand holding",
+      "Rose/flower",
+      "Candy/sweet",
+      "Cacao pod",
+      "Global food",
+      "Balance scale",
+      "Apple/fruit",
+      "Energy drink",
+      "Bowl with spoon",
+      "Pie/dessert",
+      "Beverage cup",
+      "Nuts/cashew",
+      "Fire/calorie",
+      "Moon/sleep"
+    ]
+  },
+  "illustrationStyle": {
+    "description": "Hand-drawn, colorful illustrations with organic outlines",
+    "subjects": [
+      "Vegetables (okra, peppers, leafy greens)",
+      "Fruits (bananas, apricots, grapes, blueberries, apricots)",
+      "Dates (various varieties)",
+      "Nuts (macadamia, brazil, pecan, hazelnuts, pine)",
+      "Figs"
+    ],
+    "characteristics": [
+      "Organic shapes",
+      "Hand-drawn outlines",
+      "Natural shading",
+      "Realistic colors",
+      "Grouped compositions"
+    ]
+  },
+  "portraitsAndUsage": {
+    "style": "Flat design, vibrant backgrounds, illustrated elements",
+    "characteristics": [
+      "Diverse representation",
+      "Flat illustration style",
+      "Vibrant solid color backgrounds",
+      "Decorative elements (flowers, leaves, geometric shapes)",
+      "Professional yet friendly"
+    ],
+    "applications": [
+      "Business cards",
+      "Team profiles",
+      "Social media",
+      "Marketing materials"
+    ],
+    "examples": [
+      {
+        "name": "Rajesh Motta",
+        "role": "Assistant accounts Manager",
+        "email": "rajesh@flyberry.in",
+        "backgroundColor": "green"
+      },
+      {
+        "name": "Akarsh Makhija",
+        "role": "Co-Founder & CEO",
+        "email": "akarsh@flyberry.in",
+        "backgroundColor": "orange-blue gradient"
+      }
+    ]
+  },
+  "productPhotography": {
+    "style": "Clean, minimalist product shots",
+    "characteristics": [
+      "White backgrounds",
+      "Natural lighting",
+      "Clean composition",
+      "Focus on product texture",
+      "Sometimes styled with props (plates, ribbons, packaging)"
+    ],
+    "subjects": [
+      "Individual dates",
+      "Nuts (whole and cross-section)",
+      "Date bars",
+      "Packaged products",
+      "Ingredient compositions"
+    ]
+  },
+  "merchandise": {
+    "products": ["T-shirts", "Apparel"],
+    "styles": [
+      {
+        "design": "Manufactured by nature",
+        "colors": ["Light blue", "Cream", "Light purple"],
+        "theme": "Sustainability message with illustrated date/globe"
+      },
+      {
+        "design": "Flyberry Gourmet logo",
+        "placement": "Front chest",
+        "style": "Minimalist"
+      }
+    ],
+    "tagline": "Flyberry Gourmet since 2016"
+  },
+  "printBanners": {
+    "formats": ["Vertical banners", "Horizontal banners", "Store displays"],
+    "elements": [
+      "QR codes for directions",
+      "Product category lists (Dates, Nuts, Dried Fruits, Seeds, Berries)",
+      "Contact information (+91 97009 19999)",
+      "Location information (Jubilee Hills, Himayatnagar, S.R. Nagar, Madeenaguda, Vijayawada)",
+      "Store interior photography",
+      "Product photography",
+      "Promotional messaging (Free Delivery within 1 hour)"
+    ],
+    "colorScheme": "Primarily pink (#fd478e) with white and product photography"
+  },
+  "brandMessage": {
+    "tagline": "Your Healthy Neighbourhood Food Store",
+    "secondaryTagline": "We're driving you Nuts and Dates and Berries",
+    "emphasis": "A whole lot of fun, healthy snacks",
+    "productCategories": [
+      "Dates",
+      "Nuts",
+      "Dried Fruits",
+      "Seeds",
+      "Berries"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "productId": "medjoul-dates",
+  "name": "Medjoul Dates",
+  "tagline": "Majestic Medjoul Dates",
+  "alternateTagline": "The king of dates",
+  "description": "Medjoul dates are considered the king of dates. They're large, soft, and incredibly sweet with a rich, complex flavor profile. Known for their luxurious texture and caramel-like taste.",
+  "characteristics": "Large size, soft texture, rich caramel taste, complex flavor",
+  "packaging": {
+    "color": "#5c438d",
+    "colorName": "Purple",
+    "secondaryColor": "#222367",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Jordan / Palestine",
+  "benefits": [
+    {
+      "claim": "Excellent source of dietary fibre",
+      "detail": "Supports digestive health",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 13.5
+    },
+    {
+      "claim": "Excellent source of potassium",
+      "detail": "Electrolyte balance and heart health",
+      "nutrient": "Potassium",
+      "rdaPercent": 11.8
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Muscle recovery and energy",
+      "nutrient": "Magnesium",
+      "rdaPercent": 9.3
+    },
+    {
+      "claim": "Good source of iron",
+      "detail": "Oxygen delivery to muscles",
+      "nutrient": "Iron",
+      "rdaPercent": 7.1
+    },
+    {
+      "claim": "Perfect pre-workout fuel",
+      "detail": "Quick energy from natural sugars"
+    },
+    {
+      "claim": "Ideal post-workout recovery",
+      "detail": "Replenishes glycogen stores"
+    },
+    {
+      "claim": "Natural energy booster",
+      "detail": "Sustained energy without crash"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "workoutBenefits": {
+    "preWorkout": {
+      "timing": "30-45 minutes before exercise",
+      "benefits": [
+        "Quick energy from natural sugars",
+        "Easy to digest carbohydrates",
+        "Potassium prevents muscle cramps",
+        "Sustained energy release"
+      ],
+      "recommended": "2-3 dates"
+    },
+    "postWorkout": {
+      "timing": "Within 30 minutes after exercise",
+      "benefits": [
+        "Replenishes glycogen stores",
+        "Aids muscle recovery",
+        "Natural electrolyte replacement",
+        "Reduces muscle soreness"
+      ],
+      "recommended": "3-4 dates with protein source"
+    }
+  },
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 2 large dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {"name": "Dietary Fiber", "value": 13.5, "unit": "% RDA"},
+      {"name": "Potassium", "value": 11.8, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 9.3, "unit": "% RDA"},
+      {"name": "Iron", "value": 7.1, "unit": "% RDA"},
+      {"name": "Vitamin B6", "value": 5.5, "unit": "% RDA"}
+    ],
+    "tagline": "Medjoul: The king has arrived",
+    "reason": "The largest, softest, and most prized date variety with exceptional nutritional benefits for active lifestyles."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 2 large dates)",
+    "servingsPerContainer": 6,
+    "calories": 133,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.4mg",
+    "carbohydrates": "36g",
+    "dietaryFiber": "6.6g",
+    "dietaryFiberPercent": "13.5%",
+    "sugars": "32g",
+    "protein": "1.2g",
+    "potassium": "267mg",
+    "potassiumPercent": "11.8%",
+    "magnesium": "33.6mg",
+    "magnesiumPercent": "9.3%",
+    "calcium": "24mg",
+    "calciumPercent": "2.4%",
+    "iron": "0.48mg",
+    "ironPercent": "7.1%",
+    "vitaminB6": "0.09mg",
+    "vitaminB6Percent": "5.5%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian", "Recyclable"],
+  "relatedRecipes": ["medjoul-energy-balls", "stuffed-medjoul-dates"]
+}

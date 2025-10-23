@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/design-system.json",
+  "title": "Flyberry Brand Design System Schema",
+  "description": "Schema for Flyberry Gourmet brand design guidelines",
+  "type": "object",
+  "required": [
+    "brand",
+    "typography",
+    "logos",
+    "colorPalettes",
+    "iconography",
+    "illustrationStyle",
+    "portraitsAndUsage",
+    "productPhotography",
+    "merchandise",
+    "printBanners",
+    "brandMessage"
+  ],
+  "properties": {
+    "brand": {
+      "type": "object",
+      "required": ["name", "tagline"],
+      "properties": {
+        "name": {"type": "string"},
+        "tagline": {"type": "string"},
+        "registeredMark": {"type": "boolean"}
+      }
+    },
+    "typography": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": {
+          "type": "object",
+          "required": ["name", "usage"],
+          "properties": {
+            "name": {"type": "string"},
+            "usage": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "specimens": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          }
+        },
+        "secondary": {
+          "type": "object",
+          "properties": {
+            "name": {"type": "string"},
+            "usage": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "optional": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "logos": {
+      "type": "object",
+      "required": ["variants"],
+      "properties": {
+        "variants": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["type", "colors", "hasRegisteredMark", "background"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["primary", "primary_no_mark", "black", "black_no_mark", "white", "white_no_mark"]
+              },
+              "colors": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "hasRegisteredMark": {"type": "boolean"},
+              "background": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "colorPalettes": {
+      "type": "object",
+      "required": ["datePackaging", "exoticNuts", "ambientPackaging", "brandingPastels"],
+      "properties": {
+        "datePackaging": {
+          "type": "object",
+          "required": ["category", "products"],
+          "properties": {
+            "category": {"type": "string"},
+            "products": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["product"],
+                "properties": {
+                  "product": {"type": "string"},
+                  "primary": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-f]{6}$"
+                  },
+                  "colors": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^#[0-9a-f]{6}$"
+                    }
+                  },
+                  "rgb": {
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "required": ["r", "g", "b"],
+                        "properties": {
+                          "r": {"type": "integer", "minimum": 0, "maximum": 255},
+                          "g": {"type": "integer", "minimum": 0, "maximum": 255},
+                          "b": {"type": "integer", "minimum": 0, "maximum": 255}
+                        }
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["r", "g", "b"],
+                          "properties": {
+                            "r": {"type": "integer", "minimum": 0, "maximum": 255},
+                            "g": {"type": "integer", "minimum": 0, "maximum": 255},
+                            "b": {"type": "integer", "minimum": 0, "maximum": 255}
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "exoticNuts": {
+          "type": "object",
+          "required": ["category", "products"],
+          "properties": {
+            "category": {"type": "string"},
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["product", "pastel", "pop", "rgb"],
+                "properties": {
+                  "product": {"type": "string"},
+                  "pastel": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-f]{6}$"
+                  },
+                  "pop": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-f]{6}$"
+                  },
+                  "rgb": {
+                    "type": "object",
+                    "required": ["pastel", "pop"],
+                    "properties": {
+                      "pastel": {
+                        "type": "object",
+                        "required": ["r", "g", "b"],
+                        "properties": {
+                          "r": {"type": "integer", "minimum": 0, "maximum": 255},
+                          "g": {"type": "integer", "minimum": 0, "maximum": 255},
+                          "b": {"type": "integer", "minimum": 0, "maximum": 255}
+                        }
+                      },
+                      "pop": {
+                        "type": "object",
+                        "required": ["r", "g", "b"],
+                        "properties": {
+                          "r": {"type": "integer", "minimum": 0, "maximum": 255},
+                          "g": {"type": "integer", "minimum": 0, "maximum": 255},
+                          "b": {"type": "integer", "minimum": 0, "maximum": 255}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ambientPackaging": {
+          "type": "object",
+          "required": ["category", "products"],
+          "properties": {
+            "category": {"type": "string"},
+            "products": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["product", "primary", "rgb"],
+                "properties": {
+                  "product": {"type": "string"},
+                  "primary": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-f]{6}$"
+                  },
+                  "rgb": {
+                    "type": "object",
+                    "required": ["r", "g", "b"],
+                    "properties": {
+                      "r": {"type": "integer", "minimum": 0, "maximum": 255},
+                      "g": {"type": "integer", "minimum": 0, "maximum": 255},
+                      "b": {"type": "integer", "minimum": 0, "maximum": 255}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "brandingPastels": {
+          "type": "object",
+          "required": ["category", "colors"],
+          "properties": {
+            "category": {"type": "string"},
+            "colors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "hex", "rgb"],
+                "properties": {
+                  "name": {"type": "string"},
+                  "hex": {
+                    "type": "string",
+                    "pattern": "^#[0-9a-f]{6}$"
+                  },
+                  "rgb": {
+                    "type": "object",
+                    "required": ["r", "g", "b"],
+                    "properties": {
+                      "r": {"type": "integer", "minimum": 0, "maximum": 255},
+                      "g": {"type": "integer", "minimum": 0, "maximum": 255},
+                      "b": {"type": "integer", "minimum": 0, "maximum": 255}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "iconography": {
+      "type": "object",
+      "required": ["style", "backgroundColor", "iconColor", "icons"],
+      "properties": {
+        "style": {"type": "string"},
+        "backgroundColor": {
+          "type": "string",
+          "pattern": "^#[0-9a-f]{6}$"
+        },
+        "iconColor": {"type": "string"},
+        "icons": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "illustrationStyle": {
+      "type": "object",
+      "required": ["description", "subjects", "characteristics"],
+      "properties": {
+        "description": {"type": "string"},
+        "subjects": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "characteristics": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "portraitsAndUsage": {
+      "type": "object",
+      "required": ["style", "characteristics", "applications"],
+      "properties": {
+        "style": {"type": "string"},
+        "characteristics": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "applications": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "role": {"type": "string"},
+              "email": {"type": "string", "format": "email"},
+              "backgroundColor": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "productPhotography": {
+      "type": "object",
+      "required": ["style", "characteristics", "subjects"],
+      "properties": {
+        "style": {"type": "string"},
+        "characteristics": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "subjects": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "merchandise": {
+      "type": "object",
+      "required": ["products", "styles"],
+      "properties": {
+        "products": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "styles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "design": {"type": "string"},
+              "colors": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "theme": {"type": "string"},
+              "placement": {"type": "string"},
+              "style": {"type": "string"}
+            }
+          }
+        },
+        "tagline": {"type": "string"}
+      }
+    },
+    "printBanners": {
+      "type": "object",
+      "required": ["formats", "elements", "colorScheme"],
+      "properties": {
+        "formats": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "elements": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "colorScheme": {"type": "string"}
+      }
+    },
+    "brandMessage": {
+      "type": "object",
+      "required": ["tagline", "productCategories"],
+      "properties": {
+        "tagline": {"type": "string"},
+        "secondaryTagline": {"type": "string"},
+        "emphasis": {"type": "string"},
+        "productCategories": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}

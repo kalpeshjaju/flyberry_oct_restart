@@ -1,0 +1,99 @@
+{
+  "productId": "pecan-nuts",
+  "name": "Pecan Nuts",
+  "tagline": "Perfect Pecan Nuts",
+  "alternateTagline": "The all-American classic",
+  "description": "Pecan nuts have a distinctive sweet, buttery flavor with a crunchy texture. These native American nuts are packed with antioxidants and healthy fats.",
+  "characteristics": "Sweet buttery flavor, crunchy texture, rich taste",
+  "packaging": {
+    "pastelColor": "#d6e5f5",
+    "popColor": "#1a3360",
+    "colorName": "Navy Blue"
+  },
+  "origin": "Imported Product of USA",
+  "benefits": [
+    {
+      "claim": "Excellent source of manganese",
+      "detail": "Supports bone health and metabolism",
+      "nutrient": "Manganese",
+      "rdaPercent": 56.8
+    },
+    {
+      "claim": "Rich in antioxidants",
+      "detail": "Helps fight oxidative stress",
+      "nutrient": "Antioxidants"
+    },
+    {
+      "claim": "Good source of thiamine (Vitamin B1)",
+      "detail": "Energy production",
+      "nutrient": "Thiamine",
+      "rdaPercent": 8.5
+    },
+    {
+      "claim": "Contains magnesium",
+      "detail": "Muscle and nerve function",
+      "nutrient": "Magnesium",
+      "rdaPercent": 7.8
+    },
+    {
+      "claim": "Good source of zinc",
+      "detail": "Immune system support",
+      "nutrient": "Zinc",
+      "rdaPercent": 9.2
+    },
+    {
+      "claim": "Heart-healthy fats",
+      "detail": "Monounsaturated and polyunsaturated fats"
+    },
+    {
+      "claim": "No added salt or oil",
+      "detail": "Pure, natural nuts"
+    }
+  ],
+  "nutritionalHighlights": {
+    "servingSize": "30g (approx. 19 halves)",
+    "servingsPerContainer": 8,
+    "keyNutrients": [
+      {"name": "Manganese", "value": 56.8, "unit": "% RDA"},
+      {"name": "Zinc", "value": 9.2, "unit": "% RDA"},
+      {"name": "Thiamine (B1)", "value": 8.5, "unit": "% RDA"},
+      {"name": "Magnesium", "value": 7.8, "unit": "% RDA"}
+    ],
+    "tagline": "Pecan: The antioxidant powerhouse",
+    "reason": "Among the top 15 foods with highest antioxidant capacity - protecting your cells naturally."
+  },
+  "nutritionalFacts": {
+    "servingSize": "30g (approx. 19 halves)",
+    "servingsPerContainer": 8,
+    "calories": 207,
+    "caloriesFromFat": 194,
+    "totalFat": "21.5g",
+    "totalFatPercent": "33%",
+    "saturatedFat": "1.8g",
+    "saturatedFatPercent": "9%",
+    "monounsaturatedFat": "12.3g",
+    "polyunsaturatedFat": "6.1g",
+    "transFat": "0g",
+    "sodium": "0mg",
+    "carbohydrates": "4g",
+    "dietaryFiber": "2.7g",
+    "dietaryFiberPercent": "5.5%",
+    "sugars": "1.2g",
+    "protein": "2.7g",
+    "manganese": "1.42mg",
+    "manganesePercent": "56.8%",
+    "magnesium": "28mg",
+    "magnesiumPercent": "7.8%",
+    "thiamine": "0.11mg",
+    "thiaminePercent": "8.5%",
+    "zinc": "1.24mg",
+    "zincPercent": "9.2%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": ["FSSAI", "Vegetarian"],
+  "relatedRecipe": "roasted-spiced-pecan-nuts"
+}
