@@ -4,6 +4,16 @@
 
 ---
 
+## 📚 Navigation
+
+**New to this project?** Start here:
+- 🗺️ **[STRUCTURE.md](STRUCTURE.md)** - Quick visual guide (1 page)
+- 📖 **[INDEX.md](INDEX.md)** - Complete project structure (detailed)
+- 🚀 **README.md** (this file) - Usage guide
+- 🧪 **[TEST_GUIDE.md](TEST_GUIDE.md)** - Testing instructions
+
+---
+
 ## What Is This?
 
 A Python data loader that prepares Flyberry brand data (products, recipes, design, claims) for AI tools like Claude, with built-in verification to prevent hallucinations.
