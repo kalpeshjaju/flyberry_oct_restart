@@ -111,11 +111,19 @@ function validateAllData() {
   const productSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'product-schema.json'), 'utf8'));
   const recipeSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'recipe-schema.json'), 'utf8'));
   const designSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'design-schema.json'), 'utf8'));
+  const giftingSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'gifting-catalogue-schema.json'), 'utf8'));
+  const retailSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'retail-catalogue-schema.json'), 'utf8'));
+  const investorSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'investor-updates-schema.json'), 'utf8'));
+  const claimsSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'claims-registry-schema.json'), 'utf8'));
 
   const results = {
     products: { total: 0, valid: 0, errors: [] },
     recipes: { total: 0, valid: 0, errors: [] },
-    design: { total: 0, valid: 0, errors: [] }
+    design: { total: 0, valid: 0, errors: [] },
+    gifting: { total: 0, valid: 0, errors: [] },
+    retail: { total: 0, valid: 0, errors: [] },
+    investor: { total: 0, valid: 0, errors: [] },
+    claims: { total: 0, valid: 0, errors: [] }
   };
 
   // Validate products
@@ -173,6 +181,66 @@ function validateAllData() {
     results.design.errors.push({ file: 'brand-design-system.json', errors: designErrors });
   }
 
+  // Validate gifting catalogue
+  console.log('\n🎁 Validating Gifting Catalogue...');
+  const giftingFile = path.join(baseDir, 'gifting-catalogue.json');
+  results.gifting.total++;
+  const giftingData = JSON.parse(fs.readFileSync(giftingFile, 'utf8'));
+  const giftingErrors = validateSchema(giftingData, giftingSchema, 'gifting-catalogue.json');
+
+  if (giftingErrors.length === 0) {
+    results.gifting.valid++;
+    console.log(`  ✅ gifting-catalogue.json`);
+  } else {
+    console.log(`  ❌ gifting-catalogue.json (${giftingErrors.length} errors)`);
+    results.gifting.errors.push({ file: 'gifting-catalogue.json', errors: giftingErrors });
+  }
+
+  // Validate retail catalogue
+  console.log('\n🏪 Validating Retail Catalogue...');
+  const retailFile = path.join(baseDir, 'retail-catalogue.json');
+  results.retail.total++;
+  const retailData = JSON.parse(fs.readFileSync(retailFile, 'utf8'));
+  const retailErrors = validateSchema(retailData, retailSchema, 'retail-catalogue.json');
+
+  if (retailErrors.length === 0) {
+    results.retail.valid++;
+    console.log(`  ✅ retail-catalogue.json`);
+  } else {
+    console.log(`  ❌ retail-catalogue.json (${retailErrors.length} errors)`);
+    results.retail.errors.push({ file: 'retail-catalogue.json', errors: retailErrors });
+  }
+
+  // Validate investor updates
+  console.log('\n📈 Validating Investor Updates...');
+  const investorFile = path.join(baseDir, 'investor-updates.json');
+  results.investor.total++;
+  const investorData = JSON.parse(fs.readFileSync(investorFile, 'utf8'));
+  const investorErrors = validateSchema(investorData, investorSchema, 'investor-updates.json');
+
+  if (investorErrors.length === 0) {
+    results.investor.valid++;
+    console.log(`  ✅ investor-updates.json`);
+  } else {
+    console.log(`  ❌ investor-updates.json (${investorErrors.length} errors)`);
+    results.investor.errors.push({ file: 'investor-updates.json', errors: investorErrors });
+  }
+
+  // Validate claims registry
+  console.log('\n📋 Validating Claims Registry...');
+  const claimsFile = path.join(baseDir, 'claims-registry.json');
+  results.claims.total++;
+  const claimsData = JSON.parse(fs.readFileSync(claimsFile, 'utf8'));
+  const claimsErrors = validateSchema(claimsData, claimsSchema, 'claims-registry.json');
+
+  if (claimsErrors.length === 0) {
+    results.claims.valid++;
+    console.log(`  ✅ claims-registry.json`);
+  } else {
+    console.log(`  ❌ claims-registry.json (${claimsErrors.length} errors)`);
+    results.claims.errors.push({ file: 'claims-registry.json', errors: claimsErrors });
+  }
+
   // Summary
   console.log('\n' + '='.repeat(60));
   console.log('📊 VALIDATION SUMMARY');
@@ -180,14 +248,21 @@ function validateAllData() {
   console.log(`Products:  ${results.products.valid}/${results.products.total} valid`);
   console.log(`Recipes:   ${results.recipes.valid}/${results.recipes.total} valid`);
   console.log(`Design:    ${results.design.valid}/${results.design.total} valid`);
+  console.log(`Gifting:   ${results.gifting.valid}/${results.gifting.total} valid`);
+  console.log(`Retail:    ${results.retail.valid}/${results.retail.total} valid`);
+  console.log(`Investor:  ${results.investor.valid}/${results.investor.total} valid`);
+  console.log(`Claims:    ${results.claims.valid}/${results.claims.total} valid`);
 
-  const totalValid = results.products.valid + results.recipes.valid + results.design.valid;
-  const totalFiles = results.products.total + results.recipes.total + results.design.total;
+  const totalValid = results.products.valid + results.recipes.valid + results.design.valid +
+                     results.gifting.valid + results.retail.valid + results.investor.valid + results.claims.valid;
+  const totalFiles = results.products.total + results.recipes.total + results.design.total +
+                     results.gifting.total + results.retail.total + results.investor.total + results.claims.total;
 
   console.log(`\nTotal:     ${totalValid}/${totalFiles} files valid`);
 
   // Show detailed errors if any
-  const allErrors = [...results.products.errors, ...results.recipes.errors, ...results.design.errors];
+  const allErrors = [...results.products.errors, ...results.recipes.errors, ...results.design.errors,
+                      ...results.gifting.errors, ...results.retail.errors, ...results.investor.errors, ...results.claims.errors];
   if (allErrors.length > 0) {
     console.log('\n' + '='.repeat(60));
     console.log('❌ VALIDATION ERRORS');

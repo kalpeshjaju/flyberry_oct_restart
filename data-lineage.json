@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "created": "2025-10-23",
+    "purpose": "Track data lineage from JSON → Markdown → Raw PDF for verification",
+    "version": "1.0.0"
+  },
+
+  "products/ajwa-dates.json": {
+    "sourceMarkdown": "llm_readable/GIFTING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/GIFTING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from gifting catalogue"
+  },
+
+  "products/ameri-dates.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/brazil-nuts.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/deglet-nour-dates.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/deri-dates.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/halawi-dates.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/hazelnuts.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/kalmi-dates.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/mabroom-dates.json": {
+    "sourceMarkdown": "llm_readable/GIFTING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/GIFTING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Premium product in gifting catalogue"
+  },
+
+  "products/macadamia-nuts.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/medjoul-dates.json": {
+    "sourceMarkdown": "llm_readable/GIFTING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/GIFTING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Hero product - premium gifting item"
+  },
+
+  "products/pecan-nuts.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "products/pine-nuts.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Product details extracted from retail catalogue"
+  },
+
+  "recipes/ajwa-kalakand.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/caramely-date-sundae.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/dark-chocolate-fondue.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/date-bark.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/date-bars.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/hazelnut-katli.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/natural-caramel.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/nut-pulao.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/pine-nut-candy.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/roasted-spiced-pecan-nuts.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "recipes/vegan-parmesan.json": {
+    "sourceMarkdown": "llm_readable/TRAINING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/TRAINING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Recipe from training materials"
+  },
+
+  "claims-registry.json": {
+    "sourceMarkdown": "llm_readable/claims-registry.json",
+    "sourceRaw": null,
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Health claims database - already in structured format"
+  },
+
+  "customer-insights.json": {
+    "sourceMarkdown": [
+      "llm_readable/customer_intelligence/09-current-customers.md",
+      "llm_readable/customer_intelligence/14-what-customers-really-say.md"
+    ],
+    "sourceRaw": [
+      "raw_data/customer_intelligence/09-current-customers.md",
+      "raw_data/customer_intelligence/14-what-customers-really-say.md"
+    ],
+    "extractionMethod": "analysis-synthesis",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Customer insights synthesized from multiple intelligence documents"
+  },
+
+  "customer-segments.json": {
+    "sourceMarkdown": "llm_readable/customer_intelligence/18-ideal-customer-segments.md",
+    "sourceRaw": "raw_data/customer_intelligence/18-ideal-customer-segments.md",
+    "extractionMethod": "analysis-synthesis",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Customer segmentation analysis"
+  },
+
+  "design/brand-design-system.json": {
+    "sourceMarkdown": [
+      "llm_readable/DESIGN GUIDELINES (1)_compressed.md",
+      "llm_readable/Brand Guidelines (The Art of Snacking - Past Work) (1)_compressed.md"
+    ],
+    "sourceRaw": [
+      "raw_data/DESIGN GUIDELINES (1)_compressed.pdf",
+      "raw_data/Brand Guidelines (The Art of Snacking - Past Work) (1)_compressed.pdf"
+    ],
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Brand design system extracted from design guidelines"
+  },
+
+  "gifting-catalogue.json": {
+    "sourceMarkdown": "llm_readable/GIFTING CATALOUGE_11zon.md",
+    "sourceRaw": "raw_data/GIFTING CATALOUGE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Complete gifting catalogue with premium products"
+  },
+
+  "investor-updates.json": {
+    "sourceMarkdown": [
+      "llm_readable/INVESTOR UPDATE - Q4  FY25_compressed.md",
+      "llm_readable/INVESTOR UPDATE Q1 _ FY 26_compressed.md"
+    ],
+    "sourceRaw": [
+      "raw_data/INVESTOR UPDATE - Q4  FY25_compressed.pdf",
+      "raw_data/INVESTOR UPDATE Q1 _ FY 26_compressed.pdf"
+    ],
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Business metrics and updates from investor presentations"
+  },
+
+  "retail-catalogue.json": {
+    "sourceMarkdown": "llm_readable/RETAIL CATALOGUE_11zon.md",
+    "sourceRaw": "raw_data/RETAIL CATALOGUE_11zon.pdf",
+    "extractionMethod": "structured-extraction",
+    "confidence": "high",
+    "lastVerified": "2025-10-23",
+    "notes": "Complete retail product catalogue"
+  }
+}

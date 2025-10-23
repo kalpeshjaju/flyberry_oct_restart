@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/gifting-catalogue.json",
+  "title": "Flyberry Gifting Catalogue Schema",
+  "description": "Schema for Flyberry Gourmet gifting catalogue data including corporate gift boxes and Fortune 500 clients",
+  "type": "object",
+  "required": [
+    "catalogInfo",
+    "fortune500Clients",
+    "distributionChannels",
+    "addOns",
+    "giftBoxes",
+    "customization",
+    "priceTiers",
+    "contact"
+  ],
+  "properties": {
+    "catalogInfo": {
+      "type": "object",
+      "required": ["title", "source", "type", "pages", "extractionDate", "priceRange", "totalProducts"],
+      "properties": {
+        "title": {"type": "string"},
+        "source": {"type": "string"},
+        "type": {"type": "string"},
+        "pages": {"type": "integer"},
+        "extractionDate": {"type": "string", "format": "date"},
+        "priceRange": {
+          "type": "object",
+          "required": ["min", "max", "currency"],
+          "properties": {
+            "min": {"type": "integer"},
+            "max": {"type": "integer"},
+            "currency": {"type": "string", "enum": ["INR", "USD", "EUR"]}
+          }
+        },
+        "totalProducts": {"type": "integer"},
+        "customizable": {"type": "boolean"}
+      }
+    },
+    "fortune500Clients": {
+      "type": "object",
+      "properties": {
+        "technology": {"type": "array", "items": {"$ref": "#/definitions/client"}},
+        "financialServices": {"type": "array", "items": {"$ref": "#/definitions/client"}},
+        "consulting": {"type": "array", "items": {"$ref": "#/definitions/client"}},
+        "manufacturing": {"type": "array", "items": {"$ref": "#/definitions/client"}},
+        "pharmaceuticals": {"type": "array", "items": {"$ref": "#/definitions/client"}},
+        "hospitality": {"type": "array", "items": {"$ref": "#/definitions/client"}}
+      }
+    },
+    "distributionChannels": {
+      "type": "object",
+      "properties": {
+        "ecommerce": {"type": "array", "items": {"type": "string"}},
+        "offlineStores": {"type": "array", "items": {"type": "string"}},
+        "exclusiveOutlets": {
+          "type": "object",
+          "properties": {
+            "count": {"type": "integer"},
+            "locations": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "alternateChannels": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "addOns": {
+      "type": "object",
+      "properties": {
+        "stuffedDates": {"$ref": "#/definitions/addOn"},
+        "dateBites": {"$ref": "#/definitions/addOn"}
+      }
+    },
+    "giftBoxes": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/giftBox"}
+    },
+    "customization": {
+      "type": "object",
+      "required": ["nutFlavors", "options"],
+      "properties": {
+        "nutFlavors": {"type": "array", "items": {"type": "string"}},
+        "options": {
+          "type": "object",
+          "properties": {
+            "contents": {"type": "boolean"},
+            "pricing": {"type": "boolean"},
+            "bulkOrders": {"type": "boolean"},
+            "flavors": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "priceTiers": {
+      "type": "object",
+      "properties": {
+        "premiumEntry": {"$ref": "#/definitions/priceTier"},
+        "midPremium": {"$ref": "#/definitions/priceTier"},
+        "premium": {"$ref": "#/definitions/priceTier"},
+        "luxury": {"$ref": "#/definitions/priceTier"},
+        "ultraLuxury": {"$ref": "#/definitions/priceTier"}
+      }
+    },
+    "designThemes": {
+      "type": "object",
+      "properties": {
+        "cultural": {"type": "array", "items": {"type": "string"}},
+        "modern": {"type": "array", "items": {"type": "string"}},
+        "colors": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "contact": {
+      "type": "object",
+      "required": ["email", "phone"],
+      "properties": {
+        "email": {"type": "string", "format": "email"},
+        "phone": {"type": "string"},
+        "website": {"type": "string"}
+      }
+    },
+    "strategicInsights": {
+      "type": "object",
+      "properties": {
+        "fortune500Validation": {"type": "boolean"},
+        "totalCorporateClients": {"type": "integer"},
+        "customizationCapability": {"type": "string"},
+        "culturalSensitivity": {"type": "string"},
+        "premiumPackaging": {"type": "string"}
+      }
+    }
+  },
+  "definitions": {
+    "client": {
+      "type": "object",
+      "required": ["name", "category"],
+      "properties": {
+        "name": {"type": "string"},
+        "category": {"type": "string"}
+      }
+    },
+    "addOn": {
+      "type": "object",
+      "required": ["pricePerPiece", "weightPerPiece", "shelfLife", "varieties"],
+      "properties": {
+        "pricePerPiece": {"type": "integer"},
+        "weightPerPiece": {"type": "string"},
+        "shelfLife": {"type": "string"},
+        "varieties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "ingredients"],
+            "properties": {
+              "name": {"type": "string"},
+              "ingredients": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        }
+      }
+    },
+    "giftBox": {
+      "type": "object",
+      "required": ["productId", "name", "mrp", "contents", "netWeight", "design", "tier"],
+      "properties": {
+        "productId": {"type": "string"},
+        "name": {"type": "string"},
+        "mrp": {"type": "integer"},
+        "contents": {
+          "oneOf": [
+            {"type": "array", "items": {"type": "string"}},
+            {"type": "object"}
+          ]
+        },
+        "portionSize": {"type": "string"},
+        "netWeight": {"type": "string"},
+        "design": {"type": "string"},
+        "tier": {"type": "string", "enum": ["Premium Entry", "Mid-Premium", "Premium", "Luxury", "Ultra-Luxury"]},
+        "customizable": {"type": "boolean"},
+        "includes": {"type": "array", "items": {"type": "string"}},
+        "message": {"type": "string"},
+        "theme": {"type": "string"},
+        "bulkOrderOnly": {"type": "boolean"},
+        "colorOptions": {"type": "array", "items": {"type": "string"}},
+        "tagline": {"type": "string"},
+        "features": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "priceTier": {
+      "type": "object",
+      "required": ["range", "products"],
+      "properties": {
+        "range": {"type": "string"},
+        "products": {"type": "integer"},
+        "examples": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

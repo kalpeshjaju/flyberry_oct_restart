@@ -1,0 +1,582 @@
+{
+  "catalogInfo": {
+    "title": "Flyberry Gourmet Gifting Catalogue 2025",
+    "source": "GIFTING CATALOUGE_11zon.pdf",
+    "type": "Corporate Gifting & Premium Products Catalog",
+    "pages": 24,
+    "extractionDate": "2025-10-23",
+    "priceRange": {
+      "min": 399,
+      "max": 7249,
+      "currency": "INR"
+    },
+    "totalProducts": 22,
+    "customizable": true
+  },
+  "fortune500Clients": {
+    "technology": [
+      {
+        "name": "Google",
+        "category": "Technology"
+      },
+      {
+        "name": "Facebook",
+        "category": "Technology"
+      },
+      {
+        "name": "Accenture",
+        "category": "Technology/Consulting"
+      }
+    ],
+    "financialServices": [
+      {
+        "name": "Goldman Sachs",
+        "category": "Investment Banking"
+      },
+      {
+        "name": "Citibank",
+        "category": "Banking"
+      },
+      {
+        "name": "Societe Generale",
+        "category": "Banking"
+      },
+      {
+        "name": "Motilal Oswal",
+        "category": "Financial Services"
+      }
+    ],
+    "consulting": [
+      {
+        "name": "Deloitte",
+        "category": "Consulting"
+      }
+    ],
+    "manufacturing": [
+      {
+        "name": "Tata Steel",
+        "category": "Steel/Manufacturing"
+      },
+      {
+        "name": "Ultratech Cement",
+        "category": "Cement/Construction"
+      },
+      {
+        "name": "Coca-Cola",
+        "category": "Beverages"
+      }
+    ],
+    "pharmaceuticals": [
+      {
+        "name": "Alkem",
+        "category": "Pharmaceuticals"
+      },
+      {
+        "name": "Macleods",
+        "category": "Pharmaceuticals"
+      }
+    ],
+    "hospitality": [
+      {
+        "name": "Marriott",
+        "category": "Hospitality"
+      },
+      {
+        "name": "Taj Hotels",
+        "category": "Hospitality"
+      }
+    ]
+  },
+  "distributionChannels": {
+    "ecommerce": ["BigBasket", "Amazon.in", "Flipkart"],
+    "offlineStores": [
+      "Spencer's",
+      "Ratnadeep",
+      "Pure O Natural",
+      "Namdhari's Fresh",
+      "Almond House",
+      "Q Mart"
+    ],
+    "exclusiveOutlets": {
+      "count": 5,
+      "locations": ["Hyderabad", "Vijayawada"]
+    },
+    "alternateChannels": ["Afar (Hyderabad Airport)", "Churrolto"]
+  },
+  "addOns": {
+    "stuffedDates": {
+      "pricePerPiece": 80,
+      "weightPerPiece": "35g",
+      "shelfLife": "30 days",
+      "varieties": [
+        {
+          "name": "The Blueberry Cheese Date",
+          "ingredients": ["Medjoul Date", "Blueberries", "Cream Cheese"]
+        },
+        {
+          "name": "The Orange Surprise Date",
+          "ingredients": ["Medjoul Date", "Orange", "Pistachio"]
+        },
+        {
+          "name": "The Chocodate",
+          "ingredients": ["Medjoul Date", "Chocolate", "Almonds", "Ginger"]
+        },
+        {
+          "name": "The Paan Perfect Date",
+          "ingredients": ["Medjoul Date", "Paan mix", "Coconut", "Gulkand", "Seeds"]
+        },
+        {
+          "name": "The PB & Yay Date",
+          "ingredients": ["Medjoul Date", "Peanut Butter", "Millet Crisps", "Choco chips"]
+        }
+      ]
+    },
+    "dateBites": {
+      "pricePerPiece": 45,
+      "weightPerPiece": "30g",
+      "shelfLife": "30 days",
+      "varieties": [
+        {
+          "name": "Mocamaze",
+          "ingredients": ["Pecan Nuts", "Dates", "Almonds"]
+        },
+        {
+          "name": "Matcha Madness",
+          "ingredients": ["Matcha", "Cashews", "Medjoul Dates", "Coconut", "Pistachio"]
+        },
+        {
+          "name": "Choconut",
+          "ingredients": ["Medjoul Dates", "Almonds", "Cacao"]
+        },
+        {
+          "name": "Newberry",
+          "ingredients": ["Blueberry", "Medjoul Dates", "Sesame Seeds", "Cashews"]
+        },
+        {
+          "name": "Cocogo",
+          "ingredients": ["Medjoul Dates", "Cashews", "Hemp Hearts"]
+        }
+      ]
+    }
+  },
+  "giftBoxes": [
+    {
+      "productId": "GB-001",
+      "name": "Lattice Box",
+      "mrp": 399,
+      "contents": ["Almonds", "Cashews", "Raisins", "Dates"],
+      "portionSize": "40g each",
+      "netWeight": "160g",
+      "design": "White box with golden/pink geometric lattice pattern",
+      "tier": "Premium Entry",
+      "customizable": true
+    },
+    {
+      "productId": "GB-002",
+      "name": "Ginkgo Box",
+      "mrp": 549,
+      "contents": ["Almonds", "Cashews", "Raisins", "Pistachio"],
+      "portionSize": "50g each",
+      "netWeight": "200g",
+      "design": "Pastel ginkgo leaf pattern (pink, yellow, blue tones)",
+      "tier": "Premium Entry",
+      "customizable": true
+    },
+    {
+      "productId": "GB-003",
+      "name": "Lotus Case",
+      "mrp": 599,
+      "contents": ["Almonds", "Cashews", "Raisins", "Chocolate Biscotti Balls"],
+      "portionSize": "50g each",
+      "netWeight": "200g",
+      "design": "Pink lotus flower illustration on lid",
+      "tier": "Premium Entry",
+      "customizable": true
+    },
+    {
+      "productId": "GB-004",
+      "name": "Nautical Box",
+      "mrp": 549,
+      "contents": ["Almonds", "Peri Peri Cashews", "Dates", "Cranberries Seed Mix"],
+      "portionSize": "60g each",
+      "netWeight": "240g",
+      "design": "Blue and golden striped geometric pattern",
+      "tier": "Premium Entry",
+      "customizable": true
+    },
+    {
+      "productId": "GB-005",
+      "name": "Fleur Box",
+      "mrp": 649,
+      "contents": ["Almonds", "Cashews", "Walnuts", "Pistachio"],
+      "portionSize": "60g each",
+      "netWeight": "240g",
+      "design": "Pink outer box with yellow marigold flowers and white daisies",
+      "tier": "Premium Entry",
+      "customizable": true
+    },
+    {
+      "productId": "GB-006",
+      "name": "Small Cadeau Case",
+      "mrp": 799,
+      "contents": ["Chocolate Almonds", "Peri Peri Cashews", "Masala Cranberries", "Roasted Seed Mix"],
+      "portionSize": "75g each",
+      "netWeight": "240g",
+      "design": "Blue outer sleeve with magenta geometric art deco pattern",
+      "tier": "Mid-Premium",
+      "customizable": true
+    },
+    {
+      "productId": "GB-007",
+      "name": "Flip Top Box",
+      "mrp": 1049,
+      "contents": ["Roasted Almonds", "Spiced Seed Mix", "Chatpata Fruit Mix", "Chocolate Biscotti Balls"],
+      "portionSize": "100g each",
+      "netWeight": "400g",
+      "design": "Purple and orange Indian festival theme with Diwali illustration",
+      "includes": ["Flip book"],
+      "message": "As Diwali lights up all doors, may it also light up the path to success, good health, prosperity and loads of happiness for you.",
+      "tier": "Mid-Premium",
+      "customizable": true,
+      "bulkOrderOnly": true
+    },
+    {
+      "productId": "GB-008",
+      "name": "Tower Box",
+      "mrp": 1199,
+      "contents": ["Almonds", "Cashews", "Raisins", "Pistachio"],
+      "portionSize": "110g each",
+      "netWeight": "440g",
+      "design": "Blue and golden geometric pattern (art deco style), stackable",
+      "tier": "Mid-Premium",
+      "customizable": true
+    },
+    {
+      "productId": "GB-009",
+      "name": "Memory Box",
+      "mrp": 1299,
+      "contents": ["Roasted Almonds", "Cranberries Seed Mix", "Apricots", "Chocolate Biscotti Balls"],
+      "portionSize": "120g each",
+      "netWeight": "480g",
+      "design": "Yellow box with colorful Indian folk art mandala pattern",
+      "includes": ["Flip book", "Diya 1pc"],
+      "tier": "Premium",
+      "customizable": true,
+      "bulkOrderOnly": true
+    },
+    {
+      "productId": "GB-010",
+      "name": "Hope Box",
+      "mrp": 1699,
+      "contents": ["Roasted Salted Almonds", "Dates", "Spiced Seed Mix", "Dark Chocolate"],
+      "portionSize": "100g each",
+      "netWeight": "500g",
+      "design": "Cylindrical box with colorful pandemic-themed illustration",
+      "theme": "Post-COVID hope and resilience",
+      "tier": "Premium",
+      "customizable": true,
+      "bulkOrderOnly": true
+    },
+    {
+      "productId": "GB-011",
+      "name": "Large Cadeau Case - Standard",
+      "mrp": 1559,
+      "contents": {
+        "Nut Mix": "100g each",
+        "Berry Mix": "100g",
+        "Seed Mix": "100g",
+        "Veggie Chips Mix": "25g",
+        "Date Fudge": "100g"
+      },
+      "netWeight": "425g",
+      "design": "Sleek blue/white outer box with magenta geometric art deco pattern",
+      "tagline": "WHO SAID HEALTHY COULDN'T BE TASTY?",
+      "features": ["100% Natural", "No Added Sugar", "No Preservatives"],
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-012",
+      "name": "Large Cadeau Case - Large",
+      "mrp": 2499,
+      "contents": {
+        "Nut Mix": "150g each",
+        "Berry Mix": "150g",
+        "Seed Mix": "150g",
+        "Veggie Chips Mix": "50g",
+        "Date Fudge": "200g"
+      },
+      "netWeight": "700g",
+      "design": "Sleek blue/white outer box with magenta geometric art deco pattern",
+      "tagline": "WHO SAID HEALTHY COULDN'T BE TASTY?",
+      "features": ["100% Natural", "No Added Sugar", "No Preservatives"],
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-013",
+      "name": "Netted Basket",
+      "mrp": 1949,
+      "contents": ["Dates", "Almonds", "Cashews", "Raisins", "Flyberry Okra Chips", "Corn Chips", "Date Fudge"],
+      "includes": ["2 Diyas"],
+      "netWeight": "600g",
+      "design": "Wicker basket with golden organza wrap and yellow ribbon",
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-014",
+      "name": "Assorted Dry Fruit Box",
+      "mrp": 599,
+      "contents": {
+        "Deri Dates": "50g",
+        "Apricots": "50g",
+        "Nut Mix": "50g",
+        "Raisins": "50g",
+        "Fruit Mix": "50g"
+      },
+      "netWeight": "250g",
+      "design": "Bright orange box with colorful fruit illustrations",
+      "tier": "Premium Entry",
+      "customizable": true
+    },
+    {
+      "productId": "GB-015",
+      "name": "Re-usable Jute Bag",
+      "mrp": 1369,
+      "contents": {
+        "Deri Dates": "140g",
+        "Nut Mix": "120g",
+        "Apricots": "120g",
+        "Raisins": "120g"
+      },
+      "netWeight": "500g",
+      "design": "Decorative jute bag with traditional Indian folk art pattern",
+      "features": ["Eco-friendly", "Reusable packaging"],
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-016",
+      "name": "Glass Hexagon Tray",
+      "mrp": 3899,
+      "contents": {
+        "Majestic Medjoul Dates": "400g",
+        "Premium Imported Cashew": "150g",
+        "Premium Imported Walnuts": "75g",
+        "Premium California Almonds": "100g",
+        "Premium Iranian Salted Pistachio": "150g"
+      },
+      "includes": ["Ceramic Pot", "Tea Light Candle"],
+      "netWeight": "875g",
+      "design": "Hexagonal glass tray with golden metal frame",
+      "tier": "Ultra-Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-017",
+      "name": "Rectangular Glass Box",
+      "mrp": 6299,
+      "contents": {
+        "Majestic Medjoul Dates": "400g",
+        "Premium Imported Cashew": "100g",
+        "Premium California Almonds": "100g",
+        "Choco Date & Hazelnut Spread": "200g",
+        "Choco Date & Hazelnut Fudge": "200g",
+        "Dried Sugar Free Cranberries": "100g",
+        "Dried Sugar Free Lingonberries": "100g"
+      },
+      "includes": ["Ceramic Pot", "Tea Light Candle"],
+      "netWeight": "1200g",
+      "design": "Rectangular glass box with golden metal frame, organza wrap",
+      "tier": "Ultra-Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-018",
+      "name": "Gold Mesh Basket",
+      "mrp": 1499,
+      "contents": {
+        "Premium Imported Cashew": "100g",
+        "Premium California Almonds": "100g",
+        "Vacuum Fried Sweet Beet Chips": "25g",
+        "Premium Zahidi/Deri Dates": "200g"
+      },
+      "includes": ["Diya 1pc"],
+      "netWeight": "425g",
+      "design": "Gold wire mesh basket with turquoise organza wrap",
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-019",
+      "name": "Silver Elephant Holder",
+      "mrp": 2999,
+      "contents": {
+        "Premium Imported Cashew": "50g",
+        "Premium California Almonds": "50g",
+        "Premium Imported Walnuts": "50g",
+        "Premium Salted Pistachio": "50g"
+      },
+      "includes": ["Ceramic Pot with tea light candle 1pc"],
+      "netWeight": "200g",
+      "design": "Silver elephant decorative holder with pink organza wrap",
+      "theme": "Luxury home décor piece",
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-020",
+      "name": "Gold 2 Tier Basket",
+      "mrp": 7249,
+      "contents": {
+        "Majestic Medjoul Dates": "400g",
+        "Premium Imported Cashew": "100g",
+        "Premium California Almonds": "100g",
+        "Dried Sugar Free Lingonberries": "100g",
+        "Choco Date and Hazelnut Fudge": "200g",
+        "Medjoul Date Pickle": "200g",
+        "Vacuum Fried Sweet Beet Chips": "25g",
+        "Vacuum Fried Spiced Okra Chips": "25g",
+        "Vacuum Fried Spiced Sweet Corn Chips": "30g",
+        "Toasted Coconut Chips": "40g",
+        "Vacuum Fried Spiced Taro Chips": "30g"
+      },
+      "includes": ["Metal Diya Holder", "Tea Light Candle"],
+      "netWeight": "1305g",
+      "design": "2-tier golden wire basket with premium presentation",
+      "theme": "Ultra-luxury corporate gifting",
+      "tier": "Ultra-Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-021",
+      "name": "Pastel Wooden Tray",
+      "mrp": 2749,
+      "contents": {
+        "Cashew": "100g",
+        "Almonds": "100g",
+        "Choco Date and Hazelnut Fudge": "100g",
+        "Golden Raisins": "150g",
+        "Zahidi Dates": "150g",
+        "Sweet Beet Chips": "25g",
+        "Spiced Okra Chips": "25g"
+      },
+      "includes": ["Ceramic Pot with Tea Light Candle 1pc"],
+      "netWeight": "755g",
+      "design": "Pastel wooden tray with organza wrap",
+      "colorOptions": ["Pink", "Yellow", "Blue"],
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-022A",
+      "name": "Gold Nest Tray - Option 1",
+      "mrp": 2599,
+      "contents": {
+        "Choco Date & Hazelnut Fudge": "200g",
+        "Premium Imported Cashew": "100g",
+        "Premium California Almonds": "100g",
+        "Dried Sugar Free Cranberries": "100g",
+        "Vacuum Fried Spiced Taro Chips": "30g",
+        "Vacuum Fried Spiced Okra Chips": "25g",
+        "Premium Sunflower Seeds": "150g"
+      },
+      "netWeight": "715g",
+      "design": "Golden wire nest-style tray with organza wrap",
+      "tier": "Luxury",
+      "customizable": true
+    },
+    {
+      "productId": "GB-022B",
+      "name": "Gold Nest Tray - Option 2",
+      "mrp": 1559,
+      "contents": {
+        "Flyberry Zahidi/Halawi Dates": "200g",
+        "Premium California Almonds": "100g",
+        "Vacuum Fried Spiced Okra Chips": "25g",
+        "Vacuum Fried Sweet Beet Chips": "25g",
+        "Flyberry Pumpkin Seeds": "150g"
+      },
+      "includes": ["Diya - 1 Pc"],
+      "netWeight": "500g",
+      "design": "Golden wire nest-style tray with organza wrap",
+      "tier": "Luxury",
+      "customizable": true
+    }
+  ],
+  "customization": {
+    "nutFlavors": [
+      "Chocolate",
+      "Coffee Mocha",
+      "Honey Cinnamon",
+      "Lime & Lemon",
+      "Blueberry",
+      "Rose Petal",
+      "Mint",
+      "Strawberry",
+      "Mango",
+      "Peri Peri",
+      "Cajun",
+      "Roasted Salted",
+      "Barbeque",
+      "Paan",
+      "Cheese"
+    ],
+    "options": {
+      "contents": true,
+      "pricing": true,
+      "bulkOrders": true,
+      "flavors": true
+    }
+  },
+  "priceTiers": {
+    "premiumEntry": {
+      "range": "₹399 - ₹649",
+      "products": 5,
+      "examples": ["Lattice", "Ginkgo", "Lotus", "Nautical", "Fleur"]
+    },
+    "midPremium": {
+      "range": "₹799 - ₹1,199",
+      "products": 3,
+      "examples": ["Small Cadeau", "Flip Top", "Tower"]
+    },
+    "premium": {
+      "range": "₹1,299 - ₹1,699",
+      "products": 2,
+      "examples": ["Memory", "Hope"]
+    },
+    "luxury": {
+      "range": "₹1,949 - ₹2,999",
+      "products": 5,
+      "examples": ["Netted Basket", "Silver Elephant", "Pastel Tray", "Gold Nest"]
+    },
+    "ultraLuxury": {
+      "range": "₹3,899 - ₹7,249",
+      "products": 3,
+      "examples": ["Glass Hexagon", "Rectangular Glass", "Gold 2-Tier"]
+    }
+  },
+  "designThemes": {
+    "cultural": ["Diwali", "Indian Folk Art", "Rangoli", "Marigolds", "Mandala", "Diyas"],
+    "modern": ["Art Deco Geometric", "Botanical", "Minimalist Elegance"],
+    "colors": ["Magenta", "Golden", "Orange", "Purple", "Pastel Pink", "Turquoise"]
+  },
+  "contact": {
+    "email": "hello@flyberry.in",
+    "phone": "+91-9700319999",
+    "website": "flyberry.in"
+  },
+  "strategicInsights": {
+    "fortune500Validation": true,
+    "totalCorporateClients": 14,
+    "customizationCapability": "Full customization of contents, pricing, and bulk orders",
+    "culturalSensitivity": "Diwali, Indian festivals, inclusive themes",
+    "premiumPackaging": "Glass trays, metal baskets, decorative holders",
+    "pricePerGramRange": {
+      "entry": "₹2.49/g",
+      "luxury": "₹5.55/g",
+      "premiumMultiple": "2x+"
+    }
+  }
+}

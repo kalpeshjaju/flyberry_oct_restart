@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/retail-catalogue.json",
+  "title": "Flyberry Retail Catalogue Schema",
+  "description": "Schema for Flyberry Gourmet retail catalogue with products, pricing, and strategic insights",
+  "type": "object",
+  "required": [
+    "catalogInfo",
+    "categories",
+    "pricingStrategy",
+    "originCountries",
+    "packagingAnalysis",
+    "strategicInsights",
+    "heroProducts"
+  ],
+  "properties": {
+    "catalogInfo": {
+      "type": "object",
+      "required": ["title", "source", "pages", "extractionDate", "totalCategories", "totalSKUs", "priceRange"],
+      "properties": {
+        "title": {"type": "string"},
+        "source": {"type": "string"},
+        "pages": {"type": "integer"},
+        "extractionDate": {"type": "string", "format": "date"},
+        "totalCategories": {"type": "integer"},
+        "totalSKUs": {"type": "integer"},
+        "priceRange": {
+          "type": "object",
+          "required": ["min", "max", "currency"],
+          "properties": {
+            "min": {"type": "integer"},
+            "max": {"type": "integer"},
+            "currency": {"type": "string", "enum": ["INR", "USD", "EUR"]}
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/category"}
+    },
+    "pricingStrategy": {
+      "type": "object",
+      "required": ["entryPoints", "midTier", "premium", "ultraPremium"],
+      "properties": {
+        "entryPoints": {"$ref": "#/definitions/priceSegment"},
+        "midTier": {"$ref": "#/definitions/priceSegment"},
+        "premium": {"$ref": "#/definitions/priceSegment"},
+        "ultraPremium": {"$ref": "#/definitions/priceSegment"},
+        "volumeDiscountPattern": {"type": "string"},
+        "premiumPricingSignal": {"type": "string"}
+      }
+    },
+    "originCountries": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "packagingAnalysis": {
+      "type": "object",
+      "properties": {
+        "materials": {"type": "array", "items": {"type": "string"}},
+        "colors": {"type": "array", "items": {"type": "string"}},
+        "typography": {"type": "string"},
+        "messaging": {"type": "string"},
+        "taglines": {"type": "array", "items": {"type": "string"}},
+        "luxuryScore": {"type": "string"},
+        "whatWorks": {"type": "array", "items": {"type": "string"}},
+        "whatDoesntWork": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "strategicInsights": {
+      "type": "object",
+      "properties": {
+        "strengths": {"type": "array", "items": {"type": "string"}},
+        "weaknesses": {"type": "array", "items": {"type": "string"}},
+        "hiddenAdvantages": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "heroProducts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "reason", "price"],
+        "properties": {
+          "name": {"type": "string"},
+          "reason": {"type": "string"},
+          "price": {"type": "string"}
+        }
+      }
+    }
+  },
+  "definitions": {
+    "category": {
+      "type": "object",
+      "required": ["categoryId", "name", "products"],
+      "properties": {
+        "categoryId": {"type": "string"},
+        "name": {"type": "string"},
+        "totalVarieties": {"type": "integer"},
+        "totalSKUs": {"type": "integer"},
+        "priceRange": {"type": "string"},
+        "entryPricePoint": {"type": "boolean"},
+        "products": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/productSummary"}
+        }
+      }
+    },
+    "productSummary": {
+      "type": "object",
+      "required": ["productId", "name", "packaging", "skus"],
+      "properties": {
+        "productId": {"type": "string"},
+        "name": {"type": "string"},
+        "description": {"type": "string"},
+        "packaging": {"type": "string"},
+        "origin": {"type": "string"},
+        "note": {"type": "string"},
+        "flagship": {"type": "boolean"},
+        "heroProduct": {"type": "boolean"},
+        "ultraPremium": {"type": "boolean"},
+        "highestPricePerGram": {"type": "boolean"},
+        "healthCallout": {"type": "string"},
+        "premiumPositioning": {"type": ["string", "boolean"]},
+        "useCase": {"type": "string"},
+        "successMetric": {"type": "string"},
+        "variants": {"type": "array", "items": {"type": "string"}},
+        "skus": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["size", "mrp"],
+            "properties": {
+              "size": {"type": "string"},
+              "mrp": {"type": "integer"},
+              "pricePerUnit": {"type": "number"},
+              "pricePerGram": {"type": "number"}
+            }
+          }
+        }
+      }
+    },
+    "priceSegment": {
+      "type": "object",
+      "required": ["range", "products"],
+      "properties": {
+        "range": {"type": "string"},
+        "products": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}

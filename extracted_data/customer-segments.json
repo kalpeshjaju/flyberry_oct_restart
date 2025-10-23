@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "totalSegments": 5,
+    "dataSource": "261+ reviews, social media analysis, corporate gifting data",
+    "lastUpdated": "2025-10-23",
+    "framework": "Behavioral + Psychographic Segmentation"
+  },
+  "segments": [
+    {
+      "id": "segment-001",
+      "name": "Premium Health Seekers",
+      "revenueContribution": "35%",
+      "size": "Largest segment",
+      "demographics": {
+        "ageRange": "28-45 years",
+        "gender": "65% Female, 35% Male",
+        "income": "₹15-40 Lakhs/year",
+        "location": "Tier 1 cities (Mumbai, Delhi, Bangalore, Pune, Hyderabad)",
+        "occupation": "Mid-senior professionals (consultants, tech, finance, marketing)",
+        "education": "Graduate+ (MBA, engineering, design)"
+      },
+      "psychographics": {
+        "values": ["Health", "Authenticity", "Transparency", "Sustainability"],
+        "lifestyle": "Yoga/fitness 3-5x/week, organic food enthusiasts, wellness-focused",
+        "mindset": "I invest in quality. My body is my priority.",
+        "painPoints": [
+          "Don't trust mass-market 'healthy' brands (hidden sugars, additives)",
+          "Hard to find truly premium, clean-label products",
+          "Quality inconsistency in mid-market brands"
+        ],
+        "aspirations": "I want the best, not the cheapest"
+      },
+      "purchaseBehavior": {
+        "averageOrderValue": "₹450-600",
+        "purchaseFrequency": "Every 2-3 weeks",
+        "discoveryChannels": ["Instagram", "Word-of-mouth", "Retail stores"],
+        "decisionTime": "Quick (15-30 mins research max)",
+        "loyalty": "HIGH (if quality consistent)"
+      },
+      "jobsToBeDone": [
+        "Help me fuel my active lifestyle with natural energy",
+        "Help me snack guilt-free without compromising health",
+        "Help me trust what I'm putting in my body",
+        "Help me feel good about my food choices"
+      ],
+      "purchaseTriggers": [
+        "Fitness goal setting (New Year, January)",
+        "Pre/post-workout fuel needs",
+        "Instagram discovery (influencer posts)",
+        "Friends' recommendations",
+        "In-store sampling"
+      ],
+      "messagingThatWorks": [
+        "100% Natural. Zero Additives. Lab-Tested.",
+        "Trusted by Fortune 500 companies for quality",
+        "7 exclusive global origins. Delivered fresh.",
+        "Your health deserves the best"
+      ],
+      "contentPreferences": [
+        "Origin stories (Jordan dates process)",
+        "Behind-the-scenes (cold chain operations)",
+        "Nutritionist endorsements",
+        "Recipe videos (dates in smoothies)",
+        "Customer testimonials (real people)"
+      ],
+      "influencersTrusted": [
+        "Nutritionists (Rujuta Diwekar, Luke Coutinho)",
+        "Fitness coaches (Yasmin Karachiwala)",
+        "Clean eating advocates (Pooja Makhija)"
+      ],
+      "channelMix": {
+        "quickCommerce": "40% (Blinkit, Zepto, Instamart)",
+        "d2cWebsite": "30% (Broader selection, bulk orders)",
+        "retailStores": "20% (Nature's Basket, Foodhall)",
+        "organicDelivery": "10% (Daily Greens, Organic Mandya)"
+      },
+      "lifetimeValue": "₹12,000-18,000 annually"
+    },
+    {
+      "id": "segment-002",
+      "name": "Corporate Gifters",
+      "revenueContribution": "30%",
+      "size": "High-value segment",
+      "demographics": {
+        "ageRange": "32-55 years",
+        "gender": "55% Male, 45% Female",
+        "role": "HR Heads, Corporate Gifting Managers, Admin Managers, Founders/CEOs",
+        "companySize": "100-10,000+ employees",
+        "industry": "Tech, consulting, finance, pharma, FMCG",
+        "location": "Pan-India (headquarters in metros)"
+      },
+      "psychographics": {
+        "values": ["Brand reputation", "Reliability", "Premium perception", "Employee satisfaction"],
+        "mindset": "Gifting reflects our brand. Quality matters.",
+        "painPoints": [
+          "Finding reliable, premium gifting partner (not mass-market)",
+          "Ensuring consistent quality for large orders",
+          "Timely delivery across multiple locations",
+          "Budget approvals and ROI justification"
+        ],
+        "aspirations": "Our gifts should impress employees and clients"
+      },
+      "purchaseBehavior": {
+        "averageOrderValue": "₹50,000-5,00,000+ (bulk orders)",
+        "purchaseFrequency": "Quarterly (Diwali, New Year, milestone celebrations)",
+        "discoveryChannels": ["LinkedIn", "Referrals", "B2B sales outreach"],
+        "decisionTime": "2-4 weeks (committee approval, budgets)",
+        "loyalty": "VERY HIGH (if execution flawless)"
+      },
+      "jobsToBeDone": [
+        "Help me give impressive corporate gifts that reflect our brand",
+        "Help me execute large-scale gifting without logistics headaches",
+        "Help me show employees/clients we value them",
+        "Help me justify premium gifting budget to leadership"
+      ],
+      "purchaseTriggers": [
+        "Festival seasons (Diwali, Eid)",
+        "Corporate gifting cycles (Q4 typically)",
+        "Company milestones (anniversaries, funding rounds)",
+        "Employee appreciation months",
+        "Client onboarding/retention programs"
+      ],
+      "messagingThatWorks": [
+        "Trusted by 50+ Fortune 500 companies",
+        "Scalable gifting from 100 to 10,000+ employees",
+        "Bespoke packaging with your brand",
+        "Flawless execution, pan-India delivery"
+      ],
+      "lifetimeValue": "₹1,80,000+ annually (per corporate client)"
+    },
+    {
+      "id": "segment-003",
+      "name": "Affluent Parents",
+      "revenueContribution": "20%",
+      "size": "Growing segment",
+      "demographics": {
+        "ageRange": "32-50 years",
+        "gender": "70% Female, 30% Male",
+        "income": "₹25-60 Lakhs/year",
+        "location": "Tier 1 cities, premium neighborhoods",
+        "familySize": "2-3 kids",
+        "occupation": "Senior professionals, entrepreneurs"
+      },
+      "psychographics": {
+        "values": ["Family health", "Quality education", "Premium lifestyle", "No compromises"],
+        "mindset": "My kids deserve the best nutrition",
+        "painPoints": [
+          "Kids attracted to unhealthy snacks (Nutella, chips)",
+          "Hard to find healthy alternatives kids actually like",
+          "Guilt about giving processed foods",
+          "Time pressure (need convenient healthy options)"
+        ],
+        "aspirations": "Raise healthy kids without constant battles"
+      },
+      "purchaseBehavior": {
+        "averageOrderValue": "₹600-900",
+        "purchaseFrequency": "Weekly to bi-weekly",
+        "discoveryChannels": ["Mom groups (WhatsApp)", "Instagram", "School networks", "Pediatrician recommendations"],
+        "decisionTime": "Medium (1-2 days, consult spouse/kids)",
+        "loyalty": "VERY HIGH (if kids love it)"
+      },
+      "jobsToBeDone": [
+        "Help me give my kids healthy snacks they'll actually eat",
+        "Help me feel like a good parent without food battles",
+        "Help me replace junk food with natural alternatives",
+        "Help me serve impressive snacks to kids' friends"
+      ],
+      "purchaseTriggers": [
+        "Back-to-school season (July-August)",
+        "Birthday parties (need impressive snacks)",
+        "Kids' sports/activities (need healthy fuel)",
+        "Guilt after junk food indulgence",
+        "Pediatrician advice to improve diet"
+      ],
+      "messagingThatWorks": [
+        "What we give Fortune 500 companies, now for your family",
+        "Natural energy for active kids",
+        "No added sugars. Just real food.",
+        "Kids love it. Parents trust it."
+      ],
+      "lifetimeValue": "₹36,000-48,000 annually"
+    },
+    {
+      "id": "segment-004",
+      "name": "Global Indians",
+      "revenueContribution": "10%",
+      "size": "Niche high-value segment",
+      "demographics": {
+        "ageRange": "30-55 years",
+        "background": "NRIs, returnees from US/UK/Middle East",
+        "income": "₹40 Lakhs+ (or foreign income)",
+        "location": "Bangalore, Gurgaon, Mumbai (expat hubs)",
+        "education": "Postgraduate, international degrees"
+      },
+      "psychographics": {
+        "values": ["International quality standards", "No compromises", "Authenticity", "Terroir appreciation"],
+        "mindset": "I've tasted the best abroad. I expect that here.",
+        "painPoints": [
+          "Most Indian brands don't match international quality",
+          "Expensive to import dates/nuts from Dubai/US",
+          "Can't find Jordan Medjoul or California almonds easily",
+          "Miss the quality they had abroad"
+        ],
+        "aspirations": "Live the same lifestyle I had abroad"
+      },
+      "purchaseBehavior": {
+        "averageOrderValue": "₹800-1,500",
+        "purchaseFrequency": "Bi-weekly to monthly",
+        "discoveryChannels": ["Google search ('Jordan Medjoul India')", "Expat forums", "LinkedIn professional networks"],
+        "decisionTime": "Quick (they know what they want)",
+        "loyalty": "EXTREME (if quality matches expectations)"
+      },
+      "jobsToBeDone": [
+        "Help me find the same quality I had in Dubai/US",
+        "Help me avoid inferior 'imported' knock-offs",
+        "Help me verify authenticity of origins",
+        "Help me maintain my international lifestyle in India"
+      ],
+      "purchaseTriggers": [
+        "Return to India (stockpiling high-quality foods)",
+        "Comparison shopping for imported quality",
+        "Craving specific products from abroad",
+        "Recommendations from expat community"
+      ],
+      "messagingThatWorks": [
+        "Authentic Jordan Majestic Medjoul - same quality as Bateel",
+        "7-country direct sourcing. No middlemen.",
+        "Cold chain maintained Dubai-to-India standards",
+        "What you'd buy at Waitrose or Whole Foods, now in India"
+      ],
+      "lifetimeValue": "₹24,000-36,000 annually"
+    },
+    {
+      "id": "segment-005",
+      "name": "Luxury Conscious",
+      "revenueContribution": "5%",
+      "size": "Smallest but highest AOV",
+      "demographics": {
+        "ageRange": "35-60 years",
+        "income": "₹60 Lakhs+ (HNI)",
+        "location": "South Mumbai, South Delhi, Koramangala, Jubilee Hills",
+        "lifestyle": "Ultra-luxury lifestyle"
+      },
+      "psychographics": {
+        "values": ["Status signaling", "Exclusivity", "Brand prestige", "Aesthetic perfection"],
+        "mindset": "Price is not a concern. Uniqueness is.",
+        "painPoints": [
+          "Mass-market brands don't signal status",
+          "Hard to find truly exclusive food gifts",
+          "Want products that impress high-net-worth peers",
+          "Packaging must look luxurious"
+        ],
+        "aspirations": "Give gifts that make me look sophisticated"
+      },
+      "purchaseBehavior": {
+        "averageOrderValue": "₹2,000-7,500+ (ultra-premium products)",
+        "purchaseFrequency": "Occasional (festivals, special occasions)",
+        "discoveryChannels": ["Luxury retail (Foodhall, Nature's Basket)", "Referrals from peers", "Instagram luxury lifestyle"],
+        "decisionTime": "Immediate (price is not a barrier)",
+        "loyalty": "LOW (always seeking next exclusive thing)"
+      },
+      "jobsToBeDone": [
+        "Help me give impressive gifts to high-status peers",
+        "Help me signal sophistication through food choices",
+        "Help me discover rare, exclusive products",
+        "Help me host with premium-quality offerings"
+      ],
+      "purchaseTriggers": [
+        "Diwali/Eid luxury gifting",
+        "High-profile dinner parties",
+        "Client/investor appreciation",
+        "Desire to impress peers"
+      ],
+      "messagingThatWorks": [
+        "₹7,249 Hope Gift Box - Ultra-exclusive",
+        "Rare Afghan Pine Nuts - ₹3,499 (limited availability)",
+        "What Fortune 500 CEOs choose",
+        "Luxury packaging, museum-quality presentation"
+      ],
+      "lifetimeValue": "₹18,000-30,000 annually (intermittent high purchases)"
+    }
+  ]
+}

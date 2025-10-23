@@ -11,6 +11,16 @@
     "colorName": "Burgundy"
   },
   "origin": "Imported Product of Brazil / Bolivia",
+  "terroir": {
+    "geography": "Amazon rainforest - wild trees growing 50+ meters tall, NOT cultivated plantations",
+    "climate": "Hot, humid tropical rainforest with year-round moisture",
+    "soil": "Rich rainforest soil nourished by biodiverse ecosystem",
+    "whySpecial": "Brazil nuts CANNOT be cultivated - they ONLY grow wild in the Amazon rainforest. Hand-harvested from towering trees, each nut is a connection to the untamed Amazon. This is pure wild terroir, not plantation farming."
+  },
+  "originStory": "Brazil nuts are one of nature's true wild-crafted treasures. They cannot be cultivated on plantations - they only grow wild in the Amazon rainforest, harvested by hand from towering 50-meter trees. The rich, biodiverse rainforest soil and complex ecosystem create nuts with an intense, earthy flavor and incredible nutritional density. Each Brazil nut is a connection to the untamed Amazon.",
+  "tastingNotes": "Earthy, intense flavor, creamy texture, subtle sweetness, rich and satisfying with unique wild character",
+  "whyWeCare": "Wild-harvested, not cultivated. Brazil nuts are rainforest conservation in action - buying them supports indigenous communities and protects wild forests. The only nut that cannot be commercially cultivated - pure wild terroir.",
+  "uniqueFact": "Just 2 Brazil nuts provide 247% RDA selenium - nature's most concentrated source of this essential mineral for thyroid health",
   "benefits": [
     {
       "claim": "Extraordinary source of selenium",

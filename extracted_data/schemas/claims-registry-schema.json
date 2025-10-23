@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/claims-registry.json",
+  "title": "Flyberry Claims Registry Schema",
+  "description": "Schema for health and nutritional claims registry with product mappings and usage guidelines",
+  "type": "object",
+  "required": [
+    "claimsRegistry",
+    "categories",
+    "claims"
+  ],
+  "properties": {
+    "claimsRegistry": {
+      "type": "object",
+      "required": ["title", "description", "version", "lastUpdated", "totalClaims"],
+      "properties": {
+        "title": {"type": "string"},
+        "description": {"type": "string"},
+        "version": {"type": "string"},
+        "lastUpdated": {"type": "string", "format": "date"},
+        "totalClaims": {"type": "integer"},
+        "regulatoryNote": {"type": "string"}
+      }
+    },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "nutritional": {
+          "type": "object",
+          "required": ["description", "claimCount"],
+          "properties": {
+            "description": {"type": "string"},
+            "claimCount": {"type": "integer"}
+          }
+        },
+        "functional": {
+          "type": "object",
+          "required": ["description", "claimCount"],
+          "properties": {
+            "description": {"type": "string"},
+            "claimCount": {"type": "integer"}
+          }
+        },
+        "natural": {
+          "type": "object",
+          "required": ["description", "claimCount"],
+          "properties": {
+            "description": {"type": "string"},
+            "claimCount": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/claim"}
+    }
+  },
+  "definitions": {
+    "claim": {
+      "type": "object",
+      "required": ["claimId", "claim", "category", "products"],
+      "properties": {
+        "claimId": {
+          "type": "string",
+          "pattern": "^CLAIM-[0-9]{3}$"
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 200
+        },
+        "category": {
+          "type": "string",
+          "enum": ["nutritional", "functional", "natural"]
+        },
+        "detail": {"type": "string"},
+        "nutrient": {"type": "string"},
+        "threshold": {"type": "string"},
+        "products": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 1
+        },
+        "rdaRange": {"type": "string"},
+        "scientificBasis": {"type": "string"},
+        "usageGuidelines": {
+          "type": "object",
+          "properties": {
+            "packaging": {"type": "boolean"},
+            "website": {"type": "boolean"},
+            "advertising": {"type": "boolean"},
+            "disclaimer": {"type": "string"}
+          }
+        },
+        "regulatoryApproval": {
+          "type": "object",
+          "properties": {
+            "fssai": {"type": "boolean"},
+            "approvalDate": {"type": "string", "format": "date"},
+            "approvalNumber": {"type": "string"}
+          }
+        },
+        "sourceData": {
+          "type": "object",
+          "properties": {
+            "laboratoryTest": {"type": "boolean"},
+            "testDate": {"type": "string", "format": "date"},
+            "certificationBody": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}

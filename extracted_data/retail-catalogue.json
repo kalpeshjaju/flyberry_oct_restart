@@ -1,0 +1,537 @@
+{
+  "catalogInfo": {
+    "title": "Flyberry Retail Catalogue",
+    "source": "RETAIL CATALOGUE_11zon.pdf",
+    "pages": 15,
+    "extractionDate": "2025-10-23",
+    "totalCategories": 9,
+    "totalSKUs": 55,
+    "priceRange": {
+      "min": 49,
+      "max": 3960,
+      "currency": "INR"
+    }
+  },
+  "categories": [
+    {
+      "categoryId": "CAT-01",
+      "name": "Flyberry Dates",
+      "totalVarieties": 8,
+      "totalSKUs": 36,
+      "priceRange": "₹249 - ₹3,960",
+      "products": [
+        {
+          "productId": "DATE-001",
+          "name": "Medjoul Jumbo",
+          "description": "Premium flagship date variety",
+          "packaging": "Deep purple box with 'Wanna Date?' tagline",
+          "skus": [
+            {"size": "400g", "mrp": 1299, "pricePerUnit": 324.75},
+            {"size": "500g", "mrp": 1499, "pricePerUnit": 299.80},
+            {"size": "800g", "mrp": 2499, "pricePerUnit": 312.38},
+            {"size": "1000g", "mrp": 2899, "pricePerUnit": 289.90}
+          ]
+        },
+        {
+          "productId": "DATE-002",
+          "name": "Medjoul Large",
+          "description": "Mid-size Medjoul offering",
+          "packaging": "Purple box with playful branding",
+          "skus": [
+            {"size": "400g", "mrp": 1099, "pricePerUnit": 274.75},
+            {"size": "500g", "mrp": 1299, "pricePerUnit": 259.80},
+            {"size": "1000g", "mrp": 2399, "pricePerUnit": 239.90}
+          ]
+        },
+        {
+          "productId": "DATE-003",
+          "name": "Mini Medjoul",
+          "description": "Entry-level Medjoul pricing",
+          "packaging": "Purple box, smaller format",
+          "skus": [
+            {"size": "125g", "mrp": 299, "pricePerUnit": 239.20},
+            {"size": "200g", "mrp": 499, "pricePerUnit": 249.50},
+            {"size": "500g", "mrp": 999, "pricePerUnit": 199.80},
+            {"size": "1000g", "mrp": 1999, "pricePerUnit": 199.90}
+          ]
+        },
+        {
+          "productId": "DATE-004",
+          "name": "Medjoul Super Jumbo",
+          "description": "Ultra-premium offering",
+          "packaging": "Wanna Date? branding (heart-shaped design)",
+          "note": "HIGHEST PRICED retail SKU",
+          "flagship": true,
+          "skus": [
+            {"size": "1000g Pack of 40", "mrp": 3960, "pricePerUnit": 396.00}
+          ]
+        },
+        {
+          "productId": "DATE-005",
+          "name": "Ajwa Dates",
+          "description": "Premium Saudi variety",
+          "packaging": "Teal/cyan box with origin map storytelling",
+          "origin": "Saudi Arabia",
+          "skus": [
+            {"size": "200g", "mrp": 599, "pricePerUnit": 299.50},
+            {"size": "400g", "mrp": 1199, "pricePerUnit": 299.75},
+            {"size": "800g", "mrp": 1999, "pricePerUnit": 249.88}
+          ]
+        },
+        {
+          "productId": "DATE-006",
+          "name": "Ameri Dates",
+          "description": "Value-premium balance",
+          "packaging": "Orange box with origin map",
+          "origin": "Jordan",
+          "skus": [
+            {"size": "200g", "mrp": 399, "pricePerUnit": 199.50},
+            {"size": "400g", "mrp": 799, "pricePerUnit": 199.75},
+            {"size": "500g", "mrp": 1599, "pricePerUnit": 319.80},
+            {"size": "800g", "mrp": 1599, "pricePerUnit": 199.88},
+            {"size": "1000g", "mrp": 1799, "pricePerUnit": 179.90}
+          ]
+        },
+        {
+          "productId": "DATE-007",
+          "name": "Deglet Nour",
+          "description": "Light & sweet variety",
+          "packaging": "Teal box with Tunisia origin map",
+          "origin": "Tunisia",
+          "skus": [
+            {"size": "200g", "mrp": 399, "pricePerUnit": 199.50},
+            {"size": "400g", "mrp": 699, "pricePerUnit": 174.75},
+            {"size": "500g", "mrp": 799, "pricePerUnit": 159.80},
+            {"size": "800g", "mrp": 1299, "pricePerUnit": 162.38},
+            {"size": "1000g", "mrp": 1499, "pricePerUnit": 149.90}
+          ]
+        },
+        {
+          "productId": "DATE-008A",
+          "name": "Deri Dates (Regular)",
+          "description": "Value date variety",
+          "packaging": "Teal box",
+          "skus": [
+            {"size": "200g", "mrp": 249, "pricePerUnit": 124.50},
+            {"size": "400g", "mrp": 899, "pricePerUnit": 224.75},
+            {"size": "1000g", "mrp": 999, "pricePerUnit": 99.90}
+          ]
+        },
+        {
+          "productId": "DATE-008B",
+          "name": "Deri Dates (Ambient Box)",
+          "description": "Ambient storage option",
+          "packaging": "Teal box, ambient storage",
+          "skus": [
+            {"size": "250g", "mrp": 300, "pricePerUnit": 120.00},
+            {"size": "500g", "mrp": 600, "pricePerUnit": 120.00}
+          ]
+        },
+        {
+          "productId": "DATE-009",
+          "name": "Halawi Dates",
+          "description": "Soft & caramel-like",
+          "packaging": "Peach/salmon colored box",
+          "skus": [
+            {"size": "200g", "mrp": 299, "pricePerUnit": 149.50},
+            {"size": "400g", "mrp": 899, "pricePerUnit": 224.75},
+            {"size": "500g", "mrp": 999, "pricePerUnit": 199.80}
+          ]
+        },
+        {
+          "productId": "DATE-010",
+          "name": "Kalmi Dates",
+          "description": "Traditional variety",
+          "packaging": "Yellow/gold box",
+          "skus": [
+            {"size": "200g", "mrp": 399, "pricePerUnit": 199.50},
+            {"size": "400g", "mrp": 1299, "pricePerUnit": 324.75}
+          ]
+        },
+        {
+          "productId": "DATE-011",
+          "name": "Seedless Omani (Ambient Box)",
+          "description": "Convenience offering",
+          "packaging": "Pink/magenta box with seedless callout",
+          "origin": "Oman",
+          "skus": [
+            {"size": "250g", "mrp": 400, "pricePerUnit": 160.00},
+            {"size": "500g", "mrp": 800, "pricePerUnit": 160.00}
+          ]
+        },
+        {
+          "productId": "DATE-012",
+          "name": "Mabroom Dates",
+          "description": "Premium Saudi variety",
+          "packaging": "Pink/magenta box with Saudi origin",
+          "origin": "Saudi Arabia",
+          "skus": [
+            {"size": "200g", "mrp": 699, "pricePerUnit": 349.50},
+            {"size": "400g", "mrp": 1299, "pricePerUnit": 324.75},
+            {"size": "800g", "mrp": 1899, "pricePerUnit": 237.38}
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-02",
+      "name": "Healthy Snacks",
+      "products": [
+        {
+          "productId": "SNACK-001",
+          "name": "Date Bites",
+          "description": "Medjoul Date Bites - Hero Product",
+          "packaging": "Purple pouch with pink Flyberry logo",
+          "heroProduct": true,
+          "successMetric": "1 tonne sold in Q1 FY26 (90 days)",
+          "variants": ["Mocamaze", "Matcha Madness", "Choconut", "Newberry", "Cocogo"],
+          "skus": [
+            {"size": "160g", "mrp": 399, "pricePerUnit": 249.38}
+          ]
+        },
+        {
+          "productId": "SNACK-002",
+          "name": "Trail Mix",
+          "description": "Mixed nuts and dried fruits",
+          "packaging": "Blue pouch with ingredient illustration",
+          "note": "Lowest price point in catalog - ₹49 entry",
+          "skus": [
+            {"size": "25g", "mrp": 49, "pricePerUnit": 196.00},
+            {"size": "200g", "mrp": 399, "pricePerUnit": 199.50},
+            {"size": "1000g", "mrp": 1999, "pricePerUnit": 199.90}
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-03",
+      "name": "Date Line (Value-Added Products)",
+      "products": [
+        {
+          "productId": "DATELINE-001",
+          "name": "Hazelnut Chocolate Spread",
+          "description": "Date-based chocolate spread (healthier Nutella alternative)",
+          "packaging": "Glass jar with pink SPREAD label",
+          "skus": [
+            {"size": "100g", "mrp": 299, "pricePerUnit": 299.00},
+            {"size": "200g", "mrp": 499, "pricePerUnit": 249.50},
+            {"size": "250g", "mrp": 629, "pricePerUnit": 251.60},
+            {"size": "500g", "mrp": 1249, "pricePerUnit": 249.80}
+          ]
+        },
+        {
+          "productId": "DATELINE-002",
+          "name": "Date Powder",
+          "description": "Natural sweetener for baking and smoothies",
+          "packaging": "Glass jar with blue label",
+          "useCase": "Natural sweetener, baking, smoothies",
+          "skus": [
+            {"size": "50g", "mrp": 99, "pricePerUnit": 198.00},
+            {"size": "180g", "mrp": 399, "pricePerUnit": 221.67},
+            {"size": "300g", "mrp": 599, "pricePerUnit": 199.67}
+          ]
+        },
+        {
+          "productId": "DATELINE-003",
+          "name": "Date Syrup",
+          "description": "Liquid sweetener for pancakes and cocktails",
+          "packaging": "Glass bottle with dropper, orange label",
+          "useCase": "Liquid sweetener, pancakes, cocktails",
+          "skus": [
+            {"size": "100g", "mrp": 199, "pricePerUnit": 199.00},
+            {"size": "325g", "mrp": 599, "pricePerUnit": 184.31},
+            {"size": "700g", "mrp": 1199, "pricePerUnit": 171.29}
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-04",
+      "name": "Exotic Nuts",
+      "products": [
+        {
+          "productId": "NUT-001",
+          "name": "Hazelnuts",
+          "description": "Premium hazelnuts",
+          "packaging": "Teal pouch with Better with Fiber! callout",
+          "skus": [
+            {"size": "50g", "mrp": 199, "pricePerUnit": 398.00},
+            {"size": "100g", "mrp": 349, "pricePerUnit": 349.00},
+            {"size": "250g", "mrp": 749, "pricePerUnit": 299.60}
+          ]
+        },
+        {
+          "productId": "NUT-002",
+          "name": "Macadamia Nuts",
+          "description": "Ultra-premium Australian macadamia",
+          "packaging": "Yellow pouch with Australia origin map",
+          "origin": "Australia",
+          "ultraPremium": true,
+          "skus": [
+            {"size": "50g", "mrp": 299, "pricePerUnit": 598.00},
+            {"size": "100g", "mrp": 550, "pricePerUnit": 550.00},
+            {"size": "250g", "mrp": 1299, "pricePerUnit": 519.60}
+          ]
+        },
+        {
+          "productId": "NUT-003",
+          "name": "Pecan Nuts",
+          "description": "Premium American pecans",
+          "packaging": "Navy blue pouch with Keyto Gamma-e! slogan",
+          "origin": "USA",
+          "skus": [
+            {"size": "50g", "mrp": 275, "pricePerUnit": 550.00},
+            {"size": "100g", "mrp": 499, "pricePerUnit": 499.00},
+            {"size": "250g", "mrp": 1199, "pricePerUnit": 479.60}
+          ]
+        },
+        {
+          "productId": "NUT-004",
+          "name": "Pine Nuts",
+          "description": "Highest ₹/100g product in catalog",
+          "packaging": "Green pouch with Afghanistan origin",
+          "origin": "Afghanistan",
+          "ultraPremium": true,
+          "highestPricePerGram": true,
+          "skus": [
+            {"size": "50g", "mrp": 799, "pricePerUnit": 1598.00},
+            {"size": "100g", "mrp": 1499, "pricePerUnit": 1499.00},
+            {"size": "250g", "mrp": 3499, "pricePerUnit": 1399.60}
+          ]
+        },
+        {
+          "productId": "NUT-005",
+          "name": "Brazil Nuts",
+          "description": "Selenium superfood from Brazil",
+          "packaging": "Magenta/purple pouch with Taste the Selenium! callout",
+          "origin": "Brazil",
+          "healthCallout": "Richest source of selenium",
+          "skus": [
+            {"size": "100g", "mrp": 499, "pricePerUnit": 499.00},
+            {"size": "250g", "mrp": 1100, "pricePerUnit": 440.00},
+            {"size": "500g", "mrp": 2099, "pricePerUnit": 419.80}
+          ]
+        },
+        {
+          "productId": "NUT-006",
+          "name": "Walnut",
+          "description": "Premium walnuts",
+          "packaging": "Glass jar with yellow label",
+          "skus": [
+            {"size": "75g", "mrp": 279, "pricePerUnit": 372.00},
+            {"size": "100g", "mrp": 349, "pricePerUnit": 349.00},
+            {"size": "400g", "mrp": 1399, "pricePerUnit": 349.75}
+          ]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-05",
+      "name": "Chips (Healthy Alternatives)",
+      "entryPricePoint": true,
+      "products": [
+        {
+          "productId": "CHIP-001",
+          "name": "Chickpea Crisps",
+          "packaging": "Green pouch with New badge",
+          "skus": [{"size": "25g", "mrp": 49, "pricePerGram": 1.96}]
+        },
+        {
+          "productId": "CHIP-002",
+          "name": "Spiced Okra Chips",
+          "packaging": "Green pouch with okra illustration",
+          "skus": [{"size": "20g", "mrp": 49, "pricePerGram": 2.45}]
+        },
+        {
+          "productId": "CHIP-003",
+          "name": "Banana Chips",
+          "packaging": "Green pouch with New badge",
+          "skus": [{"size": "25g", "mrp": 49, "pricePerGram": 1.96}]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-06",
+      "name": "Seeds",
+      "products": [
+        {
+          "productId": "SEED-001",
+          "name": "Watermelon Seeds",
+          "packaging": "Glass jar with red/pink label",
+          "skus": [{"size": "150g", "mrp": 199, "pricePerUnit": 132.67}]
+        },
+        {
+          "productId": "SEED-002",
+          "name": "Sunflower Seeds",
+          "packaging": "Glass jar with yellow label",
+          "skus": [{"size": "150g", "mrp": 179, "pricePerUnit": 119.33}]
+        },
+        {
+          "productId": "SEED-003",
+          "name": "Chia Seeds",
+          "packaging": "Glass jar with purple label",
+          "healthCallout": "Superfood, omega-3",
+          "skus": [{"size": "180g", "mrp": 249, "pricePerUnit": 138.33}]
+        },
+        {
+          "productId": "SEED-004",
+          "name": "Pumpkin Seeds",
+          "packaging": "Glass jar with orange label",
+          "skus": [{"size": "150g", "mrp": 249, "pricePerUnit": 166.00}]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-07",
+      "name": "Berries",
+      "products": [
+        {
+          "productId": "BERRY-001",
+          "name": "Strawberries (Dried)",
+          "packaging": "Glass jar with Sublime Strawberries label",
+          "premiumPositioning": true,
+          "skus": [{"size": "100g", "mrp": 499, "pricePerUnit": 499.00}]
+        },
+        {
+          "productId": "BERRY-002",
+          "name": "Blackcurrants (Dried)",
+          "packaging": "Glass jar with Brilliant Blackcurrants label",
+          "skus": [{"size": "100g", "mrp": 229, "pricePerUnit": 229.00}]
+        },
+        {
+          "productId": "BERRY-003",
+          "name": "Blueberries (Dried)",
+          "packaging": "Glass jar with Bold Blueberries label",
+          "healthCallout": "Antioxidants, vision health",
+          "skus": [{"size": "100g", "mrp": 449, "pricePerUnit": 449.00}]
+        },
+        {
+          "productId": "BERRY-004",
+          "name": "Cranberries (Dried)",
+          "packaging": "Glass jar with Classic Cranberries label",
+          "skus": [{"size": "100g", "mrp": 349, "pricePerUnit": 349.00}]
+        }
+      ]
+    },
+    {
+      "categoryId": "CAT-08",
+      "name": "Dried Fruits",
+      "products": [
+        {
+          "productId": "FRUIT-001",
+          "name": "Unsulphured Apricots",
+          "packaging": "Yellow box with No Sulphur callout",
+          "healthCallout": "No sulphur added",
+          "skus": [
+            {"size": "200g", "mrp": 499, "pricePerUnit": 249.50},
+            {"size": "400g", "mrp": 999, "pricePerUnit": 249.75},
+            {"size": "500g", "mrp": 1199, "pricePerUnit": 239.80}
+          ]
+        },
+        {
+          "productId": "FRUIT-002",
+          "name": "Turkish Figs",
+          "packaging": "Green box with Turkey origin",
+          "origin": "Turkey",
+          "premiumPositioning": "Consistent ₹350/100g pricing",
+          "skus": [
+            {"size": "200g", "mrp": 699, "pricePerUnit": 349.50},
+            {"size": "400g", "mrp": 1399, "pricePerUnit": 349.75},
+            {"size": "500g", "mrp": 1749, "pricePerUnit": 349.80}
+          ]
+        },
+        {
+          "productId": "FRUIT-003",
+          "name": "Afghani Figs",
+          "packaging": "Green box with Afghanistan origin",
+          "origin": "Afghanistan",
+          "premiumPositioning": "Same premium pricing as Turkish figs",
+          "skus": [
+            {"size": "200g", "mrp": 699, "pricePerUnit": 349.50},
+            {"size": "400g", "mrp": 1399, "pricePerUnit": 349.75},
+            {"size": "500g", "mrp": 1749, "pricePerUnit": 349.80}
+          ]
+        }
+      ]
+    }
+  ],
+  "pricingStrategy": {
+    "entryPoints": {
+      "range": "₹49-₹199",
+      "products": ["Chips (₹49)", "Date Powder 50g (₹99)", "Deri Dates 200g (₹249)", "Seeds (₹179-₹249)"]
+    },
+    "midTier": {
+      "range": "₹399-₹999",
+      "products": ["Date Bites (₹399)", "Mini Medjoul 500g (₹999)", "Trail Mix", "Hazelnuts"]
+    },
+    "premium": {
+      "range": "₹1,000-₹1,999",
+      "products": ["Medjoul Jumbo 400g (₹1,299)", "Date Syrup 700g (₹1,199)", "Brazil Nuts 250g (₹1,100)", "Turkish Figs 500g (₹1,749)"]
+    },
+    "ultraPremium": {
+      "range": "₹2,000+",
+      "products": ["Medjoul Super Jumbo (₹3,960)", "Pine Nuts 250g (₹3,499)", "Brazil Nuts 500g (₹2,099)", "Macadamia 250g (₹1,299)"]
+    },
+    "volumeDiscountPattern": "10-15% better value on 500g-1000g packs",
+    "premiumPricingSignal": "Products with consistent ₹/100g regardless of pack size = luxury positioning"
+  },
+  "originCountries": [
+    "Saudi Arabia",
+    "Jordan",
+    "Tunisia",
+    "Oman",
+    "Turkey",
+    "Afghanistan",
+    "Australia",
+    "Brazil",
+    "USA"
+  ],
+  "packagingAnalysis": {
+    "materials": ["Cardboard boxes (dates)", "Pouches (nuts, chips)", "Glass jars (seeds, spreads)"],
+    "colors": ["Teal", "Magenta", "Orange", "Yellow", "Purple", "Pink"],
+    "typography": "Rounded Baloo fonts",
+    "messaging": "Casual slang, playful puns",
+    "taglines": ["Wanna Date?", "Keyto Gamma-e!", "Better with Fiber!", "Taste the Selenium!"],
+    "luxuryScore": "5.2/10",
+    "whatWorks": ["Product photography (9/10)", "Origin maps (9/10)", "Health callouts"],
+    "whatDoesntWork": ["Color palette too bright", "Typography too casual", "Messaging undermines premium pricing", "No Fortune 500 validation"]
+  },
+  "strategicInsights": {
+    "strengths": [
+      "Comprehensive portfolio (55+ SKUs)",
+      "Entry to ultra-premium range (₹49 - ₹3,960)",
+      "Date product mastery (8 varieties, 36 SKUs)",
+      "Global sourcing (9 countries)",
+      "Premium pricing capability proven",
+      "Product innovation (Date Bites 1 tonne success)"
+    ],
+    "weaknesses": [
+      "Design-price misalignment (₹3,960 product has same playful design as ₹49 chips)",
+      "No Fortune 500 validation visible",
+      "Inconsistent brand identity (Retail = playful, Corporate = sophisticated)",
+      "Missed premium positioning opportunity"
+    ],
+    "hiddenAdvantages": [
+      "Fortune 500 supplier status not leveraged",
+      "Corporate gifting heritage not visible",
+      "14+ major corporate clients (Google, Goldman Sachs, Deloitte) credibility wasted"
+    ]
+  },
+  "heroProducts": [
+    {
+      "name": "Date Bites",
+      "reason": "1 tonne sold in 90 days (Q1 FY26)",
+      "price": "₹399/160g"
+    },
+    {
+      "name": "Medjoul Super Jumbo",
+      "reason": "Highest priced retail SKU - signals premium capability",
+      "price": "₹3,960/1000g"
+    },
+    {
+      "name": "Pine Nuts",
+      "reason": "Highest ₹/100g product - demonstrates luxury pricing power",
+      "price": "₹3,499/250g"
+    }
+  ]
+}

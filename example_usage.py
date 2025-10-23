@@ -116,11 +116,86 @@ def main():
     print("# Combine and send to LLM")
     print("```")
 
+    # EXAMPLE 9: Get product WITH source verification (NEW!)
+    print("\n[9] Product with Source Verification")
+    print("-" * 60)
+    medjoul_verified = data.get_product("medjoul-dates", include_sources=True)
+    if medjoul_verified:
+        print(f"Product: {medjoul_verified['name']}")
+        print(f"\nSource Information:")
+        print(f"  Markdown: {medjoul_verified['_sources']['markdown']}")
+        print(f"  Raw PDF: {medjoul_verified['_sources']['raw']}")
+        print(f"  Confidence: {medjoul_verified['_sources']['confidence']}")
+        print(f"  Last Verified: {medjoul_verified['_sources']['lastVerified']}")
+        print(f"\nMarkdown Context: {len(medjoul_verified['_markdown_context'])} characters")
+        print("✅ Claude can now verify claims against original sources!")
+
+    # EXAMPLE 10: Verify product data (NEW!)
+    print("\n[10] Verify Product Against Source")
+    print("-" * 60)
+    verification = data.verify_product("medjoul-dates")
+    if "error" not in verification:
+        print(f"Product: {verification['productId']}")
+        print(f"Confidence: {verification['confidence'] * 100:.0f}%")
+        print(f"Verified Fields: {', '.join(verification['matches'])}")
+        if verification['discrepancies']:
+            print(f"Discrepancies: {len(verification['discrepancies'])}")
+            for disc in verification['discrepancies']:
+                print(f"  - {disc}")
+        print(f"Source File: {verification['sourceFile']}")
+        print("✅ Data verified against original markdown source!")
+
+    # EXAMPLE 11: Verify recipe data (NEW!)
+    print("\n[11] Verify Recipe Against Source")
+    print("-" * 60)
+    recipe_verification = data.verify_recipe("natural-caramel")
+    if "error" not in recipe_verification:
+        print(f"Recipe: {recipe_verification['recipeId']}")
+        print(f"Confidence: {recipe_verification['confidence'] * 100:.0f}%")
+        print(f"Verified Fields: {', '.join(recipe_verification['matches'])}")
+        print(f"Source File: {recipe_verification['sourceFile']}")
+
+    # EXAMPLE 12: Get lineage summary (NEW!)
+    print("\n[12] Data Lineage Summary")
+    print("-" * 60)
+    lineage_summary = data.get_lineage_summary()
+    if "error" not in lineage_summary:
+        print(f"Total Data Files: {lineage_summary['totalDataFiles']}")
+        print(f"High Confidence: {lineage_summary['highConfidence']}")
+        print(f"Unique Markdown Sources: {lineage_summary['uniqueMarkdownSources']}")
+        print(f"Unique Raw PDFs: {lineage_summary['uniqueRawSources']}")
+        print(f"Overall Confidence Rate: {lineage_summary['confidenceRate'] * 100:.0f}%")
+        print("✅ Full data lineage tracked!")
+
+    # EXAMPLE 13: Two-Source Prompting for Claude (NEWEST!)
+    print("\n[13] Two-Source Prompt Generation for Claude")
+    print("-" * 60)
+    prompt = data.to_two_source_prompt(
+        product_id="medjoul-dates",
+        question="What is the origin of this product and what are its key nutritional benefits?"
+    )
+    print("Generated prompt for Claude Sonnet 4.5:")
+    print(f"  Length: {len(prompt)} characters")
+    print(f"  Model: claude-sonnet-4-20250514")
+    print(f"  Strategy: JSON (facts) + Markdown (context)")
+    print("\nPrompt Preview (first 500 chars):")
+    print(prompt[:500] + "...")
+    print("\n✅ Ready to send to Claude API!")
+    print("💡 This prevents hallucinations by using JSON as source of truth")
+
     print("\n" + "=" * 60)
     print("✅ All examples completed successfully!")
-    print("💡 This simple approach works perfectly for 13-100 products")
+    print("💡 NEW: Two-source prompting for Claude Sonnet 4.5!")
     print("🚀 No database, no complexity, just works!")
     print("=" * 60)
+    print("\n📊 SUMMARY:")
+    print("  - Fast JSON loading (original)")
+    print("  - Markdown source loading (NEW)")
+    print("  - Data verification (NEW)")
+    print("  - Lineage tracking (NEW)")
+    print("  - Two-source prompting (NEWEST!)")
+    print("  - Claude Sonnet 4.5 ready (claude-sonnet-4-20250514)")
+    print("  - Perfect for AI/LLM consumption!")
 
 
 if __name__ == "__main__":

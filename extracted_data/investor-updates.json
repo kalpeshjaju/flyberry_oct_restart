@@ -1,0 +1,270 @@
+{
+  "company": "Flyberry Gourmet",
+  "updates": [
+    {
+      "updateId": "Q1-FY26",
+      "period": "Q1 FY26 (April - June 2025)",
+      "source": "INVESTOR UPDATE Q1 _ FY 26_compressed.pdf",
+      "extractionDate": "2025-10-23",
+      "summary": {
+        "headline": "Our Strongest Start Yet",
+        "totalRevenue": {
+          "amount": 970,
+          "unit": "lakhs INR",
+          "crores": 9.7
+        },
+        "yoyGrowth": "32%",
+        "comparisonPeriod": "Q1 FY25: ₹735 lakhs",
+        "highestMonthlyRevenue": {
+          "month": "April 2025",
+          "amount": 347,
+          "unit": "lakhs INR",
+          "crores": 3.47
+        },
+        "status": "New high watermark for Flyberry"
+      },
+      "revenueByChannel": {
+        "Q1FY26": {
+          "b2b": {
+            "revenue": 60,
+            "yoyChange": "-27%",
+            "trend": "negative",
+            "note": "Intentional reduction - margin protection strategy"
+          },
+          "corporateAndOthers": {
+            "revenue": 184,
+            "yoyChange": "-20%",
+            "trend": "negative",
+            "sites": 31,
+            "locations": {
+              "Bangalore": 22,
+              "Hyderabad": 6,
+              "Chennai": 3
+            },
+            "marqueeClients": ["Toyota", "HSBC", "Facebook", "JP Morgan", "Bank of America", "SAP Labs"]
+          },
+          "ecommerce": {
+            "revenue": 302,
+            "yoyChange": "+236%",
+            "trend": "breakout",
+            "Q1FY25": 90,
+            "note": "Explosive growth - breakout star channel"
+          },
+          "flyberryStores": {
+            "revenue": 73,
+            "yoyChange": "+14%",
+            "trend": "positive",
+            "Q1FY25": 64
+          },
+          "fmcg": {
+            "revenue": 79,
+            "yoyChange": "+38%",
+            "trend": "positive",
+            "Q1FY25": 57
+          },
+          "sis": {
+            "revenue": 271,
+            "yoyChange": "+28%",
+            "trend": "positive",
+            "Q1FY25": 211,
+            "note": "Store-in-Store strong performance"
+          },
+          "total": {
+            "revenue": 969,
+            "yoyChange": "+32%",
+            "Q1FY25": 735
+          }
+        }
+      },
+      "quickCommerceBreakdown": {
+        "platforms": [
+          {
+            "name": "Blinkit",
+            "cities": 100,
+            "totalDarkStores": 1400,
+            "flyberryPresence": 87,
+            "aov": 475
+          },
+          {
+            "name": "Swiggy Instamart",
+            "cities": 100,
+            "totalDarkStores": 1100,
+            "flyberryPresence": 690,
+            "aov": 450,
+            "performance": {
+              "yoyVolumeGrowth": "90%",
+              "datesSoldJune2024": 51000,
+              "datesSoldJune2025": 98000,
+              "additionalDates": 46000,
+              "revenueJune2024": "₹1.8M",
+              "revenueJune2025": "₹4.5M",
+              "insight": "Moving from trial to habit"
+            }
+          },
+          {
+            "name": "Zepto",
+            "cities": 76,
+            "totalDarkStores": 850,
+            "flyberryPresence": 603,
+            "aov": 432
+          }
+        ],
+        "totalRevenue": 302,
+        "unit": "lakhs INR"
+      },
+      "keyAchievements": [
+        "Explosive E-commerce growth: +236% YoY",
+        "Swiggy Instamart: 90% YoY volume growth for Dates",
+        "46,000 more dates sold = enough to fill Chinnaswamy Stadium",
+        "April 2025: Highest month ever at ₹3.47 crore",
+        "SIS channel +28% YoY",
+        "FMCG channel +38% YoY"
+      ],
+      "strategicInsights": [
+        "Strategic B2B reduction (-27%) for margin protection",
+        "Quick commerce becoming dominant channel (₹302L)",
+        "Store-in-Store (SIS) strong growth (+28%)",
+        "Corporate channel expansion: 31 sites across 3 cities",
+        "Fortune 500 clients: Toyota, HSBC, Facebook, JP Morgan, BOA, SAP Labs"
+      ]
+    },
+    {
+      "updateId": "Q4-FY25",
+      "period": "Q4 FY25 (January - March 2025)",
+      "source": "INVESTOR UPDATE - Q4 FY25_compressed.pdf",
+      "extractionDate": "2025-10-23",
+      "summary": {
+        "totalRevenue": {
+          "amount": 1010,
+          "unit": "lakhs INR",
+          "crores": 10.1
+        },
+        "yoyGrowth": "37%",
+        "comparisonPeriod": "Q4 FY24: ₹738 lakhs",
+        "status": "Strong quarter closing FY25"
+      },
+      "revenueByChannel": {
+        "Q4FY25": {
+          "b2b": {
+            "revenue": 71,
+            "trend": "stable"
+          },
+          "corporateAndOthers": {
+            "revenue": 198,
+            "trend": "positive"
+          },
+          "ecommerce": {
+            "revenue": 268,
+            "trend": "strong growth"
+          },
+          "flyberryStores": {
+            "revenue": 82,
+            "trend": "positive"
+          },
+          "fmcg": {
+            "revenue": 89,
+            "trend": "positive"
+          },
+          "sis": {
+            "revenue": 302,
+            "trend": "strong"
+          },
+          "total": {
+            "revenue": 1010,
+            "yoyChange": "+37%",
+            "Q4FY24": 738
+          }
+        }
+      },
+      "keyAchievements": [
+        "Q4 FY25 total revenue: ₹10.1 crore (+37% YoY)",
+        "E-commerce channel growing rapidly",
+        "SIS channel strongest performer (₹302L)",
+        "Continued expansion across all channels"
+      ]
+    }
+  ],
+  "yearOverYearComparison": {
+    "Q1Performance": {
+      "FY25": {
+        "revenue": 735,
+        "unit": "lakhs INR"
+      },
+      "FY26": {
+        "revenue": 969,
+        "unit": "lakhs INR",
+        "growth": "+32%"
+      }
+    },
+    "Q4Performance": {
+      "FY24": {
+        "revenue": 738,
+        "unit": "lakhs INR"
+      },
+      "FY25": {
+        "revenue": 1010,
+        "unit": "lakhs INR",
+        "growth": "+37%"
+      }
+    }
+  },
+  "channelTrends": {
+    "ecommerce": {
+      "status": "Breakout star",
+      "Q1FY25": 90,
+      "Q1FY26": 302,
+      "growth": "+236%",
+      "insight": "Quick commerce (Blinkit, Swiggy, Zepto) driving explosive growth"
+    },
+    "sis": {
+      "status": "Strong performer",
+      "Q1FY25": 211,
+      "Q1FY26": 271,
+      "growth": "+28%"
+    },
+    "fmcg": {
+      "status": "Growing",
+      "Q1FY25": 57,
+      "Q1FY26": 79,
+      "growth": "+38%"
+    },
+    "flyberryStores": {
+      "status": "Steady growth",
+      "Q1FY25": 64,
+      "Q1FY26": 73,
+      "growth": "+14%"
+    },
+    "b2b": {
+      "status": "Strategic reduction",
+      "Q1FY25": 83,
+      "Q1FY26": 60,
+      "growth": "-27%",
+      "reason": "Intentional margin protection"
+    },
+    "corporateAndOthers": {
+      "status": "Declining but strategic",
+      "Q1FY25": 230,
+      "Q1FY26": 184,
+      "growth": "-20%",
+      "note": "Expanding presence (31 sites) but lower revenue per site"
+    }
+  },
+  "marketPresence": {
+    "quickCommerceFootprint": {
+      "totalDarkStores": 3350,
+      "flyberryPresence": 1380,
+      "penetration": "41.2%",
+      "platforms": 3
+    },
+    "corporateSites": {
+      "total": 31,
+      "cities": 3,
+      "fortuneClients": ["Toyota", "HSBC", "Facebook", "JP Morgan", "Bank of America", "SAP Labs"]
+    }
+  },
+  "strategicPriorities": {
+    "growthChannels": ["E-commerce/Quick Commerce", "FMCG", "SIS"],
+    "optimizationChannels": ["B2B (margin protection)", "Corporate (expand footprint)"],
+    "investmentAreas": ["Quick commerce expansion", "Store-in-Store partnerships", "FMCG distribution"]
+  }
+}

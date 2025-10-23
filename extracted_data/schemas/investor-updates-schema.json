@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://flyberry.in/schemas/investor-updates.json",
+  "title": "Flyberry Investor Updates Schema",
+  "description": "Schema for quarterly investor update reports with financial metrics and channel performance",
+  "type": "object",
+  "required": [
+    "company",
+    "updates",
+    "yearOverYearComparison",
+    "channelTrends",
+    "marketPresence",
+    "strategicPriorities"
+  ],
+  "properties": {
+    "company": {"type": "string"},
+    "updates": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/quarterlyUpdate"}
+    },
+    "yearOverYearComparison": {
+      "type": "object",
+      "properties": {
+        "Q1Performance": {"$ref": "#/definitions/performanceComparison"},
+        "Q2Performance": {"$ref": "#/definitions/performanceComparison"},
+        "Q3Performance": {"$ref": "#/definitions/performanceComparison"},
+        "Q4Performance": {"$ref": "#/definitions/performanceComparison"}
+      }
+    },
+    "channelTrends": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z]+$": {"$ref": "#/definitions/channelTrend"}
+      }
+    },
+    "marketPresence": {
+      "type": "object",
+      "properties": {
+        "quickCommerceFootprint": {
+          "type": "object",
+          "properties": {
+            "totalDarkStores": {"type": "integer"},
+            "flyberryPresence": {"type": "integer"},
+            "penetration": {"type": "string"},
+            "platforms": {"type": "integer"}
+          }
+        },
+        "corporateSites": {
+          "type": "object",
+          "properties": {
+            "total": {"type": "integer"},
+            "cities": {"type": "integer"},
+            "fortuneClients": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "strategicPriorities": {
+      "type": "object",
+      "properties": {
+        "growthChannels": {"type": "array", "items": {"type": "string"}},
+        "optimizationChannels": {"type": "array", "items": {"type": "string"}},
+        "investmentAreas": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "definitions": {
+    "quarterlyUpdate": {
+      "type": "object",
+      "required": ["updateId", "period", "source", "extractionDate", "summary"],
+      "properties": {
+        "updateId": {"type": "string", "pattern": "^Q[1-4]-FY[0-9]{2}$"},
+        "period": {"type": "string"},
+        "source": {"type": "string"},
+        "extractionDate": {"type": "string", "format": "date"},
+        "summary": {
+          "type": "object",
+          "required": ["totalRevenue"],
+          "properties": {
+            "headline": {"type": "string"},
+            "totalRevenue": {
+              "type": "object",
+              "required": ["amount", "unit"],
+              "properties": {
+                "amount": {"type": "integer"},
+                "unit": {"type": "string"},
+                "crores": {"type": "number"}
+              }
+            },
+            "yoyGrowth": {"type": "string"},
+            "comparisonPeriod": {"type": "string"},
+            "highestMonthlyRevenue": {
+              "type": "object",
+              "properties": {
+                "month": {"type": "string"},
+                "amount": {"type": "integer"},
+                "unit": {"type": "string"},
+                "crores": {"type": "number"}
+              }
+            },
+            "status": {"type": "string"}
+          }
+        },
+        "revenueByChannel": {
+          "type": "object",
+          "patternProperties": {
+            "^Q[0-9]FY[0-9]{2}$": {
+              "type": "object",
+              "patternProperties": {
+                "^[a-zA-Z]+$": {"$ref": "#/definitions/channelRevenue"}
+              }
+            }
+          }
+        },
+        "quickCommerceBreakdown": {
+          "type": "object",
+          "properties": {
+            "platforms": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/platform"}
+            },
+            "totalRevenue": {"type": "integer"},
+            "unit": {"type": "string"}
+          }
+        },
+        "keyAchievements": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "strategicInsights": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "channelRevenue": {
+      "type": "object",
+      "required": ["revenue"],
+      "properties": {
+        "revenue": {"type": "integer"},
+        "yoyChange": {"type": "string"},
+        "trend": {"type": "string", "enum": ["positive", "negative", "stable", "breakout", "strong", "strong growth"]},
+        "Q1FY25": {"type": "integer"},
+        "note": {"type": "string"},
+        "sites": {"type": "integer"},
+        "locations": {"type": "object"},
+        "marqueeClients": {"type": "array", "items": {"type": "string"}},
+        "reason": {"type": "string"}
+      }
+    },
+    "platform": {
+      "type": "object",
+      "required": ["name", "cities", "totalDarkStores", "flyberryPresence", "aov"],
+      "properties": {
+        "name": {"type": "string"},
+        "cities": {"type": "integer"},
+        "totalDarkStores": {"type": "integer"},
+        "flyberryPresence": {"type": "integer"},
+        "aov": {"type": "integer"},
+        "performance": {
+          "type": "object",
+          "properties": {
+            "yoyVolumeGrowth": {"type": "string"},
+            "datesSoldJune2024": {"type": "integer"},
+            "datesSoldJune2025": {"type": "integer"},
+            "additionalDates": {"type": "integer"},
+            "revenueJune2024": {"type": "string"},
+            "revenueJune2025": {"type": "string"},
+            "insight": {"type": "string"}
+          }
+        }
+      }
+    },
+    "performanceComparison": {
+      "type": "object",
+      "patternProperties": {
+        "^FY[0-9]{2}$": {
+          "type": "object",
+          "required": ["revenue", "unit"],
+          "properties": {
+            "revenue": {"type": "integer"},
+            "unit": {"type": "string"},
+            "growth": {"type": "string"}
+          }
+        }
+      }
+    },
+    "channelTrend": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"type": "string"},
+        "Q1FY25": {"type": "integer"},
+        "Q1FY26": {"type": "integer"},
+        "growth": {"type": "string"},
+        "insight": {"type": "string"},
+        "reason": {"type": "string"},
+        "note": {"type": "string"}
+      }
+    }
+  }
+}

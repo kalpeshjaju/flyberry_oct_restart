@@ -1,0 +1,338 @@
+{
+  "summary": {
+    "totalReviewsAnalyzed": "261+",
+    "platforms": ["Amazon", "Flipkart", "BigBasket", "Google Reviews", "Instagram", "Reddit"],
+    "timePeriod": "2016-2025 (9 years)",
+    "overallSentimentScore": "7.2/10",
+    "lastUpdated": "2025-10-23",
+    "dataSource": "14-what-customers-really-say.md (Social Listening Report)"
+  },
+  "sentimentBreakdown": {
+    "positive": {
+      "percentage": "68%",
+      "description": "Quality, taste, freshness praised"
+    },
+    "neutral": {
+      "percentage": "18%",
+      "description": "Functional reviews, no strong opinion"
+    },
+    "negative": {
+      "percentage": "14%",
+      "description": "Price concerns, occasional quality issues"
+    }
+  },
+  "painPoints": [
+    {
+      "id": "pain-001",
+      "painPoint": "Can't find all gourmet needs in one place",
+      "severity": "High",
+      "frequency": "Common",
+      "customerQuote": "Wish they had more variety beyond dates",
+      "segment": "Premium Health Seekers, Global Indians"
+    },
+    {
+      "id": "pain-002",
+      "painPoint": "Unsure about product quality/origins",
+      "severity": "Medium",
+      "frequency": "Moderate",
+      "customerQuote": "How do I know these are really from Jordan?",
+      "segment": "Global Indians, Luxury Conscious",
+      "solution": "QR codes for test reports, origin verification"
+    },
+    {
+      "id": "pain-003",
+      "painPoint": "Premium pricing without clear justification",
+      "severity": "High",
+      "frequency": "Very Common",
+      "customerQuote": "Quite pricey compared to other brands",
+      "negativeReviewPercentage": "42%",
+      "segment": "All segments except Luxury Conscious"
+    },
+    {
+      "id": "pain-004",
+      "painPoint": "Inconsistent availability",
+      "severity": "Medium",
+      "frequency": "Occasional",
+      "customerQuote": "Out of stock on Blinkit when I need it",
+      "segment": "Premium Health Seekers"
+    },
+    {
+      "id": "pain-005",
+      "painPoint": "Limited gift options",
+      "severity": "Low",
+      "frequency": "Occasional",
+      "customerQuote": "Need more gift box varieties",
+      "segment": "Corporate Gifters, Affluent Parents"
+    },
+    {
+      "id": "pain-006",
+      "painPoint": "Quality inconsistency batch-to-batch",
+      "severity": "Critical",
+      "frequency": "Occasional but serious",
+      "customerQuote": "First 2 orders were great, but third order had stale dates",
+      "negativeReviewPercentage": "35%",
+      "segment": "All segments",
+      "impact": "Erodes trust, damages repeat business"
+    },
+    {
+      "id": "pain-007",
+      "painPoint": "Contamination concerns (insects, worms)",
+      "severity": "Critical",
+      "frequency": "Rare but devastating",
+      "customerQuote": "Found worms in my Mabroom dates pack. Disgusting! Never ordering again.",
+      "negativeReviewPercentage": "18%",
+      "segment": "All segments",
+      "impact": "Immediate customer loss, negative word-of-mouth"
+    }
+  ],
+  "valueDrivers": [
+    {
+      "id": "value-001",
+      "driver": "Quality & Freshness",
+      "importance": "Highest",
+      "mentionedIn": "72% of positive reviews",
+      "customerQuotes": [
+        "Finest quality dates I've ever had",
+        "Soft, creamy, fleshy texture",
+        "Fresh and delicious",
+        "Comparable to dates from Dubai/Abu Dhabi",
+        "Best Medjoul dates in India"
+      ],
+      "whatItMeans": "Quality is THE differentiator - customers compare to international standards"
+    },
+    {
+      "id": "value-002",
+      "driver": "Taste & Texture",
+      "importance": "Very High",
+      "mentionedIn": "65% of positive reviews",
+      "customerQuotes": [
+        "Soft and chewy",
+        "Not too sweet, perfect balance",
+        "Rich caramel flavor",
+        "Natural sweetness without added sugar"
+      ],
+      "whatItMeans": "Sensory experience matters - texture and taste are key to repeat purchase"
+    },
+    {
+      "id": "value-003",
+      "driver": "Packaging",
+      "importance": "Medium",
+      "mentionedIn": "45% of positive reviews",
+      "customerQuotes": [
+        "Neat packaging keeps dates fresh",
+        "Professional presentation",
+        "Kids love the cute packaging",
+        "Well-sealed"
+      ],
+      "whatItMeans": "Packaging creates trust and gifting appeal"
+    },
+    {
+      "id": "value-004",
+      "driver": "Health Benefits",
+      "importance": "Medium",
+      "mentionedIn": "38% of positive reviews",
+      "customerQuotes": [
+        "No added sugar or preservatives",
+        "Great source of natural energy",
+        "Rich in potassium and iron",
+        "Healthy snacking option"
+      ],
+      "whatItMeans": "Health-conscious customers value clean label and nutritional benefits"
+    },
+    {
+      "id": "value-005",
+      "driver": "Value for Money (when acknowledged)",
+      "importance": "Low but notable",
+      "mentionedIn": "25% of positive reviews",
+      "customerQuotes": [
+        "Worth the price",
+        "Good value for premium quality",
+        "Better than imported dates at this price"
+      ],
+      "whatItMeans": "Price is justified when quality is experienced - need better upfront communication"
+    },
+    {
+      "id": "value-006",
+      "driver": "Fortune 500 Validation",
+      "importance": "Very High (untapped)",
+      "mentionedIn": "Not yet leveraged in customer messaging",
+      "potentialImpact": "Addresses pain-003 (premium pricing justification) and pain-002 (quality assurance)",
+      "whatItMeans": "Google, Goldman Sachs trust = instant credibility for consumers"
+    }
+  ],
+  "topPraisedAttributes": [
+    {
+      "attribute": "Quality & Freshness",
+      "percentage": "72%",
+      "sentiment": "Highly Positive"
+    },
+    {
+      "attribute": "Taste & Texture",
+      "percentage": "65%",
+      "sentiment": "Highly Positive"
+    },
+    {
+      "attribute": "Packaging",
+      "percentage": "45%",
+      "sentiment": "Positive"
+    },
+    {
+      "attribute": "Health Benefits",
+      "percentage": "38%",
+      "sentiment": "Positive"
+    },
+    {
+      "attribute": "Value for Money",
+      "percentage": "25%",
+      "sentiment": "Positive"
+    }
+  ],
+  "topComplaints": [
+    {
+      "complaint": "Price Concerns",
+      "percentage": "42%",
+      "sentiment": "Negative",
+      "quotes": [
+        "Quite pricey compared to other brands",
+        "Mabroom dates overpriced for Grade 2 size",
+        "Not worth the money spent",
+        "Expensive for the quantity"
+      ]
+    },
+    {
+      "complaint": "Quality Inconsistencies",
+      "percentage": "35%",
+      "sentiment": "Negative",
+      "quotes": [
+        "Fourth order had small size dates, not soft",
+        "Received stale product, had to return",
+        "Quality varies batch to batch",
+        "Some dates were dry and hard"
+      ]
+    },
+    {
+      "complaint": "Contamination Issues",
+      "percentage": "18%",
+      "severity": "Critical",
+      "sentiment": "Very Negative",
+      "quotes": [
+        "Found black insects in the dates",
+        "Worms discovered in the pack",
+        "Poor quality control"
+      ],
+      "note": "Multiple reports across different time periods"
+    },
+    {
+      "complaint": "Size/Grade Mismatch",
+      "percentage": "15%",
+      "sentiment": "Negative",
+      "quotes": [
+        "Dates smaller than expected",
+        "Not 'jumbo' as advertised",
+        "Mixed sizes in same pack"
+      ]
+    },
+    {
+      "complaint": "Packaging Issues",
+      "percentage": "10%",
+      "sentiment": "Negative",
+      "quotes": [
+        "Packaging not strong enough for shipping",
+        "Dates arrived damaged",
+        "Seal was broken on arrival"
+      ]
+    }
+  ],
+  "productSpecificRatings": [
+    {
+      "product": "Jumbo Medjoul Dates 1kg",
+      "rating": "4.2/5",
+      "reviewCount": 73,
+      "keyInsights": "Best dates, soft texture, fresh",
+      "topPraise": "Quality",
+      "topComplaint": "Price"
+    },
+    {
+      "product": "Classic Cranberries 100g",
+      "rating": "4.0/5",
+      "reviewCount": 188,
+      "keyInsights": "Natural, no artificial flavor, cute packaging",
+      "topPraise": "Natural ingredients",
+      "topComplaint": "Sweetness level"
+    },
+    {
+      "product": "Mabroom Dates 400g",
+      "rating": "3.8/5",
+      "reviewCount": 45,
+      "keyInsights": "Quality issues, small size, overpriced",
+      "topPraise": "Taste (when good)",
+      "topComplaint": "Inconsistent quality"
+    },
+    {
+      "product": "Deri Dates 200g",
+      "rating": "4.1/5",
+      "reviewCount": 32,
+      "keyInsights": "Good value, fresh, occasional stale smell",
+      "topPraise": "Value for money",
+      "topComplaint": "Occasional quality issues"
+    },
+    {
+      "product": "Deglet Nour Dates 1kg",
+      "rating": "4.3/5",
+      "reviewCount": 28,
+      "keyInsights": "Best for baking, consistent quality",
+      "topPraise": "Consistency",
+      "topComplaint": "Less sweet than Medjoul"
+    }
+  ],
+  "verifiedCustomerQuotes": {
+    "positive": [
+      {
+        "quote": "The best dates I have ever tasted. Soft, fresh, and naturally sweet. Worth every rupee!",
+        "source": "Amazon Verified Purchase",
+        "product": "Medjoul Dates"
+      },
+      {
+        "quote": "Flyberry Medjoul dates are as good as the ones I bought in Dubai. Finally found a reliable source in India!",
+        "source": "Amazon Verified Purchase",
+        "product": "Medjoul Dates",
+        "segment": "Global Indians"
+      },
+      {
+        "quote": "Great quality, neat packaging, fast delivery. Will definitely order again.",
+        "source": "Amazon Verified Purchase",
+        "sentiment": "Loyal customer indicator"
+      }
+    ],
+    "negative": [
+      {
+        "quote": "Found worms in my Mabroom dates pack. Disgusting! Never ordering again.",
+        "source": "Amazon Verified Purchase",
+        "severity": "Critical",
+        "impact": "Permanent customer loss"
+      },
+      {
+        "quote": "Way too expensive for the quality. Happilo offers better value.",
+        "source": "Amazon Verified Purchase",
+        "painPoint": "Price justification",
+        "competitorMentioned": "Happilo"
+      },
+      {
+        "quote": "First 2 orders were great, but third order had stale dates. Quality inconsistent.",
+        "source": "Amazon Verified Purchase",
+        "painPoint": "Quality consistency",
+        "impact": "Erodes repeat business"
+      }
+    ]
+  },
+  "competitiveComparison": {
+    "flyberryVsCompetitors": {
+      "productQuality": "8.5/10 (matches or exceeds competitors)",
+      "brandAwareness": "2/10 (80-90% weaker social presence)",
+      "avgRating": "4.0-4.3/5",
+      "socialMediaFollowers": "16K vs 150K+ (Happilo), 200K+ (Yoga Bar)",
+      "socialStrategy": "Product-only vs Lifestyle+Influencer (competitors)",
+      "keyInsight": "Product quality matches/exceeds, but social presence is 80-90% weaker"
+    }
+  }
+}

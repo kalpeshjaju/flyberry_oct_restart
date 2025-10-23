@@ -11,6 +11,16 @@
     "colorName": "Navy Blue"
   },
   "origin": "Imported Product of USA",
+  "terroir": {
+    "geography": "Southern USA - Mississippi River valley and fertile floodplains of Texas and Georgia",
+    "climate": "Long, hot summers essential for nut development, cool winters for dormancy",
+    "soil": "Deep alluvial soil enriched by centuries of river deposits, nutrient-rich and well-drained",
+    "whySpecial": "Pecans are native to North America - cultivated for centuries by indigenous peoples, then perfected in modern Southern groves. American terroir produces the world's finest pecans with optimal size, flavor, and texture."
+  },
+  "originStory": "Pecan nuts are a Native American treasure, cultivated in the fertile Mississippi River valley for centuries. The deep alluvial soil enriched by river deposits and the long, hot southern summers create pecans with a rich, buttery flavor and satisfying crunch. American pecans are prized worldwide for their size, flavor complexity, and perfect balance of sweetness and nuttiness.",
+  "tastingNotes": "Rich buttery flavor, sweet with nutty complexity, satisfying crunch, hint of caramel that lingers",
+  "bestUse": "Premium snacking, desserts (pecan pie!), salads, gourmet cooking - versatile and always impressive",
+  "whyWeCare": "American terroir creates the world's finest pecans. We source from premium groves to ensure maximum size and flavor that only Mississippi Valley soil can deliver.",
   "benefits": [
     {
       "claim": "Excellent source of manganese",

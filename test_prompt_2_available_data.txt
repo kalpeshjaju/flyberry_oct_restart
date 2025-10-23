@@ -1,0 +1,360 @@
+You are a highly precise AI assistant powered by claude-sonnet-4-20250514.
+
+**MANDATORY RULES - YOU MUST FOLLOW THESE:**
+1. The <json_data> section is the ABSOLUTE SOURCE OF TRUTH for all factual information
+   - Names, numbers, claims, specifications, origins, dates = Use JSON ONLY
+2. The <markdown_context> section provides narrative, descriptions, and storytelling context
+   - Use for understanding tone, style, positioning, and background
+3. If there is ANY conflict between JSON and Markdown: JSON wins, always
+4. ALWAYS cite your source when answering:
+   - "According to the JSON data, ..."
+   - "From the markdown context, ..."
+   - "The JSON shows X, while the markdown describes Y..."
+5. If you cannot find the answer in the provided data, you MUST respond:
+   - "This information is not available in the provided documents"
+   - DO NOT invent, infer, or guess answers
+
+<json_data>
+{
+  "productId": "medjoul-dates",
+  "name": "Medjoul Dates",
+  "tagline": "Majestic Medjoul Dates",
+  "alternateTagline": "The king of dates",
+  "description": "Medjoul dates are considered the king of dates. They're large, soft, and incredibly sweet with a rich, complex flavor profile. Known for their luxurious texture and caramel-like taste.",
+  "characteristics": "Large size, soft texture, rich caramel taste, complex flavor",
+  "packaging": {
+    "color": "#5c438d",
+    "colorName": "Purple",
+    "secondaryColor": "#222367",
+    "naturalClaim": "100% NATURAL - No added Sugars, No Preservatives, No Additives"
+  },
+  "origin": "Imported Product of Jordan / Palestine",
+  "terroir": {
+    "geography": "Jordan Valley - 390 meters below sea level (lowest point on Earth), air enriched with highest oxygen levels",
+    "climate": "258 sunny days per year, exceptionally high temperatures, low humidity, minimal rainfall",
+    "soil": "Semi-clayish fertile soil, unique mineral composition from Jordan River valley",
+    "waterSource": "Jordan River - from Lake Tiberias through Dead Sea to Red Sea",
+    "whySpecial": "Medjoul dates can grow only in very few areas worldwide (California, Mexico, Jordan Valley, parts of Africa). Attempts to cultivate elsewhere have not delivered the special quality and taste criteria. Jordan Valley terroir is unmatched."
+  },
+  "originStory": "The Jordan Valley is renowned as the best place in the world for cultivating Medjoul dates. At 390 meters below sea level, the air is oxygen-rich and the climate perfect - 258 sunny days per year with minimal rainfall. The unique semi-clayish soil and fabulous climate during winter give Medjoul dates an exclusive flavor. These 'king of dates' naturally grow larger while maintaining rich taste and luxurious texture that simply cannot be replicated elsewhere.",
+  "tastingNotes": "Rich caramel notes, soft and creamy texture, naturally sweet without cloying, complex flavor profile with hints of coffee and chocolate",
+  "whyWeCare": "We source from the Jordan Valley because it's the only place on Earth that produces Medjoul dates with this exceptional quality. This is terroir at its finest - like Champagne from Champagne. No other origin can replicate the unique combination of altitude, climate, and soil that creates these extraordinary dates.",
+  "customerInsight": "Customer quote: 'Flyberry Medjoul dates are as good as the ones I bought in Dubai' - validating our sourcing from the authentic Jordan Valley origin",
+  "benefits": [
+    {
+      "claim": "Excellent source of dietary fibre",
+      "detail": "Supports digestive health",
+      "nutrient": "Dietary Fiber",
+      "rdaPercent": 13.5
+    },
+    {
+      "claim": "Excellent source of potassium",
+      "detail": "Electrolyte balance and heart health",
+      "nutrient": "Potassium",
+      "rdaPercent": 11.8
+    },
+    {
+      "claim": "Good source of magnesium",
+      "detail": "Muscle recovery and energy",
+      "nutrient": "Magnesium",
+      "rdaPercent": 9.3
+    },
+    {
+      "claim": "Good source of iron",
+      "detail": "Oxygen delivery to muscles",
+      "nutrient": "Iron",
+      "rdaPercent": 7.1
+    },
+    {
+      "claim": "Perfect pre-workout fuel",
+      "detail": "Quick energy from natural sugars"
+    },
+    {
+      "claim": "Ideal post-workout recovery",
+      "detail": "Replenishes glycogen stores"
+    },
+    {
+      "claim": "Natural energy booster",
+      "detail": "Sustained energy without crash"
+    },
+    {
+      "claim": "No added sugars or preservatives"
+    }
+  ],
+  "workoutBenefits": {
+    "preWorkout": {
+      "timing": "30-45 minutes before exercise",
+      "benefits": [
+        "Quick energy from natural sugars",
+        "Easy to digest carbohydrates",
+        "Potassium prevents muscle cramps",
+        "Sustained energy release"
+      ],
+      "recommended": "2-3 dates"
+    },
+    "postWorkout": {
+      "timing": "Within 30 minutes after exercise",
+      "benefits": [
+        "Replenishes glycogen stores",
+        "Aids muscle recovery",
+        "Natural electrolyte replacement",
+        "Reduces muscle soreness"
+      ],
+      "recommended": "3-4 dates with protein source"
+    }
+  },
+  "nutritionalHighlights": {
+    "servingSize": "40g (approx. 2 large dates)",
+    "servingsPerContainer": 6,
+    "keyNutrients": [
+      {
+        "name": "Dietary Fiber",
+        "value": 13.5,
+        "unit": "% RDA"
+      },
+      {
+        "name": "Potassium",
+        "value": 11.8,
+        "unit": "% RDA"
+      },
+      {
+        "name": "Magnesium",
+        "value": 9.3,
+        "unit": "% RDA"
+      },
+      {
+        "name": "Iron",
+        "value": 7.1,
+        "unit": "% RDA"
+      },
+      {
+        "name": "Vitamin B6",
+        "value": 5.5,
+        "unit": "% RDA"
+      }
+    ],
+    "tagline": "Medjoul: The king has arrived",
+    "reason": "The largest, softest, and most prized date variety with exceptional nutritional benefits for active lifestyles."
+  },
+  "nutritionalFacts": {
+    "servingSize": "40g (approx. 2 large dates)",
+    "servingsPerContainer": 6,
+    "calories": 133,
+    "caloriesFromFat": 0,
+    "totalFat": "0g",
+    "totalFatPercent": "0%",
+    "saturatedFat": "0g",
+    "transFat": "0g",
+    "sodium": "0.4mg",
+    "carbohydrates": "36g",
+    "dietaryFiber": "6.6g",
+    "dietaryFiberPercent": "13.5%",
+    "sugars": "32g",
+    "protein": "1.2g",
+    "potassium": "267mg",
+    "potassiumPercent": "11.8%",
+    "magnesium": "33.6mg",
+    "magnesiumPercent": "9.3%",
+    "calcium": "24mg",
+    "calciumPercent": "2.4%",
+    "iron": "0.48mg",
+    "ironPercent": "7.1%",
+    "vitaminB6": "0.09mg",
+    "vitaminB6Percent": "5.5%"
+  },
+  "manufacturer": {
+    "name": "FLYBERRY GOURMET RETAIL PVT. LTD.",
+    "address": "5-9-22/33/B Adarsh Nagar, Hyderabad, Telangana - 500063",
+    "license": "Lic. No. 13624999000008"
+  },
+  "certifications": [
+    "FSSAI",
+    "Vegetarian",
+    "Recyclable"
+  ],
+  "relatedRecipes": [
+    "medjoul-energy-balls",
+    "stuffed-medjoul-dates"
+  ]
+}
+</json_data>
+
+<markdown_context>
+# FLYBERRY GOURMET
+## Gifting Catalogue 2025 (Extracted Data)
+
+**Source**: GIFTING CATALOUGE_11zon.pdf
+**Type**: Corporate Gifting & Premium Products Catalog
+**Extraction Date**: October 12, 2025
+**Pages**: 24 pages
+
+---
+
+## EXECUTIVE SUMMARY
+
+**This catalog is CRITICAL evidence for Fortune 500 validation and premium positioning strategy.**
+
+**Key Insights**:
+- Pricing range: ₹399 - ₹7,249 (premium to ultra-luxury)
+- **14+ Fortune 500 & major corporate clients showcased**
+- 20+ premium gift box designs
+- Customizable products
+- Premium packaging with cultural themes (Diwali, festivals, celebrations)
+
+---
+
+## 💎 FORTUNE 500 CLIENT VALIDATION
+
+### **Page 4: "Our Clientele"**
+
+**E-COMMERCE**:
+- BigBasket
+- Amazon.in
+- Flipkart
+
+**OFFLINE STORES**:
+- Spencer's
+- Ratnadeep
+- Pure O Natural
+- Namdhari's Fresh
+- Almond House
+- Q Mart
+
+**EXCLUSIVE BRAND OUTLETS**:
+- 5 retail stores in Hyderabad & Vijayawada
+
+**CORPORATES** (Fortune 500 & Major Brands):
+1. **Tata Steel**
+2. **Deloitte**
+3. **Google**
+4. **Facebook**
+5. **Accenture**
+6. **Coca-Cola**
+7. **Ultratech Cement**
+8. **Citibank**
+9. **Motilal Oswal**
+10. **Alkem** (Pharmaceuticals)
+11. **Societe Generale**
+12. **Goldman Sachs**
+13. **Macleods** (Pharmaceuticals)
+
+**ALTERNATE CHANNELS**:
+- Marriott
+- Taj Hotels
+- Churrolto
+- Afar (Hyderabad Airport)
+
+**This validates "Fortune 500 supplier" claim - visible on page 4 of catalog!**
+
+---
+
+## PREMIUM PRODUCTS CATALOG
+
+### **ADD-ONS (Can be added to any box)**
+
+#### **Stuffed Dates** (Page 2)
+**Price**: ₹80/pc (~35g each)
+**Shelf Life**: 30 days
+
+**Varieties**:
+1. **The Blueberry Cheese Date**: Medjoul Date, Blueberries, Cream Cheese
+2. **The Orange Surprise Date**: Medjoul Date, Orange, Pistachio
+3. **The Chocodate**: Medjoul Date, Chocolate, Almonds, Ginger
+4. **The Paan Perfect Date**: Medjoul Date, Paan mix, Coconut, Gulkand, Seeds
+5. **The PB & Yay Date**: Medjoul Date, Peanut Butter, Millet Crisps, Choco chips
+
+---
+
+#### **Date Bites** (Page 3)
+**Price**: ₹45/pc (30g each)
+**Shelf Life**: 30 days
+
+**Varieties**:
+1. **Mocamaze**: Pecan Nuts, Dates, Almonds
+2. **Matcha Madness**: Matcha, Cashews, Medjoul Dates, Coconut, Pistachio
+3. **Choconut**: Medjoul Dates, Almonds, Cacao
+4. **Newberry**: Blueberry, Medjoul Dates, Sesame Seeds, Cashews
+5. **Cocogo**: Medjoul Dates, Cashews, Hemp Hearts
+
+---
+
+### **GIFT BOXES (Premium Range)**
+
+#### **1. Lattice Box** (Page 5)
+**MRP**: ₹399
+**Contents**: Almonds, Cashews, Raisins, Dates
+**Portions**: 40g each | Net wt. 160g
+**Design**: White box with golden/pink geometric lattice pattern, Flyberry logo on lid
+**Notes**: *Contents and pricing are customizable
+
+---
+
+#### **2. Ginkgo Box** (Page 6)
+**MRP**: ₹549
+**Contents**: Almonds, Cashews, Raisins, Pistachio
+**Portions**: 50g each | Net wt. 200g
+**Design**: Pastel ginkgo leaf pattern (pink, yellow, blue tones) on outer sleeve, golden inner compartments
+**Notes**: *Contents and pricing are customizable
+
+---
+
+#### **3. Lotus Case** (Page 7)
+**MRP**: ₹599
+**Contents**: Almonds, Cashews, Raisins, Chocolate Biscotti Balls
+**Portions**: 50g each | Net wt. 200g
+**Design**: Pink lotus flower illustration on lid, 4-compartment white box
+**Notes**: *Contents and pricing are customizable
+
+---
+
+#### **4. Nautical Box** (Page 8)
+**MRP**: ₹549
+**Contents**: Almonds, Peri Peri Cashews, Dates, Cranberries Seed Mix
+**Portions**: 60g each | Net wt. 240g
+**Design**: Blue and golden striped geometric pattern (nautical theme)
+**Notes**: *Contents and pricing are customizable
+
+---
+
+#### **5. Fleur Box** (Page 9)
+**MRP**: ₹649
+**Contents**: Almonds, Cashews, Walnuts, Pistachio
+**Portions**: 60g each | Net wt. 240g
+**Design**: Pink outer box with yellow marigold flowers and white daisies (floral/festive theme)
+**Notes**: *Contents and pricing are customizable
+
+---
+
+#### **6. Small Cadeau Case** (Page 10)
+**MRP**: ₹799
+**Contents**: Chocolate Almonds, Peri Peri Cashews, Masala Cranberries, Roasted Seed Mix
+**Portions**: 75g each | Net wt. 240g
+**Design**: Blue outer sleeve with magenta geometric art deco pattern, golden inner box
+**Notes**: *Contents and pricing are customizable
+
+---
+
+#### **7. Flip Top Box** (Page 11)
+**MRP**: ₹1,049
+**Contents**: Roasted Almonds, Spiced Seed Mix, Chatpata Fruit Mix, Chocolate Biscotti Balls
+**Portions**: 100g each | Net wt. 400g
+**Design**: Purple and orange Indian festival theme with woman preparing for Diwali, flip-top opening with message inside
+**Message**: "As Diwali lights up all doors, may it also light up the path to success, good health, prosperity and loads of happiness for you. It's a time to celebrate and bring back fond old memories and a little bit of magic."
+**Includes**: Flip book
+**Notes**: *Contents and pricing are customizable. *On bulk order basis only.
+
+---
+
+#### **8. Tower Box** (Page 12)
+**MRP**: ₹1,199
+**Contents**: Almonds, Cashews, Raisins, Pistachio
+**Portions**: 110g each | Net wt. 440g
+**Design**: Blue and golden geometric pattern (art deco style), stackable tower design
+**Notes**: *C...
+</markdown_context>
+
+Now, answer the following question using ONLY the information provided above:
+
+**Question:** Are Medjoul dates sour? What is their taste profile?
+
+**Answer:**
