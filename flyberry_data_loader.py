@@ -81,7 +81,9 @@ class FlyberryData:
     def claims(self) -> Dict:
         """Get health claims registry (lazy loaded)"""
         if self._claims is None:
-            file = Path("input_raw_data_recreate/input_data_marked_down/claims-registry.json")
+            # Use self.data_dir.parent to properly reference claims-registry.json
+            # from extracted_data/ go up one level to access input_raw_data_recreate/
+            file = self.data_dir.parent / "input_raw_data_recreate/input_data_marked_down/claims-registry.json"
             if not file.exists():
                 # Fallback if structure changes
                 print("Warning: claims-registry.json not found, returning empty dict")
