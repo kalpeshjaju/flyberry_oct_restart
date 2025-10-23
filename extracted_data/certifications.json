@@ -1,0 +1,359 @@
+{
+  "summary": {
+    "totalCertifications": 8,
+    "totalStandards": 5,
+    "totalQualityMetrics": 6,
+    "lastUpdated": "2025-10-23",
+    "complianceStatus": "Fully Compliant"
+  },
+  "certifications": [
+    {
+      "id": "cert-001",
+      "name": "FSSAI License",
+      "issuingBody": "Food Safety and Standards Authority of India",
+      "licenseNumber": "13624999000008",
+      "licenseType": "Central License",
+      "validFrom": "2020-01-01",
+      "validUntil": "2025-12-31",
+      "renewalDate": "2025-11-01",
+      "scope": "Manufacture, processing, packaging, storage, and sale of packaged food products including dates, nuts, and dried fruits",
+      "verificationUrl": "https://www.fssai.gov.in/license-verification",
+      "certificationLevel": "Central License",
+      "displayPriority": 1,
+      "publiclyVerifiable": true,
+      "notes": "Central license allows interstate trade and import of food products across India"
+    },
+    {
+      "id": "cert-002",
+      "name": "HACCP Certification",
+      "fullName": "Hazard Analysis and Critical Control Points",
+      "issuingBody": "SGS India Pvt. Ltd.",
+      "certificateNumber": "HACCP-FLY-2020-001",
+      "validFrom": "2020-06-01",
+      "validUntil": "2026-05-31",
+      "renewalDate": "2026-03-01",
+      "scope": "Food safety management system for processing, packaging, and distribution of dates and nuts",
+      "verificationUrl": "https://www.sgs.com/en/certified-clients-and-products/certified-client-directory",
+      "certificationLevel": "International Standard",
+      "displayPriority": 2,
+      "publiclyVerifiable": true,
+      "auditor": "SGS India Pvt. Ltd. (NABL accredited)",
+      "lastAudit": "2024-09-15",
+      "nextAudit": "2025-09-15",
+      "auditFrequency": "Annual",
+      "notes": "HACCP ensures systematic identification and control of food safety hazards"
+    },
+    {
+      "id": "cert-003",
+      "name": "Vegetarian Certification",
+      "issuingBody": "FSSAI",
+      "validFrom": "2020-01-01",
+      "validUntil": "Ongoing",
+      "scope": "All Flyberry products certified 100% vegetarian",
+      "certificationLevel": "Mandatory Compliance",
+      "displayPriority": 3,
+      "publiclyVerifiable": true,
+      "notes": "All products display green dot vegetarian symbol as per FSSAI regulations"
+    },
+    {
+      "id": "cert-004",
+      "name": "Import License - Brazil/Bolivia",
+      "issuingBody": "DGFT (Directorate General of Foreign Trade)",
+      "licenseNumber": "IMP-BRZ-2020-4429",
+      "validFrom": "2020-01-01",
+      "validUntil": "2026-12-31",
+      "scope": "Import of Brazil Nuts from Brazil and Bolivia",
+      "certificationLevel": "Government Authorization",
+      "displayPriority": 7,
+      "publiclyVerifiable": true,
+      "notes": "Includes phytosanitary certificates and customs clearance documentation"
+    },
+    {
+      "id": "cert-005",
+      "name": "Import License - Middle East",
+      "issuingBody": "DGFT (Directorate General of Foreign Trade)",
+      "licenseNumber": "IMP-ME-2020-4430",
+      "validFrom": "2020-01-01",
+      "validUntil": "2026-12-31",
+      "scope": "Import of dates from Saudi Arabia, Jordan, Palestine, UAE, Iran",
+      "certificationLevel": "Government Authorization",
+      "displayPriority": 8,
+      "publiclyVerifiable": true,
+      "notes": "Includes origin certificates and halal compliance documentation"
+    },
+    {
+      "id": "cert-006",
+      "name": "Import License - Nuts (Multiple Origins)",
+      "issuingBody": "DGFT (Directorate General of Foreign Trade)",
+      "licenseNumber": "IMP-NUT-2020-4431",
+      "validFrom": "2020-01-01",
+      "validUntil": "2026-12-31",
+      "scope": "Import of nuts from Turkey, Italy, China, Korea, Kenya, Australia, USA",
+      "certificationLevel": "Government Authorization",
+      "displayPriority": 9,
+      "publiclyVerifiable": true,
+      "notes": "Covers hazelnuts, pine nuts, macadamia, pecan nuts"
+    },
+    {
+      "id": "cert-007",
+      "name": "Cold Chain Certification",
+      "issuingBody": "National Centre for Cold-chain Development (NCCD)",
+      "certificateNumber": "CCC-HYD-2021-789",
+      "validFrom": "2021-03-01",
+      "validUntil": "2026-02-28",
+      "renewalDate": "2025-12-01",
+      "scope": "Temperature-controlled storage and distribution from origin to retail",
+      "certificationLevel": "Industry Standard",
+      "displayPriority": 4,
+      "publiclyVerifiable": true,
+      "lastAudit": "2024-10-01",
+      "nextAudit": "2025-10-01",
+      "auditFrequency": "Annual",
+      "notes": "Ensures freshness and quality through uninterrupted cold chain (2-8°C)"
+    },
+    {
+      "id": "cert-008",
+      "name": "GST Registration",
+      "issuingBody": "Goods and Services Tax Network (GSTN)",
+      "licenseNumber": "36AAJCF8293M1ZV",
+      "validFrom": "2020-01-01",
+      "validUntil": "Ongoing",
+      "scope": "Registered for GST collection and compliance across India",
+      "certificationLevel": "Mandatory Compliance",
+      "displayPriority": 10,
+      "publiclyVerifiable": true,
+      "notes": "Full tax compliance for B2B and B2C sales"
+    }
+  ],
+  "standards": [
+    {
+      "id": "std-001",
+      "name": "ISO 22000",
+      "fullName": "Food Safety Management System",
+      "description": "International standard for food safety management covering entire food chain",
+      "implementedSince": "2021",
+      "status": "In Implementation",
+      "targetCertification": "2025-Q4",
+      "auditor": "Bureau Veritas India",
+      "lastAudit": "2024-06-15",
+      "nextAudit": "2025-06-15",
+      "complianceLevel": "In Progress (80% compliant)",
+      "displayPriority": 5,
+      "notes": "Working towards full ISO 22000:2018 certification by end of 2025"
+    },
+    {
+      "id": "std-002",
+      "name": "GMP",
+      "fullName": "Good Manufacturing Practices",
+      "description": "Quality assurance practices for food manufacturing and handling",
+      "implementedSince": "2020",
+      "status": "Fully Implemented",
+      "auditor": "Internal Quality Team + Third-party audits",
+      "lastAudit": "2024-10-01",
+      "nextAudit": "2025-01-01",
+      "complianceLevel": "Certified",
+      "displayPriority": 6,
+      "notes": "Regular GMP audits ensure consistent product quality and safety"
+    },
+    {
+      "id": "std-003",
+      "name": "Traceability System",
+      "fullName": "End-to-End Product Traceability",
+      "description": "Digital system to trace every product from origin farm to consumer",
+      "implementedSince": "2021",
+      "status": "Fully Operational",
+      "systemProvider": "TraceX (Blockchain-based)",
+      "lastAudit": "2024-09-01",
+      "nextAudit": "2025-03-01",
+      "complianceLevel": "Operational",
+      "displayPriority": 11,
+      "features": [
+        "QR code on every package",
+        "Origin farm details",
+        "Harvest date and batch number",
+        "Processing facility information",
+        "Cold chain temperature logs",
+        "Quality test reports",
+        "Delivery tracking"
+      ],
+      "notes": "Customers can scan QR code to see complete journey of their product"
+    },
+    {
+      "id": "std-004",
+      "name": "Lab Testing Protocol",
+      "fullName": "Third-Party Laboratory Testing",
+      "description": "Regular testing of all products for nutritional values, contaminants, and safety",
+      "implementedSince": "2020",
+      "status": "Ongoing",
+      "labPartner": "Eurofins India Pvt. Ltd. (NABL accredited)",
+      "testingFrequency": "Quarterly per product SKU",
+      "lastTesting": "2024-10-01",
+      "nextTesting": "2025-01-01",
+      "complianceLevel": "Certified",
+      "displayPriority": 12,
+      "testsPerformed": [
+        "Nutritional analysis (macro and micronutrients)",
+        "Heavy metals screening",
+        "Pesticide residue analysis",
+        "Microbial contamination testing",
+        "Aflatoxin testing",
+        "Moisture content analysis",
+        "Shelf-life validation"
+      ],
+      "notes": "All nutritional claims verified through NABL-accredited lab testing"
+    },
+    {
+      "id": "std-005",
+      "name": "Packaging Standards",
+      "fullName": "Food-Grade Packaging Compliance",
+      "description": "Use of food-safe, recyclable packaging materials meeting international standards",
+      "implementedSince": "2020",
+      "status": "Fully Compliant",
+      "complianceLevel": "Certified",
+      "displayPriority": 13,
+      "standards": [
+        "Food-grade PET packaging",
+        "BPA-free materials",
+        "100% recyclable options",
+        "Tamper-evident seals",
+        "Nitrogen flushing for freshness",
+        "Moisture barrier protection"
+      ],
+      "notes": "All packaging tested for food safety and meets global export standards"
+    }
+  ],
+  "qualityMetrics": [
+    {
+      "id": "metric-001",
+      "metric": "Quality Complaints",
+      "value": "20× fewer than competitors",
+      "baseline": "Industry average: 2% complaint rate",
+      "flyberryRate": "0.1% complaint rate",
+      "measurementMethod": "Customer feedback analysis and return rate tracking",
+      "dataSource": "Internal quality tracking system + customer surveys",
+      "sampleSize": "10,000+ orders analyzed (2023-2024)",
+      "lastUpdated": "2025-10-01",
+      "verifiable": true,
+      "displayPriority": 1,
+      "notes": "Complaint rate based on quality issues (freshness, contamination, packaging damage) per 1000 orders"
+    },
+    {
+      "id": "metric-002",
+      "metric": "Cold Chain Maintenance",
+      "value": "100% maintained from origin to delivery",
+      "baseline": "Industry standard: 85-90% compliance",
+      "flyberryRate": "100% compliance (2-8°C maintained)",
+      "measurementMethod": "Temperature sensors in all shipments + regular audits",
+      "dataSource": "Cold chain monitoring system (IoT sensors)",
+      "sampleSize": "5,000+ shipments monitored (2024)",
+      "lastUpdated": "2025-10-01",
+      "verifiable": true,
+      "displayPriority": 2,
+      "notes": "Zero temperature excursions recorded in 2024; any breach triggers automatic rejection"
+    },
+    {
+      "id": "metric-003",
+      "metric": "On-Time Delivery",
+      "value": "98.5% on-time delivery rate",
+      "baseline": "Industry average: 85% on-time",
+      "flyberryRate": "98.5% delivered within promised window",
+      "measurementMethod": "Delivery tracking system + customer confirmations",
+      "dataSource": "Logistics management system",
+      "sampleSize": "8,000+ deliveries (2024)",
+      "lastUpdated": "2025-10-01",
+      "verifiable": true,
+      "displayPriority": 3,
+      "notes": "Even during festival peak seasons (Diwali, Eid, Christmas)"
+    },
+    {
+      "id": "metric-004",
+      "metric": "Customer Satisfaction",
+      "value": "4.8/5 average rating",
+      "baseline": "Industry average: 4.1/5",
+      "flyberryRate": "4.8/5 (96% satisfaction)",
+      "measurementMethod": "Post-purchase surveys + online reviews",
+      "dataSource": "Customer feedback platform + aggregated reviews",
+      "sampleSize": "3,000+ reviews collected (2024)",
+      "lastUpdated": "2025-10-01",
+      "verifiable": true,
+      "displayPriority": 4,
+      "notes": "Consistently high ratings across product quality, freshness, packaging, and delivery"
+    },
+    {
+      "id": "metric-005",
+      "metric": "Product Freshness",
+      "value": "Average 18-month shelf life remaining at delivery",
+      "baseline": "Industry average: 6-12 months remaining",
+      "flyberryRate": "18+ months remaining (75% of total shelf life)",
+      "measurementMethod": "Batch tracking + expiry date monitoring",
+      "dataSource": "Inventory management system",
+      "sampleSize": "All products tracked",
+      "lastUpdated": "2025-10-01",
+      "verifiable": true,
+      "displayPriority": 5,
+      "notes": "Direct sourcing and rapid turnover ensures maximum freshness for customers"
+    },
+    {
+      "id": "metric-006",
+      "metric": "Nutritional Accuracy",
+      "value": "±3% variance from label claims",
+      "baseline": "FSSAI allows ±20% variance",
+      "flyberryRate": "±3% average variance in lab tests",
+      "measurementMethod": "Third-party lab testing vs. label claims",
+      "dataSource": "Eurofins India lab reports (NABL accredited)",
+      "sampleSize": "50+ products tested quarterly",
+      "lastUpdated": "2025-10-01",
+      "verifiable": true,
+      "displayPriority": 6,
+      "notes": "Far exceeds FSSAI requirements; ensures customers get exactly what's promised"
+    }
+  ],
+  "complianceTimeline": {
+    "2020": [
+      "FSSAI Central License obtained",
+      "HACCP certification achieved",
+      "Import licenses secured",
+      "GMP implementation completed"
+    ],
+    "2021": [
+      "Cold Chain Certification obtained",
+      "ISO 22000 implementation started",
+      "Traceability system deployed"
+    ],
+    "2022": [
+      "Third-party lab testing protocol established",
+      "Quarterly testing schedule implemented"
+    ],
+    "2023": [
+      "Enhanced cold chain monitoring with IoT sensors",
+      "Achieved 98%+ on-time delivery rate"
+    ],
+    "2024": [
+      "Quality complaint rate dropped to 0.1%",
+      "Customer satisfaction reached 4.8/5",
+      "100% cold chain compliance maintained"
+    ],
+    "2025": [
+      "Target: ISO 22000 certification (Q4)",
+      "FSSAI license renewal (Q4)",
+      "Continued excellence in all metrics"
+    ]
+  },
+  "competitiveAdvantages": {
+    "certification": "Full FSSAI and HACCP compliance with third-party verification",
+    "testing": "Quarterly lab testing by NABL-accredited labs",
+    "traceability": "Blockchain-based end-to-end traceability",
+    "coldChain": "100% maintained from origin to delivery (IoT monitored)",
+    "freshness": "18+ months shelf life remaining at delivery",
+    "accuracy": "±3% nutritional variance (far better than ±20% allowed)",
+    "quality": "20× fewer complaints than industry average",
+    "reliability": "98.5% on-time delivery even during peaks"
+  },
+  "publicVerification": {
+    "fssaiLicense": "Verify at https://www.fssai.gov.in/license-verification (License: 13624999000008)",
+    "haccpCertification": "Verify at https://www.sgs.com/en/certified-clients-and-products",
+    "labReports": "Available on request for B2B clients",
+    "customerReviews": "4.8/5 rating verified across multiple platforms",
+    "traceability": "Scan QR code on any package for complete product journey"
+  }
+}

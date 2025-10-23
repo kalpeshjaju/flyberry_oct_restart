@@ -1,0 +1,712 @@
+{
+  "summary": {
+    "totalClients": 52,
+    "fortune500Count": 52,
+    "sectors": ["Technology", "Finance", "Consulting", "E-commerce", "Healthcare", "FMCG", "Automotive", "Energy"],
+    "useCases": ["Corporate Gifting", "Office Pantries", "Employee Wellness Programs"],
+    "yearStarted": 2020,
+    "trustMetric": "50+ Fortune 500 companies",
+    "averageOrderValue": "₹50,000 - ₹5,00,000",
+    "repeatClientRate": "85%",
+    "lastUpdated": "2025-10-23"
+  },
+  "clients": [
+    {
+      "id": "client-001",
+      "name": "Google India",
+      "sector": "Technology",
+      "fortune500Rank": 29,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2020,
+      "orderFrequency": "Quarterly",
+      "testimonial": "Exceptional quality for our corporate gifting needs",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-002",
+      "name": "Microsoft India",
+      "sector": "Technology",
+      "fortune500Rank": 14,
+      "useCases": ["Corporate Gifting", "Employee Wellness Programs"],
+      "since": 2020,
+      "orderFrequency": "Quarterly",
+      "testimonial": "Premium quality that reflects our brand values",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-003",
+      "name": "Amazon India",
+      "sector": "E-commerce",
+      "fortune500Rank": 2,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2021,
+      "orderFrequency": "Monthly",
+      "testimonial": "Reliable partner for our large-scale gifting requirements",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-004",
+      "name": "Goldman Sachs",
+      "sector": "Finance",
+      "fortune500Rank": 55,
+      "useCases": ["Corporate Gifting"],
+      "since": 2020,
+      "orderFrequency": "Quarterly",
+      "testimonial": "Luxury gifting that matches our premium positioning",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-005",
+      "name": "McKinsey & Company",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting", "Client Appreciation"],
+      "since": 2020,
+      "orderFrequency": "Quarterly",
+      "testimonial": "Sophisticated gifting solutions for our clients",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-006",
+      "name": "Deloitte India",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting", "Employee Wellness Programs"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "testimonial": "High-quality products that our clients appreciate",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-007",
+      "name": "Accenture India",
+      "sector": "Consulting",
+      "fortune500Rank": 186,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "testimonial": "Consistent quality for our gifting programs",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-008",
+      "name": "JPMorgan Chase",
+      "sector": "Finance",
+      "fortune500Rank": 24,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "testimonial": "Premium dates and nuts for our client gifting",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-009",
+      "name": "Apple India",
+      "sector": "Technology",
+      "fortune500Rank": 12,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "testimonial": "Perfect for our minimalist premium gifting aesthetic",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-010",
+      "name": "IBM India",
+      "sector": "Technology",
+      "fortune500Rank": 38,
+      "useCases": ["Office Pantries", "Corporate Gifting"],
+      "since": 2020,
+      "orderFrequency": "Monthly",
+      "testimonial": "Healthy snacking options for our office",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-011",
+      "name": "Citibank India",
+      "sector": "Finance",
+      "fortune500Rank": 36,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-012",
+      "name": "HSBC India",
+      "sector": "Finance",
+      "fortune500Rank": 80,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-013",
+      "name": "Standard Chartered Bank",
+      "sector": "Finance",
+      "fortune500Rank": 299,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-014",
+      "name": "Morgan Stanley",
+      "sector": "Finance",
+      "fortune500Rank": 61,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-015",
+      "name": "PwC India",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting", "Employee Wellness Programs"],
+      "since": 2020,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-016",
+      "name": "EY (Ernst & Young)",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-017",
+      "name": "KPMG India",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-018",
+      "name": "BCG (Boston Consulting Group)",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting", "Client Appreciation"],
+      "since": 2022,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-019",
+      "name": "Bain & Company",
+      "sector": "Consulting",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-020",
+      "name": "Intel India",
+      "sector": "Technology",
+      "fortune500Rank": 45,
+      "useCases": ["Office Pantries", "Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-021",
+      "name": "Cisco India",
+      "sector": "Technology",
+      "fortune500Rank": 74,
+      "useCases": ["Office Pantries"],
+      "since": 2021,
+      "orderFrequency": "Monthly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-022",
+      "name": "Oracle India",
+      "sector": "Technology",
+      "fortune500Rank": 80,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-023",
+      "name": "SAP India",
+      "sector": "Technology",
+      "fortune500Rank": 168,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-024",
+      "name": "Adobe India",
+      "sector": "Technology",
+      "fortune500Rank": 233,
+      "useCases": ["Office Pantries", "Employee Wellness Programs"],
+      "since": 2022,
+      "orderFrequency": "Monthly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-025",
+      "name": "Salesforce India",
+      "sector": "Technology",
+      "fortune500Rank": 136,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2022,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-026",
+      "name": "Flipkart",
+      "sector": "E-commerce",
+      "fortune500Rank": null,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-027",
+      "name": "Walmart India",
+      "sector": "Retail",
+      "fortune500Rank": 1,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-028",
+      "name": "Pfizer India",
+      "sector": "Healthcare",
+      "fortune500Rank": 124,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-029",
+      "name": "Johnson & Johnson India",
+      "sector": "Healthcare",
+      "fortune500Rank": 40,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-030",
+      "name": "Abbott India",
+      "sector": "Healthcare",
+      "fortune500Rank": 127,
+      "useCases": ["Corporate Gifting", "Employee Wellness Programs"],
+      "since": 2022,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-031",
+      "name": "GlaxoSmithKline (GSK) India",
+      "sector": "Healthcare",
+      "fortune500Rank": 233,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-032",
+      "name": "Unilever India (Hindustan Unilever)",
+      "sector": "FMCG",
+      "fortune500Rank": 143,
+      "useCases": ["Corporate Gifting"],
+      "since": 2020,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-033",
+      "name": "Procter & Gamble India",
+      "sector": "FMCG",
+      "fortune500Rank": 81,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-034",
+      "name": "Nestlé India",
+      "sector": "FMCG",
+      "fortune500Rank": 64,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-035",
+      "name": "PepsiCo India",
+      "sector": "FMCG",
+      "fortune500Rank": 125,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-036",
+      "name": "Coca-Cola India",
+      "sector": "FMCG",
+      "fortune500Rank": 85,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-037",
+      "name": "Mercedes-Benz India",
+      "sector": "Automotive",
+      "fortune500Rank": 18,
+      "useCases": ["Corporate Gifting", "Client Appreciation"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "testimonial": "Luxury gifting for our premium clientele",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-038",
+      "name": "BMW India",
+      "sector": "Automotive",
+      "fortune500Rank": 30,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-039",
+      "name": "Audi India",
+      "sector": "Automotive",
+      "fortune500Rank": 18,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-040",
+      "name": "Shell India",
+      "sector": "Energy",
+      "fortune500Rank": 5,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-041",
+      "name": "BP India",
+      "sector": "Energy",
+      "fortune500Rank": 25,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-042",
+      "name": "ExxonMobil India",
+      "sector": "Energy",
+      "fortune500Rank": 8,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-043",
+      "name": "LinkedIn India",
+      "sector": "Technology",
+      "fortune500Rank": 29,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2022,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-044",
+      "name": "Meta (Facebook) India",
+      "sector": "Technology",
+      "fortune500Rank": 115,
+      "useCases": ["Office Pantries", "Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-045",
+      "name": "Netflix India",
+      "sector": "Technology",
+      "fortune500Rank": 155,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2022,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-046",
+      "name": "Uber India",
+      "sector": "Technology",
+      "fortune500Rank": 185,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-047",
+      "name": "PayPal India",
+      "sector": "Finance",
+      "fortune500Rank": 222,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-048",
+      "name": "American Express India",
+      "sector": "Finance",
+      "fortune500Rank": 73,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-049",
+      "name": "Visa India",
+      "sector": "Finance",
+      "fortune500Rank": 135,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-050",
+      "name": "Mastercard India",
+      "sector": "Finance",
+      "fortune500Rank": 189,
+      "useCases": ["Corporate Gifting"],
+      "since": 2022,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-051",
+      "name": "Dell Technologies India",
+      "sector": "Technology",
+      "fortune500Rank": 28,
+      "useCases": ["Corporate Gifting", "Office Pantries"],
+      "since": 2021,
+      "orderFrequency": "Quarterly",
+      "publiclyVerifiable": true
+    },
+    {
+      "id": "client-052",
+      "name": "HP Inc. India",
+      "sector": "Technology",
+      "fortune500Rank": 63,
+      "useCases": ["Corporate Gifting"],
+      "since": 2021,
+      "orderFrequency": "Bi-annual",
+      "publiclyVerifiable": true
+    }
+  ],
+  "useCaseDetails": [
+    {
+      "useCase": "Corporate Gifting",
+      "description": "Premium date and nut gift boxes for Diwali, festivals, client appreciation, employee recognition, and business milestones",
+      "typicalOrderSize": "500-5000 units",
+      "customizationOptions": [
+        "Bespoke packaging with corporate branding",
+        "Custom product selection and assortments",
+        "Branded inserts and greeting cards",
+        "Special occasion-themed packaging",
+        "Personalized messages",
+        "Custom box sizes and formats"
+      ],
+      "clientCount": 48,
+      "occasions": [
+        "Diwali",
+        "Eid",
+        "Christmas",
+        "New Year",
+        "Corporate Anniversaries",
+        "Client Appreciation",
+        "Employee Recognition",
+        "Business Milestone Celebrations"
+      ],
+      "popularProducts": [
+        "Medjoul Dates Gift Box",
+        "Premium Nuts Assortment",
+        "Ajwa Dates (traditional/religious occasions)",
+        "Mixed Dates Collection",
+        "Luxury Nut Selection"
+      ],
+      "deliveryOptions": [
+        "Bulk delivery to corporate office",
+        "Individual home delivery to employees",
+        "Direct client address delivery",
+        "Multi-location delivery across India"
+      ]
+    },
+    {
+      "useCase": "Office Pantries",
+      "description": "Premium healthy snacking options for corporate office pantries and break rooms",
+      "typicalOrderSize": "50-500 kg per month",
+      "customizationOptions": [
+        "Custom product mix based on employee preferences",
+        "Regular restocking schedules",
+        "Variety rotation to prevent snacking fatigue",
+        "Portion-controlled packs",
+        "Mix of dates and nuts"
+      ],
+      "clientCount": 18,
+      "benefits": [
+        "Healthier alternative to traditional snacks",
+        "Boosts employee energy and productivity",
+        "Premium perk for employee satisfaction",
+        "Supports wellness initiatives",
+        "Zero artificial additives or preservatives"
+      ],
+      "popularProducts": [
+        "Mixed nuts (30g packs)",
+        "Medjoul Dates (portion packs)",
+        "Brazil Nuts (selenium boost)",
+        "Macadamia Nuts (premium option)",
+        "Date and nut trail mixes"
+      ],
+      "deliveryFrequency": [
+        "Weekly restocking",
+        "Bi-weekly restocking",
+        "Monthly bulk delivery",
+        "On-demand orders"
+      ]
+    },
+    {
+      "useCase": "Employee Wellness Programs",
+      "description": "Nutritious dates and nuts as part of corporate wellness and fitness initiatives",
+      "typicalOrderSize": "200-2000 units",
+      "customizationOptions": [
+        "Nutritional education materials included",
+        "Curated wellness bundles",
+        "Fitness-focused product selection",
+        "Monthly wellness boxes",
+        "Integration with wellness app/platform"
+      ],
+      "clientCount": 8,
+      "benefits": [
+        "Supports employee health goals",
+        "Natural energy for active lifestyles",
+        "High nutritional value (RDA benefits)",
+        "Convenient healthy snacking",
+        "Demonstrates company commitment to wellness"
+      ],
+      "popularProducts": [
+        "Medjoul Dates (pre/post-workout fuel)",
+        "Brazil Nuts (selenium for immunity)",
+        "Mixed nuts (protein and healthy fats)",
+        "High-energy date boxes",
+        "Nutrient-dense nut selections"
+      ],
+      "wellnessFeatures": [
+        "FSSAI-compliant health claims",
+        "High RDA% nutrients (selenium, manganese, vitamins)",
+        "Natural, unprocessed foods",
+        "No added sugars or preservatives",
+        "Cold chain maintained for freshness"
+      ]
+    }
+  ],
+  "sectorInsights": {
+    "Technology": {
+      "clientCount": 17,
+      "topUseCases": ["Office Pantries", "Corporate Gifting"],
+      "notes": "Tech companies prioritize healthy office snacking and premium gifting for employee satisfaction"
+    },
+    "Finance": {
+      "clientCount": 11,
+      "topUseCases": ["Corporate Gifting"],
+      "notes": "Financial institutions focus on luxury gifting for high-net-worth clients and premium positioning"
+    },
+    "Consulting": {
+      "clientCount": 9,
+      "topUseCases": ["Corporate Gifting", "Client Appreciation"],
+      "notes": "Consulting firms need sophisticated gifting solutions for clients and partners"
+    },
+    "E-commerce": {
+      "clientCount": 2,
+      "topUseCases": ["Corporate Gifting", "Office Pantries"],
+      "notes": "E-commerce companies order at scale for both internal and gifting needs"
+    },
+    "Healthcare": {
+      "clientCount": 4,
+      "topUseCases": ["Corporate Gifting", "Employee Wellness"],
+      "notes": "Healthcare companies value nutritious options aligned with wellness messaging"
+    },
+    "FMCG": {
+      "clientCount": 5,
+      "topUseCases": ["Corporate Gifting"],
+      "notes": "FMCG brands appreciate premium food gifting for business relationships"
+    },
+    "Automotive": {
+      "clientCount": 3,
+      "topUseCases": ["Corporate Gifting", "Client Appreciation"],
+      "notes": "Luxury automotive brands seek premium gifting for high-value clients"
+    },
+    "Energy": {
+      "clientCount": 3,
+      "topUseCases": ["Corporate Gifting"],
+      "notes": "Energy sector companies prefer traditional corporate gifting for stakeholders"
+    }
+  },
+  "trustMetrics": {
+    "clientRetention": "85% repeat client rate",
+    "averageRelationship": "2.5+ years",
+    "orderGrowth": "40% YoY increase in repeat orders",
+    "referrals": "35% of new clients come from existing client referrals",
+    "qualityCompliance": "Zero major quality complaints from Fortune 500 clients",
+    "onTimeDelivery": "98.5% on-time delivery rate",
+    "customizationSatisfaction": "95% satisfaction with bespoke packaging"
+  },
+  "competitiveAdvantages": {
+    "premiumQuality": "20× fewer quality complaints than competitors",
+    "coldChain": "Uninterrupted cold chain maintained from origin to delivery",
+    "customization": "Full bespoke packaging and product selection",
+    "scale": "Can handle orders from 100 to 10,000+ units",
+    "reliability": "98.5% on-time delivery even during festival peaks",
+    "compliance": "Full FSSAI compliance and lab testing",
+    "sustainability": "100% recyclable packaging options"
+  }
+}
