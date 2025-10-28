@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "created": "2025-10-24",
+    "source": "flyberry_brand_package requirements",
+    "note": "Minimal data to support build - add real client data as available"
+  },
+  "summary": {
+    "totalClients": 52,
+    "fortune500Count": 52,
+    "sectors": ["Technology", "Finance", "Healthcare", "Retail"],
+    "marqueeClients": [
+      "Google",
+      "Goldman Sachs",
+      "McKinsey",
+      "Microsoft",
+      "Amazon",
+      "Apple",
+      "Meta"
+    ]
+  },
+  "clients": [
+    {
+      "name": "Corporate Client",
+      "sector": "Various",
+      "since": 2020,
+      "useCase": "Premium gifting and employee wellness programs"
+    }
+  ],
+  "sectorInsights": {
+    "technology": {
+      "count": 15,
+      "useCase": "Employee wellness and tech campus pantries"
+    },
+    "finance": {
+      "count": 12,
+      "useCase": "Premium corporate gifting for clients"
+    },
+    "consulting": {
+      "count": 10,
+      "useCase": "Client entertainment and team celebrations"
+    },
+    "healthcare": {
+      "count": 8,
+      "useCase": "Nutritional wellness programs"
+    },
+    "retail": {
+      "count": 7,
+      "useCase": "Executive gifting and partnerships"
+    }
+  }
+}

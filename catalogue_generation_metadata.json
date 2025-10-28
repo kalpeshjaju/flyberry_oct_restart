@@ -1,0 +1,9 @@
+{
+  "generation_date": "2025-10-24T12:16:33.692620",
+  "products_generated": [],
+  "total_products": 13,
+  "success_count": 0,
+  "model": "claude-sonnet-4-20250514",
+  "method": "two-source-prompting",
+  "sources_used": []
+}

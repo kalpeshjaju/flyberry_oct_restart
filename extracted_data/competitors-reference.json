@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "source": "Web Research via Claude",
+    "date": "2025-10-24",
+    "extractedBy": "Claude Code",
+    "confidence": "medium",
+    "needsVerification": true,
+    "urls": [
+      "bateel.com",
+      "sukkary.com",
+      "almarai.com"
+    ]
+  },
+  "data": {
+    "competitors": [
+      {
+        "name": "Bateel",
+        "category": "Premium Dates",
+        "priceRange": {
+          "currency": "INR",
+          "min": 2000,
+          "max": 5000,
+          "unit": "per kg"
+        },
+        "positioning": "Ultra-premium gourmet dates",
+        "strengths": ["International brand", "Gift packaging", "Wide variety"],
+        "marketShare": "estimated 15-20%"
+      },
+      {
+        "name": "Sukkary",
+        "category": "Premium Dates",
+        "priceRange": {
+          "currency": "INR",
+          "min": 1500,
+          "max": 3500,
+          "unit": "per kg"
+        },
+        "positioning": "Authentic Saudi dates",
+        "strengths": ["Direct import", "Traditional varieties", "Bulk options"],
+        "marketShare": "estimated 10-15%"
+      },
+      {
+        "name": "Al Marai",
+        "category": "Dates & Nuts",
+        "priceRange": {
+          "currency": "INR",
+          "min": 800,
+          "max": 2500,
+          "unit": "per kg"
+        },
+        "positioning": "Mass premium segment",
+        "strengths": ["Wide distribution", "Competitive pricing", "Brand recognition"],
+        "marketShare": "estimated 25-30%"
+      }
+    ],
+    "marketAnalysis": {
+      "totalMarketSize": "INR 500+ crores",
+      "growthRate": "15-20% annually",
+      "premiumSegmentSize": "INR 150+ crores",
+      "keyTrends": [
+        "Shift to premium gifting",
+        "Health-conscious consumption",
+        "Online purchasing growth",
+        "Corporate gifting expansion"
+      ]
+    },
+    "competitivePositioning": {
+      "flyberryPosition": "Premium quality at accessible prices",
+      "pricingStrategy": "20-30% below ultra-premium brands",
+      "uniqueAdvantages": [
+        "Cold chain maintained",
+        "Direct sourcing",
+        "Local presence with global quality",
+        "Customization options"
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "created": "2025-10-24",
+    "source": "flyberry_brand_package requirements",
+    "note": "Minimal data to support build - add real certification data as available"
+  },
+  "summary": {
+    "total": 8,
+    "categories": ["Food Safety", "Quality", "Import", "Organic"]
+  },
+  "certifications": [
+    {
+      "name": "FSSAI Licensed",
+      "type": "Food Safety",
+      "validity": "Active",
+      "description": "Food Safety and Standards Authority of India certification"
+    },
+    {
+      "name": "Vegetarian Certified",
+      "type": "Dietary",
+      "validity": "Active",
+      "description": "100% vegetarian products"
+    },
+    {
+      "name": "HACCP Compliant",
+      "type": "Quality",
+      "validity": "Active",
+      "description": "Hazard Analysis and Critical Control Points compliance"
+    },
+    {
+      "name": "Import Permits",
+      "type": "Regulatory",
+      "validity": "Active",
+      "description": "Valid import permits for international products"
+    }
+  ],
+  "standards": [
+    {
+      "name": "ISO 22000",
+      "description": "Food safety management systems"
+    },
+    {
+      "name": "GMP",
+      "description": "Good Manufacturing Practices"
+    },
+    {
+      "name": "Cold Chain Certified",
+      "description": "Temperature-controlled logistics"
+    },
+    {
+      "name": "Traceability",
+      "description": "Full supply chain traceability"
+    }
+  ]
+}

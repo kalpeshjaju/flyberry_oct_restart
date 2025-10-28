@@ -1,8 +1,15 @@
 {
   "metadata": {
     "created": "2025-10-23",
+    "updated": "2025-10-24",
     "purpose": "Track data lineage from JSON → Markdown → Raw PDF for verification",
-    "version": "1.0.0"
+    "version": "1.1.0",
+    "referenceDataPolicy": {
+      "description": "Files with '-reference' suffix contain external/additional data",
+      "requiredFields": ["sourceType", "confidence", "isReference", "needsVerification"],
+      "confidenceLevels": ["high", "medium", "low"],
+      "sourceTypes": ["pdf", "web_research", "llm_extraction", "manual_entry", "api"]
+    }
   },
 
   "products/ajwa-dates.json": {
@@ -300,5 +307,17 @@
     "confidence": "high",
     "lastVerified": "2025-10-23",
     "notes": "Complete retail product catalogue"
+  },
+
+  "competitors-reference.json": {
+    "sourceMarkdown": "none_direct_json",
+    "sourceRaw": "raw_data/references/web-research-2025-10-24.md",
+    "sourceType": "web_research",
+    "extractionMethod": "llm-assisted",
+    "confidence": "medium",
+    "lastVerified": "2025-10-24",
+    "isReference": true,
+    "needsVerification": true,
+    "notes": "Competitor analysis from web research - example reference data"
   }
 }
